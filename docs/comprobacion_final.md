@@ -9,8 +9,8 @@ Los materiales están preparados para revisar el recorrido de principio a fin an
 | Plan y ejercicio individual | Preparados; agenda consecutiva de 110 minutos y criterios formativos |
 | Datos | Seis PDF trazables, 148 páginas y 619 unidades; integridad y procedencia comprobadas |
 | Notebooks | Ambas versiones ejecutadas completas localmente; [registro](../notebooks/prueba_local.json) |
-| Carga manual | Lectura del ZIP real probada localmente; recepción de bytes de la subida simulada |
-| Colab | Recorrido común recibido mediante prueba guiada, con guardado y reapertura confirmados. Copia descargada revisada con texto, gráfico y tablas. Reinicio real, carga manual y versiones pendientes |
+| Carga manual | Lectura local y subida mediante interfaz real de Colab comprobadas; el usuario recibió 6 documentos y 619 unidades |
+| Colab | Recorrido común recibido mediante prueba guiada, con guardado y reapertura confirmados. Copia descargada revisada con texto, gráfico y tablas. Reinicio real y versiones pendientes |
 | Beamer | Revisión estática aprobada; [registro](../slides/revision_estatica.json) |
 | Overleaf | Compilación y revisión visual pendientes, a cargo del docente |
 | Acceso público | Repositorio local sin remoto configurado; publicación a cargo del autor |
@@ -22,7 +22,7 @@ El 11 de octubre se abrió Colab en el navegador integrado y se observó el enla
 
 Las ventanas ampliadas aparecían recortadas por un límite visual de 250 caracteres. Se retiró ese límite en las dos versiones del notebook y el usuario compartió la salida corregida sin truncamiento. La tabla de etiquetas también recortaba justificaciones: se retiró el límite en esa celda, pendiente de ejecutar el cambio de tabla en la copia del usuario. Las justificaciones completas se recibieron mediante una celda adicional de impresión. Los textos originales, conteos y etiquetas no cambian.
 
-El usuario confirmó el guardado, descarga y reapertura. Se inspeccionó la copia local `estudiantes_prueba_11_10_1811pm.ipynb`, conservando su archivo sin modificaciones: contiene Prueba de guardado, un gráfico PNG, seis salidas de tabla HTML, las justificaciones completas y ninguna salida de error. La copia descargada respalda la conservación de texto y resultados; el guardado en Drive y la reapertura se registran según la confirmación del usuario. Aún faltan carga manual real, reinicio del entorno y versiones de Colab.
+El usuario confirmó el guardado, descarga y reapertura. Se inspeccionó la copia local `estudiantes_prueba_11_10_1811pm.ipynb`, conservando su archivo sin modificaciones: contiene Prueba de guardado, un gráfico PNG, seis salidas de tabla HTML, las justificaciones completas y ninguna salida de error. La copia descargada respalda la conservación de texto y resultados; el guardado en Drive y la reapertura se registran según la confirmación del usuario. La carga manual real del ZIP también fue confirmada por el usuario con la salida de seis documentos y 619 unidades. Aún faltan reinicio del entorno y versiones de Colab.
 
 ## Prueba completa en Colab
 
@@ -60,7 +60,7 @@ Realizar una entrega de prueba de un notebook sin datos personales innecesarios,
 | Comprobación | Fecha y entorno | Resultado o incidencia |
 |---|---|---|
 | Ejecución completa real en Colab | Pendiente | |
-| Carga manual mediante interfaz | Pendiente | |
+| Carga manual mediante interfaz | 11/10/2026, Colab, prueba guiada | ZIP subido y seis documentos con 619 unidades cargados |
 | Copia y guardado en Drive | 11/10/2026, prueba guiada | Confirmados por el usuario |
 | Descarga y reapertura con salidas | 11/10/2026, prueba guiada y archivo local | Texto, gráfico y tablas conservados en la copia revisada; reapertura confirmada por el usuario |
 | Compilación de Overleaf y referencias | Pendiente | |

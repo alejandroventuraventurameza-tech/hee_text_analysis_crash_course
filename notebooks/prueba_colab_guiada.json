@@ -17,7 +17,8 @@
     "contraste_final": "A: empresario, confianza alta; B: regulador, secundaria asistencial y confianza media, con identificadores y páginas esperados",
     "comprobacion_entrega": "Tabla y dos fragmentos corresponden a tu consulta. Origen de la tabla: recalculada. La celda llegó a la rama que escribe los CSV complementarios; todavía no se comprobó su descarga",
     "justificaciones_completas": "El usuario compartió las justificaciones A y B completas mediante la celda de impresión adicional",
-    "guardado_y_reapertura": "El usuario confirmó todo en orden después de las instrucciones de guardado, descarga y reapertura"
+    "guardado_y_reapertura": "El usuario confirmó todo en orden después de las instrucciones de guardado, descarga y reapertura",
+    "carga_manual": "El usuario compartió la subida real de datos_estudiantes.zip en Colab y el mensaje de 6 documentos y 619 unidades sin etiquetas"
   },
   "incidencia": {
     "descripcion": "La tabla limitaba el ancho visible a 250 caracteres, por lo que la ventana ampliada aparecía truncada con puntos suspensivos",
@@ -32,7 +33,6 @@
   "pendientes": [
     "Descarga y revisión de archivos complementarios si se utilizarán",
     "Recuperación después de reiniciar realmente el entorno",
-    "Carga manual mediante la interfaz real",
     "Registro de versiones reales de Python, pandas y matplotlib en Colab"
   ],
   "archivo_descargado_revisado": {
