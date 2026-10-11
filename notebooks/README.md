@@ -45,7 +45,7 @@ Se comprobaron: seis documentos, 619 unidades, 148 páginas, las 30 tasas guarda
 
 La lectura del ZIP distribuido se comprobó con sus bytes reales. La respuesta de `files.upload()` se simuló para probar la recepción de esos mismos bytes, sin usar la interfaz de Colab. La opción URL y una descarga pública del repositorio no se comprobaron; todavía no hay un remoto configurado.
 
-**La comprobación completa en Colab sigue pendiente.** El usuario compartió resultados de una prueba guiada parcial: carga, tabla, transformación inspeccionada, ranking modificado, tasas, gráfico, contextos y evidencia completa. El registro separado identifica esos pasos y la corrección del truncamiento visual. Falta ejecutar esa corrección en Colab y comprobar etiquetas, carga manual, reinicio real, copia, guardado, descarga y reapertura. Las versiones del entorno real aún no se han registrado. No se necesitan GPU ni pagos.
+**La comprobación completa en Colab sigue pendiente.** El usuario compartió resultados del recorrido común hasta el contraste y la comprobación técnica de entrega. La ampliación de contexto ya se recibió sin truncamiento, y las justificaciones completas mediante una celda adicional. Confirmó el guardado, descarga y reapertura; la copia local de prueba conserva el texto escrito, gráfico y tablas, sin salidas de error. El registro separado distingue inspección del archivo y confirmación del usuario. Faltan carga manual, reinicio real y versiones del entorno. No se necesitan GPU ni pagos.
 
 ## Regeneración docente
 

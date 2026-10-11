@@ -56,7 +56,7 @@ La selección revisada comprende los mensajes del 28 de julio de Leguía de 1920
 
 ## Acceso y entrega
 
-Este repositorio será público. El acceso a los materiales no requiere aprender Git ni acceder al repositorio de investigación. El notebook incluye los datos y dispone de una alternativa de carga manual con ZIP y resultados guardados. Ambos notebooks se probaron completos localmente. La prueba guiada parcial en Colab confirmó resultados hasta contexto y evidencia; su [registro](notebooks/prueba_colab_guiada.json) distingue los pasos recibidos de las comprobaciones aún pendientes.
+Este repositorio será público. El acceso a los materiales no requiere aprender Git ni acceder al repositorio de investigación. El notebook incluye los datos y dispone de una alternativa de carga manual con ZIP y resultados guardados. Ambos notebooks se probaron completos localmente. La prueba guiada en Colab confirmó resultados hasta el contraste y la comprobación técnica de entrega; su [registro](notebooks/prueba_colab_guiada.json) distingue los pasos recibidos de las comprobaciones aún pendientes.
 
 La entrega se realizará en una carpeta de Drive cuyo enlace se comunicará en clase. Cada estudiante entregará su notebook con las respuestas y salidas guardadas. La prueba completa de Colab se realizará después de concluir el diseño y los materiales.
 

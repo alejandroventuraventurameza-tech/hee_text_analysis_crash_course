@@ -373,7 +373,8 @@ def crear(docente=False):
         etiquetas = pd.read_csv(io.BytesIO(paquete.read("data/docente/clasificaciones_existentes.csv")), keep_default_na=False)
         referencias = pd.read_csv(io.BytesIO(paquete.read("data/docente/referencias_ejemplos.csv")), keep_default_na=False)
     contraste = referencias.loc[referencias["uso"] == "comun"].merge(etiquetas, on=["unidad_id", "documento_id"], validate="one_to_one")
-    display(contraste[["ejemplo_id", "documento_id", "unidad_id", "pagina_inicio", "etiqueta_primaria", "etiqueta_secundaria", "confianza", "justificacion"]])
+    with pd.option_context("display.max_colwidth", None):
+        display(contraste[["ejemplo_id", "documento_id", "unidad_id", "pagina_inicio", "etiqueta_primaria", "etiqueta_secundaria", "confianza", "justificacion"]])
     '''.replace("__ETIQUETAS__", paquete_incluido(secundarios)), True)
     respuesta("respuesta-contraste", "**Clasificación manual y contraste:** conserva tu primera decisión y explica un acuerdo, desacuerdo o duda con la etiqueta existente.",
               "Mantengo empresario para A por expansión productiva estatal y regulador provisional para B por políticas generales y mercado. El modelo coincide en esas primarias, pero asigna asistencial como secundaria y confianza media a B. Esa coincidencia no valida por sí sola las etiquetas ni elimina la ambigüedad. Prefiero revisar las excepciones y servicios básicos antes de una conclusión más fuerte.")

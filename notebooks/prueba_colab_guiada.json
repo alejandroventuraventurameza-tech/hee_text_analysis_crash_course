@@ -3,6 +3,7 @@
   "modalidad": "Prueba guiada por el usuario en Colab, propuesta para Brave; sin control directo de esa sesión",
   "evidencia": "Mensajes, tablas, imagen y salidas de texto compartidas por el usuario en la conversación",
   "prueba_completa": false,
+  "recorrido_comun_hasta_comprobacion_de_entrega": true,
   "comprobaciones_recibidas": {
     "carga_incluida": "6 documentos y 619 unidades sin etiquetas",
     "metadatos": "6 filas con identificadores, fechas, audiencias y conteos esperados",
@@ -12,20 +13,36 @@
     "grafico": "Imagen de barras con los dos documentos y eje de menciones por 1000 palabras",
     "salida_tras_recuperacion": "Tabla nuevamente compartida con los mismos valores",
     "contextos": "13 coincidencias; dos salidas con distinta amplitud de contexto",
-    "evidencia_completa": "u00126, Leguía 1921, página 11, y u14275, Fujimori 1991, página 10, con textos y enlaces originales"
+    "evidencia_completa": "u00126, Leguía 1921, página 11, y u14275, Fujimori 1991, página 10, con textos y enlaces originales",
+    "contraste_final": "A: empresario, confianza alta; B: regulador, secundaria asistencial y confianza media, con identificadores y páginas esperados",
+    "comprobacion_entrega": "Tabla y dos fragmentos corresponden a tu consulta. Origen de la tabla: recalculada. La celda llegó a la rama que escribe los CSV complementarios; todavía no se comprobó su descarga",
+    "justificaciones_completas": "El usuario compartió las justificaciones A y B completas mediante la celda de impresión adicional",
+    "guardado_y_reapertura": "El usuario confirmó todo en orden después de las instrucciones de guardado, descarga y reapertura"
   },
   "incidencia": {
     "descripcion": "La tabla limitaba el ancho visible a 250 caracteres, por lo que la ventana ampliada aparecía truncada con puntos suspensivos",
     "correccion": "display.max_colwidth se cambia de 250 a None en ambas versiones",
-    "comprobacion_correccion_en_colab": "Pendiente de volver a ejecutar la celda modificada en la sesión del usuario"
+    "comprobacion_correccion_en_colab": "Confirmada mediante la nueva salida compartida: 13 ventanas ampliadas sin puntos suspensivos de truncamiento"
+  },
+  "incidencia_justificaciones": {
+    "descripcion": "La tabla del contraste mostraba las justificaciones recortadas por el ancho predeterminado de pandas",
+    "correccion": "El contraste utiliza display.max_colwidth None para mostrar las justificaciones completas",
+    "comprobacion_correccion_en_colab": "Justificaciones completas recibidas y conservadas en la copia descargada mediante impresión adicional; la tabla con opción None sigue pendiente en la copia de prueba del usuario"
   },
   "pendientes": [
-    "Contraste final con etiquetas existentes",
-    "Comprobación de entrega y archivos complementarios",
+    "Descarga y revisión de archivos complementarios si se utilizarán",
     "Recuperación después de reiniciar realmente el entorno",
     "Carga manual mediante la interfaz real",
-    "Copia y guardado en Drive",
-    "Descarga y reapertura con respuestas y salidas conservadas",
     "Registro de versiones reales de Python, pandas y matplotlib en Colab"
-  ]
+  ],
+  "archivo_descargado_revisado": {
+    "ruta_relativa": "notebooks/estudiantes_prueba_11_10_1811pm.ipynb",
+    "sha256": "402549c5856860dd61d93e2c344b5d84f75df0eeeb46fa1c044589514cdf9150",
+    "frase_prueba_conservada": true,
+    "graficos_png": 1,
+    "tablas_html": 6,
+    "celdas_con_salidas": 13,
+    "errores_en_salidas": 0,
+    "alcance": "Inspección del archivo local; la reapertura y guardado en Drive se apoyan en la confirmación del usuario"
+  }
 }
