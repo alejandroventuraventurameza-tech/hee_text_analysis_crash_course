@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-10-11",
+  "frames_comunes": 27,
+  "frames_apendice": 4,
+  "frames_referencias": 3,
+  "claves_bibliograficas": [
+    "berelson1952",
+    "colab",
+    "gilardi2023",
+    "grimmer2013",
+    "inquirer",
+    "matplotlib",
+    "pandas"
+  ],
+  "rutas_locales_existentes": true,
+  "llaves_y_entornos_balanceados": true,
+  "filas_tablas_cerradas": true,
+  "etiquetas_unicas": true,
+  "extractos_literales_contrastados": 5,
+  "tabla_y_grafico_coherentes_con_csv": true,
+  "logo_identico": true,
+  "template_original_sin_cambios": true,
+  "paleta_conservada": true,
+  "compilacion_verificada": false,
+  "revision_visual_pdf_realizada": false,
+  "limite": "La revisión estática no confirma compilación, referencias resueltas ni ajuste visual."
+}

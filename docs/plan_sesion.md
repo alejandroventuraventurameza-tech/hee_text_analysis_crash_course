@@ -53,7 +53,7 @@ Las preguntas y dificultades breves forman parte de todos los bloques. Los ocho 
 
 **0–3.** Plantear: «¿Cómo analizarían cientos de discursos sin leerlos todos de principio a fin?». Recoger procedimientos propuestos y distinguir localizar pasajes, contar y comprender significado. Aclarar el alcance de la evidencia discursiva.
 
-**3–7.** Mostrar dos fragmentos reales, sin identificar inicialmente al presidente y sin etiquetas. Cada estudiante escribe qué intervención económica reconoce y subraya la expresión que sostiene su interpretación. Discutir una ambigüedad antes de revelar la procedencia. Los fragmentos y sus referencias se fijarán después de revisar los datos; no se utilizarán ejemplos inventados como citas.
+**3–7.** Mostrar dos fragmentos reales, sin identificar inicialmente al presidente y sin etiquetas. Cada estudiante escribe qué intervención económica reconoce y subraya la expresión que sostiene su interpretación. Discutir una ambigüedad antes de revelar la procedencia. Los ejemplos comunes son A, `u11860`, y B, `u14275`, con unidades completas en el notebook y extractos literales en las slides.
 
 **7–10.** Pedir una hipótesis sobre diferencias entre los documentos. Conectar el procedimiento con obligaciones en contratos y normas, riesgos en reportes financieros, prioridades empresariales y problemas recurrentes en noticias, reclamos o encuestas abiertas. Presentar la entrega individual para que el estudiante sepa qué irá construyendo.
 
@@ -95,7 +95,7 @@ Las preguntas y dificultades breves forman parte de todos los bloques. Los ocho 
 
 **36–39.** Mostrar original y versión para conteos. Pedir una predicción sobre qué cambia al convertir mayúsculas en minúsculas y separar palabras. Definir token como cada aparición de una palabra según la regla utilizada. Conservar tildes y negaciones.
 
-**39–43.** Ejecutar el procesamiento preparado y comparar un pasaje antes y después. Explicar la regla usada y una limitación, como diferencias entre formas singular y plural. El código conservará por separado el texto para lectura y la versión para frecuencias.
+**39–43.** Ejecutar la celda que recupera el original y la versión procesada durante la preparación de datos. Explicar la regla usada y una limitación, como diferencias entre formas singular y plural. Se conservan por separado el texto para lectura y la versión para frecuencias; no se ejecuta un modelo lingüístico en vivo.
 
 **43–47.** Construir una tabla de frecuencias. Cada estudiante cambia el número de términos mostrados y anticipa qué aparecerá. Si se ocultan palabras frecuentes de escaso interés para la visualización, explicar que esa decisión no las elimina del denominador acordado.
 
@@ -181,4 +181,4 @@ La progresión de texto, metadatos, transformaciones, frecuencias y búsqueda en
 - Grimmer, J. y Stewart, B. M. (2013). [Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts](https://www.cambridge.org/core/journals/political-analysis/article/text-as-datathe-promise-and-pitfalls-of-automatic-content-analysis-methods-for-politicaltexts/F7AAC8B2909441603FEB25C156448F20). Fundamento para relacionar automatización e interpretación.
 - [Documentación de pandas](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html) y [preguntas frecuentes de Colab](https://research.google.com/colaboratory/faq.html). Referencias para preparar la práctica y el acceso.
 
-Las divisiones de tiempo, actividades, recuperación y entrega son decisiones de diseño de esta sesión, no resultados de esas fuentes. Los fragmentos, conteos y respuestas resueltas se incorporarán después de revisar y probar los materiales.
+Las divisiones de tiempo, actividades, recuperación y entrega son decisiones de diseño de esta sesión, no resultados de esas fuentes. Los fragmentos, conteos y respuestas orientativas están incorporados en los datos, notebooks y slides. El [guion docente](guion_docente.md) coordina su uso; la ejecución en Colab y compilación en Overleaf siguen pendientes.

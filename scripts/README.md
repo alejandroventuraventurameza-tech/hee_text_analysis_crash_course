@@ -21,3 +21,7 @@ El script regenera datos, no documentación ni ZIP. Después de editar la docume
 `crear_notebooks.py` construye la versión de estudiantes y la resuelta a partir de los datos revisados, con dos cargas independientes: documentos sin etiquetas al inicio y clasificaciones al final. No necesita bibliotecas externas para generar los archivos.
 
 `probar_notebooks.py` ejecuta las dos versiones en kernels nuevos, guarda salidas en el notebook docente y registra comprobaciones y versiones. Requiere `jupyter_client`, `ipykernel`, pandas y matplotlib en el entorno docente. No prueba la interfaz de Colab. El alcance y las instrucciones están en [notebooks/README.md](../notebooks/README.md).
+
+## Preparación de Beamer
+
+`preparar_beamer.py` adapta una copia del preámbulo del template, conserva el logo y registra la procedencia de pasajes y valores. `revisar_beamer.py` comprueba rutas, referencias, estructura y coherencia con datos, y prepara el ZIP para Overleaf. Ambos utilizan Python estándar y no compilan LaTeX. El contenido de las slides y el guion se editan por separado. Consultar [slides/README.md](../slides/README.md).

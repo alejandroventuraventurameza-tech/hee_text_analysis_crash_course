@@ -7,3 +7,5 @@ data/originales/*.pdf binary
 paquetes/*.zip binary
 notebooks/*.ipynb text eol=lf
 notebooks/*.json text eol=lf
+slides/** text eol=lf
+slides/images/*.jpg binary

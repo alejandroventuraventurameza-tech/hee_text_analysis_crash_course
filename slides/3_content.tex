@@ -1,0 +1,439 @@
+% Notas ocultas al proyectar. El guion docente contiene los tiempos detallados.
+% Cada etiqueta identifica una slide y permite mantener el guion sincronizado.
+
+% S01
+{
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{footline}{}
+  \begin{frame}[plain,label=portada]
+    \titlepage
+  \end{frame}
+}
+
+\section{Caso}
+
+% S02: 0--3
+\begin{frame}[label=apertura]{Cientos de discursos}
+  {\Large ¿Cómo los analizarías sin leerlos todos completos?}
+  \vspace{0.6cm}
+  \begin{itemize}
+    \item Propón un procedimiento.
+    \item ¿Qué podrías contar?
+    \item ¿Qué tendrías que comprobar leyendo?
+  \end{itemize}
+  \note{Recoger dos propuestas. Explicar que los mensajes permiten estudiar prioridades e instrumentos declarados. La actuación efectiva requiere otras fuentes.}
+\end{frame}
+
+% S03: 3--5. Extracto literal de u11860. Procedencia oculta hasta S08.
+\begin{frame}[label=fragmento-a]{Fragmento A}
+  \begin{quote}
+    \enquote{El éxito alcanzado por la Empresa Estatal de Petróleo justifica por eso plenamente la decisión de autorizarle a emprender diversos e importantes programas, entre los que destacan los siguientes:}
+  \end{quote}
+  \vspace{0.3cm}
+  ¿Qué intervención describe? Señala una expresión que sostenga tu interpretación.
+  \note{Extracto literal de Velasco, 28 de julio de 1970, PDF p. 10, unidad u11860. Mostrar primero sin presidente. La unidad completa enumera ampliaciones de refinación y está en el notebook. No convertir la declaración de éxito en éxito verificado.}
+\end{frame}
+
+% S04: 5--7. Segunda oración literal de u14275.
+\begin{frame}[label=fragmento-b]{Fragmento B}
+  \begin{quote}
+    \enquote{Esto supone que el Estado concentre su acción en el diseño de políticas generales y en la atención de servicios básicos y traslade al sector privado, con algunas excepciones, la responsabilidad del desarrollo de la producción y la comercialización de bienes y servicios, el que se dará bajo condición de competencia y de mercado.}
+  \end{quote}
+  ¿Qué cambia respecto de A? ¿Qué información falta?
+  \note{Extracto literal de Alberto Fujimori, 28 de julio de 1991, PDF p. 10, unidad u14275. La oración anterior usa ente promotor. El notebook incluye ambas oraciones para discutir la ambigüedad. Mantener ocultas las etiquetas.}
+\end{frame}
+
+% S05: 7--10
+\begin{frame}[label=pregunta]{Nuestra pregunta}
+  ¿Qué instrumentos de intervención económica aparecen en estos mensajes y qué diferencias podemos sostener al comparar palabras y leer fragmentos?
+  \vspace{0.4cm}
+  \begin{block}{Alcance de la evidencia}
+    Estudiaremos lo que los discursos declaran. Para saber qué se ejecutó hacen falta otras fuentes.
+  \end{block}
+  Tu entrega individual reunirá un resultado numérico, evidencia textual y una conclusión con límites.
+\end{frame}
+
+% S06: 10--15
+\begin{frame}[label=historia]{Enfoques de análisis textual}
+  \begin{description}
+    \item[Contenido] Categorías y reglas de interpretación. Berelson sistematiza el enfoque en 1952.
+    \item[Computación] Conteos y diccionarios a escala. General Inquirer es un ejemplo.
+    \item[Modelos de lenguaje] Clasificación mediante instrucciones. Un ejemplo de aplicación aparece en 2023.
+  \end{description}
+  Los enfoques pueden combinarse. ¿Qué aporta cada uno a nuestra pregunta?
+  \fuente{\parencite{berelson1952,inquirer,gilardi2023}}
+  \note{Cinco minutos como máximo. Los modelos de lenguaje pertenecen a los métodos computacionales. No presentar una sucesión que elimina lectura y categorías. La referencia bibliográfica de Berelson se corroboró con una reseña contemporánea, sin asumir lectura integral del libro. El estudio de Gilardi y coautores no valida el corpus de esta clase.}
+\end{frame}
+
+% S07: 15--18
+\begin{frame}[label=roles]{Instrumentos económicos}
+  \renewcommand{\arraystretch}{1.35}
+  \begin{tabular}{@{}p{0.26\textwidth}p{0.68\textwidth}@{}}
+    \textbf{Rol} & \textbf{Instrumento dominante}\\
+    Empresario & Propiedad y control estatal de producción.\\
+    Regulador & Reglas generales y supervisión de mercados.\\
+    Facilitador & Promoción selectiva sin requerir propiedad estatal.\\
+  \end{tabular}
+  \vspace{0.4cm}
+  Una palabra aislada puede tener varios sentidos. La investigación también distingue asistencial y no aplica.
+  \note{Son categorías del caso de investigación. Pedir que identifiquen el instrumento y su finalidad declarada. Evitar tratar cualquier ley como regulación económica o cualquier promoción como facilitación selectiva.}
+\end{frame}
+
+% S08: 18--23
+\begin{frame}[label=decision-manual]{Clasificación y procedencia}
+  Antes de revelar la procedencia, registra para A y B:
+  \begin{enumerate}
+    \item Una clasificación provisional.
+    \item La expresión que la respalda.
+    \item Una duda o información que falta.
+  \end{enumerate}
+  \vspace{0.3cm}
+  Puedes justificar evidencia insuficiente. Conserva tu decisión para revisarla al final.
+  \note{Volver a S03 y S04 o leer las unidades completas en el notebook. Revelar oralmente solo después de recoger respuestas: A, Velasco 1970, u11860, p. 10; B, Alberto Fujimori 1991, u14275, p. 10. Las etiquetas permanecen ocultas hasta S23.}
+\end{frame}
+
+\section{Práctica}
+
+% S09: 23--26
+\begin{frame}[label=entorno]{Python, bibliotecas y Colab}
+  \renewcommand{\arraystretch}{1.4}
+  \begin{tabular}{@{}p{0.25\textwidth}p{0.69\textwidth}@{}}
+    \textbf{Python} & Lenguaje para escribir instrucciones.\\
+    \textbf{Biblioteca} & Herramientas reutilizables para una necesidad.\\
+    \textbf{Colab} & Entorno donde editamos el notebook y ejecutamos Python.\\
+  \end{tabular}
+  \vspace{0.4cm}
+  Cada estudiante trabaja y guarda su propia copia. Puedes discutir con otras personas y ejecutar en tu laptop.
+\end{frame}
+
+% S10: 26--29
+\begin{frame}[fragile,label=primera-celda]{Una variable y su resultado}
+  Una variable conserva un valor. \texttt{=} asigna y las comillas delimitan texto.
+  \begin{verbatim}
+saludo = "Estoy explorando textos"
+print(saludo)
+  \end{verbatim}
+  Cambia el saludo y vuelve a ejecutar. ¿Dónde aparece tu modificación?
+  \note{El notebook usa un saludo algo más largo. La sintaxis es la misma. Mostrar también la edición de una celda de texto para guardar hipótesis.}
+\end{frame}
+
+% S11: 29--33
+\begin{frame}[label=carga]{Carga de la tabla}
+  \textbf{pandas} permite leer y explorar tablas.
+  \vspace{0.3cm}
+  \begin{enumerate}
+    \item Ejecuta Preparación con la carga incluida.
+    \item Ejecuta la tabla de documentos.
+    \item Identifica fecha, orador y audiencia.
+  \end{enumerate}
+  ¿Qué representa una fila? ¿Todas tienen la misma extensión?
+  \fuente{Documentación oficial de pandas: \parencite{pandas}.}
+  \note{La carga incluida no necesita URL pública ni acceso a investigación. Si hace falta, indicar manual y subir datos estudiantes ZIP. La persona de apoyo atiende accesos mientras se explica la tabla.}
+\end{frame}
+
+% S12: 33--36
+\begin{frame}[label=seleccion]{Seis mensajes seleccionados}
+  \renewcommand{\arraystretch}{1.4}
+  \begin{tabular}{@{}ll@{}}
+    \textbf{Gobierno} & \textbf{Mensajes del 28 de julio}\\
+    Leguía & 1920 y 1921\\
+    Velasco & 1969 y 1970\\
+    Alberto Fujimori & 1991 y 1992\\
+  \end{tabular}
+  \vspace{0.4cm}
+  La regla de selección precede al conteo. Audiencias y ocasiones difieren.
+  \vspace{0.3cm}
+  \textbf{Al minuto 36:} copia propia y seis filas de documentos disponibles.
+  \fuente{PDF del archivo oficial del Congreso. Copias trazables a \texttt{v1.0-ccl}.}
+  \note{Seis documentos, 148 páginas y 619 unidades. Cada fila de esta tabla agrupada resume un par; cada fila del notebook representa un documento. No llamar homogénea ni representativa a la selección.}
+\end{frame}
+
+% S13: 36--43
+\begin{frame}[label=transformacion]{Texto original y texto para conteos}
+  \textbf{Original, extracto literal:}
+  \begin{quote}
+    \enquote{No ha descuidado mi Gobierno el incremento de la agricultura y ganadería.}
+  \end{quote}
+  \textbf{Versión para conteos:}
+  \begin{quote}
+    no ha descuidado mi gobierno el incremento de la agricultura y ganadería
+  \end{quote}
+  ¿Qué cambió? ¿Qué significa conservar \enquote{no}?
+  \fuente{Leguía, 1921, PDF p. 11, unidad \texttt{u00126}.}
+  \note{Mostrar la extracción y la versión preparada del notebook. La preparación además excluye rótulos iniciales, números de página y una nota editorial, y repara ciertos guiones. Definir token como cada aparición según la regla. La clase inspecciona ese procesamiento ya construido, sin ejecutar modelos lingüísticos.}
+\end{frame}
+
+% S14: 43--51
+\begin{frame}[fragile,label=frecuencias]{Tabla de frecuencias}
+  Antes de ejecutar, predice qué palabras aparecerán primero.
+  \begin{verbatim}
+numero_palabras = 10
+  \end{verbatim}
+  Cambia 10 a 8 y vuelve a ejecutar.
+  \begin{itemize}
+    \item \texttt{Counter} cuenta cada forma exacta.
+    \item El ranking puede ocultar palabras frecuentes.
+    \item El denominador conserva todas las palabras procesadas.
+  \end{itemize}
+  ¿Qué cambió en la tabla y qué permaneció igual?
+\end{frame}
+
+% S15: 51--54
+\begin{frame}[label=prediccion]{Predicción sobre competencia}
+  Compararemos Leguía de 1921 y Alberto Fujimori de 1991.
+  \vspace{0.4cm}
+  \begin{enumerate}
+    \item ¿Cuál tendrá más menciones absolutas?
+    \item ¿Cuánto puede explicar la extensión del mensaje?
+    \item ¿La palabra describirá el mismo concepto?
+  \end{enumerate}
+  Escribe tu predicción antes de ejecutar. Puedes cambiar la palabra y los documentos.
+\end{frame}
+
+% S16: 54--58
+\begin{frame}[label=normalizacion]{Menciones por 1.000 palabras}
+  \[
+    \text{Tasa} = 1\,000 \times
+    \frac{\text{menciones de la palabra}}{\text{palabras del documento procesado}}
+  \]
+  \vspace{0.3cm}
+  El denominador incluye las palabras ocultas solo del ranking.
+  \vspace{0.3cm}
+  La tasa describe presencia léxica. La clasificación de roles requiere interpretar las unidades.
+  \note{Leer mil, no uno con tres decimales. Ambos conteos deben usar la misma regla. La tabla del notebook permite comprobar numerador y denominador. Una tasa de palabras no es porcentaje de unidades productivas.}
+\end{frame}
+
+% S17: 58--66. Mostrar solo después de las predicciones y la ejecución.
+\begin{frame}[label=tasas]{Conteos y tasas de competencia}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabular}{@{}lrrr@{}}
+    \textbf{Mensaje} & \textbf{Menciones} & \textbf{Palabras} & \textbf{Por 1.000}\\
+    Leguía 1921 & 2 & 4.527 & 0,442\\
+    Fujimori 1991 & 11 & 23.348 & 0,471\\
+  \end{tabular}
+  \vspace{0.4cm}
+  ¿Qué cambió al considerar la extensión? ¿Qué falta comprobar en el original?
+  \fuente{Datos didácticos. Forma exacta, con tildes. Tasas redondeadas a tres decimales.}
+  \note{La diferencia de conteos es mucho mayor que la de tasas. No declarar significación estadística ni inferir prioridad económica. Mostrar el gráfico en el notebook solo después de la tabla. Si cambió la palabra, interpretar su resultado y usar esta slide únicamente como ejemplo de la consulta inicial. El gráfico de reserva está en el apéndice.}
+\end{frame}
+
+% S18: 66--74
+\begin{frame}[label=recuperacion]{Dudas y recuperación}
+  \textbf{Al minuto 74:} comparación disponible y denominador comprendido.
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item Si falta una variable, vuelve a Preparación.
+    \item Recuperación vuelve a cargar y recalcula tu consulta.
+    \item Si reiniciaste el entorno, ejecuta Preparación primero.
+  \end{itemize}
+  Conserva la tabla si el gráfico retrasa el recorrido. La persona de apoyo ayuda a retomar la ejecución individual.
+  \note{Reservar ocho minutos incluidos en la agenda. La pausa breve cabe dentro de este bloque si las dificultades están resueltas. Una tabla guardada permite discutir, pero no sustituye ejecutar y modificar código en la laptop propia.}
+\end{frame}
+
+\section{Interpretación}
+
+% S19: 74--77
+\begin{frame}[label=contexto]{Palabras en contexto}
+  ¿La palabra significa lo que supusimos?
+  \vspace{0.4cm}
+  Buscaremos en el texto original y conservaremos negaciones y signos.
+  \begin{enumerate}
+    \item Predice un uso de la palabra.
+    \item Localiza sus coincidencias.
+    \item Amplía la ventana y lee la unidad completa.
+  \end{enumerate}
+  \note{La ventana visible reemplaza saltos de línea por espacios. El contenido se conserva. La búsqueda literal puede diferir del conteo por los guiones reparados y rótulos excluidos. No interpretar cero coincidencias como ausencia del concepto.}
+\end{frame}
+
+% S20: 77--81
+\begin{frame}[fragile,label=amplitud]{Amplitud del contexto}
+  \begin{verbatim}
+amplitud_contexto = 100
+  \end{verbatim}
+  Cambia 100 a 180. El número indica caracteres a cada lado.
+  \vspace{0.3cm}
+  Selecciona dos filas de documentos distintos y recupera sus unidades completas.
+  \vspace{0.3cm}
+  Guarda el identificador, la página y el fragmento. El visor del PDF permite comprobar el original.
+  \note{Para la consulta inicial, filas 0 y 3. Si cambió la palabra o selección, los índices deben revisarse. El código deja vacía la evidencia cuando la selección es inválida para evitar conservar fragmentos antiguos.}
+\end{frame}
+
+% S21: 81--86. Mostrar después de que los estudiantes examinen sus pasajes.
+\begin{frame}[label=polisemia]{Dos usos de competencia}
+  \textbf{Leguía, 1921:}
+  \begin{quote}
+    \enquote{cuya competencia se ha evidenciado en la campaña que, para extirpar la fiebre amarilla, desarrollóse en el norte de la República}
+  \end{quote}
+  \textbf{Alberto Fujimori, 1991:}
+  \begin{quote}
+    \enquote{el que se dará bajo condición de competencia y de mercado.}
+  \end{quote}
+  ¿Qué significado tiene cada uso? ¿Qué cambia en tu interpretación?
+  \fuente{Leguía: \texttt{u00126}, p. 11. Fujimori: \texttt{u14275}, p. 10. Extractos literales.}
+  \note{Los dos fragmentos son ejemplos dirigidos, no una clasificación de todas las ocurrencias. Leer las unidades completas del notebook. La primera continúa con fomento agrícola, por lo que el segmento reúne distintos asuntos.}
+\end{frame}
+
+% S22: 86--90
+\begin{frame}[label=conclusion-provisional]{Conclusión y evidencia}
+  \begin{enumerate}
+    \item ¿Qué diferencia numérica encontraste?
+    \item ¿Qué muestran tus dos fragmentos?
+    \item ¿Qué parte de tu hipótesis mantienes o revisas?
+    \item ¿Qué afirmación restringe tu limitación?
+  \end{enumerate}
+  \vspace{0.3cm}
+  \textbf{Al minuto 90:} resultado numérico y dos fragmentos identificados.
+  \note{Aceptar resultados prudentes y los que no respaldan la primera hipótesis. Exigir el vínculo entre números y evidencia, sin atribuir un rol a todo un gobierno a partir de una palabra.}
+\end{frame}
+
+% S23: 90--95
+\begin{frame}[label=etiquetas]{Contraste con etiquetas existentes}
+  \renewcommand{\arraystretch}{1.4}
+  \begin{tabular}{@{}lll@{}}
+    \textbf{Ejemplo} & \textbf{Primaria del modelo} & \textbf{Confianza}\\
+    A, Velasco 1970 & empresario & alta\\
+    B, Fujimori 1991 & regulador & media\\
+  \end{tabular}
+  \vspace{0.4cm}
+  ¿Coincides con el modelo? Justifica tu decisión con el instrumento descrito y el contexto.
+  \fuente{Etiquetas existentes, \texttt{v1.0-ccl}. Confianza categórica, no probabilidad calibrada.}
+  \note{Mostrar únicamente después de la clasificación manual. La secundaria de B es asistencial. Leer la justificación del modelo y conservar una duda si corresponde. Coincidir con él no demuestra exactitud. No ejecutar clasificación en vivo.}
+\end{frame}
+
+% S24: 95--98
+\begin{frame}[label=limites]{Límites de las etiquetas}
+  \begin{itemize}
+    \item El segundo anotador fue otro modelo de lenguaje.
+    \item La referencia de 30 unidades contiene un caso empresario y uno regulador.
+    \item Las métricas por clase rara tienen poco soporte.
+  \end{itemize}
+  \vspace{0.3cm}
+  La interpretación requiere revisión. Conteos, roles y actuación efectiva responden a preguntas diferentes.
+  \fuente{Documentación de anotación y decisiones del proyecto, versión congelada.}
+\end{frame}
+
+\section{Cierre}
+
+% S25: 98--106
+\begin{frame}[label=entrega]{Entrega individual sin calificación}
+  Tu notebook debe contener:
+  \begin{enumerate}
+    \item Una tabla o gráfico con denominador.
+    \item Una conclusión vinculada al resultado.
+    \item Dos fragmentos originales identificados.
+    \item Una limitación y su consecuencia.
+    \item Una aplicación a documentos de tu carrera.
+  \end{enumerate}
+  Conserva también tu predicción, modificación de código y contraste manual con el modelo.
+\end{frame}
+
+% S26: 102--106. Alternar con S25 según el avance.
+\begin{frame}[label=aplicaciones]{Documentos de tu carrera}
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{@{}p{0.32\textwidth}p{0.62\textwidth}@{}}
+    \textbf{Área} & \textbf{Documentos y preguntas posibles}\\
+    Derecho & Contratos y normas: obligaciones y excepciones.\\
+    Economía & Noticias y discursos: instrumentos declarados.\\
+    Finanzas & Reportes: cómo se describen riesgos.\\
+    Administración e Ingeniería Empresarial & Reportes y reclamos: prioridades y problemas.\\
+    Ingeniería de la Información & Encuestas abiertas: patrones y contexto.\\
+  \end{tabular}
+  \vspace{0.3cm}
+  ¿Qué metadatos necesitarías para comparar tus documentos?
+\end{frame}
+
+% S27: 106--110
+\begin{frame}[label=cierre]{Guardado y cierre}
+  Guarda tu copia y descarga el notebook con respuestas y salidas visibles.
+  \vspace{0.2cm}
+  \texttt{apellido\_nombre\_analisis\_textual.ipynb}
+  \vspace{0.3cm}
+  Súbelo a la carpeta de Drive indicada y comprueba que aparece.
+  \vspace{0.4cm}
+  ¿Qué decisión puedes modificar? ¿Qué afirmación todavía no permiten tus datos?
+  \note{106--109: guardar, descargar y subir. 109--110: cierre oral. La persona de apoyo registra incidencias. El enlace de entrega lo proporciona el docente; no inventar una URL.}
+\end{frame}
+
+\appendix
+\section*{Apéndice}
+
+% A01: consulta, fuera del recorrido común
+\begin{frame}[label=denominadores]{Denominadores para preguntas distintas}
+  \renewcommand{\arraystretch}{1.35}
+  \begin{tabular}{@{}p{0.39\textwidth}p{0.55\textwidth}@{}}
+    \textbf{Medida} & \textbf{Denominador}\\
+    Tasa de palabra & Palabras procesadas del documento.\\
+    Incidencia productiva & Todas las unidades oficiales seleccionadas.\\
+    Mezcla de roles productivos & Solo unidades empresario, regulador y facilitador seleccionadas.\\
+  \end{tabular}
+  \vspace{0.3cm}
+  Proyecto completo: 22.365 unidades oficiales y 6.899 productivas. Selección didáctica: 619 unidades. Sus resultados tienen alcances distintos.
+  \note{No usar los seis ejemplos manuales dirigidos para calcular proporciones. Las etiquetas secundarias no duplican unidades. La entrega común no requiere calcular mezclas de roles.}
+\end{frame}
+
+% A02: gráfico editable nativo; valores completos del CSV incluido en el ZIP
+\begin{frame}[label=grafico-reserva]{Gráfico de la consulta inicial}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+      xbar, xmin=0, xmax=0.6, width=0.94\textwidth, height=4.8cm,
+      symbolic y coords={Leguía 1921,Fujimori 1991}, ytick=data,
+      enlarge y limits=0.7, bar width=13pt,
+      axis lines*=left, xmajorgrids=true,
+      grid style={draw=UWGrayL1},
+      tick label style={font=\small}, label style={font=\small},
+      xticklabel style={/pgf/number format/use comma},
+      xlabel={Menciones por 1.000 palabras}
+    ]
+      \addplot[fill=UWGoldL3,draw=UWBlack] coordinates {
+        (0.4417936823503424,{Leguía 1921})
+        (0.4711324310433442,{Fujimori 1991})
+      };
+    \end{axis}
+  \end{tikzpicture}
+  \fuente{Forma exacta: competencia. Datos didácticos, consulta inicial.}
+  \note{Usar como reserva después de las predicciones. El gráfico del notebook utiliza los mismos valores y un acento borgoña. Aquí se usa el amarillo del template. Gráfico editable en LaTeX, sin imagen rasterizada.}
+\end{frame}
+
+% A03
+\begin{frame}[label=desafio]{Desafío opcional}
+  Después de completar la entrega:
+  \begin{enumerate}
+    \item Predice qué pasará al retirar un documento.
+    \item Ejecuta el desafío del notebook.
+    \item Explica el cambio de selección y denominador.
+  \end{enumerate}
+  \vspace{0.3cm}
+  La tasa conjunta divide la suma de menciones por la suma de palabras. No promedia tasas sin atender a la extensión.
+\end{frame}
+
+% A04
+\begin{frame}[label=procedencia]{Procedencia de ejemplos y adaptaciones}
+  \begin{itemize}
+    \item A: Velasco 1970, \texttt{u11860}, PDF p. 10.
+    \item B: Fujimori 1991, \texttt{u14275}, PDF p. 10.
+    \item Polisemia: Leguía 1921, \texttt{u00126}, PDF p. 11.
+  \end{itemize}
+  \vspace{0.3cm}
+  PDF públicos del Museo del Congreso. Copias, unidades y etiquetas del proyecto \texttt{v1.0-ccl}.
+  \vspace{0.2cm}
+  La progresión pedagógica adapta los materiales locales de análisis textual en R a una práctica propia en Python.
+\end{frame}
+
+% R01--R03: lectura posterior, sin tiempo adicional dentro de los 110 minutos
+\begin{frame}[label=referencias-fundamentos]{Referencias del análisis textual}
+  \small
+  \nocite{grimmer2013}
+  \printbibliography[heading=none,keyword=fundamentos]
+\end{frame}
+
+\begin{frame}[label=referencias-automatizacion]{Referencias de automatización}
+  \small
+  \printbibliography[heading=none,keyword=automatizacion]
+\end{frame}
+
+\begin{frame}[label=referencias-herramientas]{Documentación de herramientas}
+  \small
+  \nocite{matplotlib,colab}
+  \printbibliography[heading=none,keyword=herramientas]
+\end{frame}

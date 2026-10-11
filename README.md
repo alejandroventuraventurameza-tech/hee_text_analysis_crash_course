@@ -20,11 +20,14 @@ Los discursos permiten estudiar instrumentos y prioridades declaradas. Para esta
 | [Notebook para estudiantes](notebooks/estudiantes.ipynb) | Práctica individual con datos incluidos y preguntas antes de ejecutar |
 | [Notebook resuelto para el docente](notebooks/docente_resuelto.ipynb) | Respuestas orientativas y salidas de la ejecución local |
 | [Uso y pruebas de los notebooks](notebooks/README.md) | Carga, recuperación, entrega y diferencias respecto de Colab |
+| [Guion docente](docs/guion_docente.md) | Coordinación de tiempos, preguntas, errores y recortes |
+| [Slides Beamer](slides/README.md) | Archivos editables y configuración para Overleaf |
+| [ZIP para Overleaf](paquetes/beamer_overleaf.zip) | Proyecto autocontenido para XeLaTeX y Biber |
 
 ## Materiales por preparar
 
 1. Comprobación en Colab de acceso, ejecución, carga, copia y guardado al concluir los materiales.
-2. Guion docente, slides Beamer y ZIP autocontenido para Overleaf.
+2. Compilación y revisión visual de las slides en Overleaf a cargo del docente.
 3. Recursos para continuar y adaptar el procedimiento a otros documentos.
 
 La selección revisada comprende los mensajes del 28 de julio de Leguía de 1920 y 1921, Velasco de 1969 y 1970, y Alberto Fujimori de 1991 y 1992: seis PDF, 148 páginas y 619 unidades existentes. La documentación conserva diferencias de audiencia y ocasión. Los resultados describen esos documentos, sin extrapolarse al corpus completo.
