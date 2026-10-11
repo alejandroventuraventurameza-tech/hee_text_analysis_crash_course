@@ -17,19 +17,21 @@ Los discursos permiten estudiar instrumentos y prioridades declaradas. Para esta
 | [Datos didácticos](data/README.md) | Seis discursos, unidades sin etiquetas, fuentes, selección y límites |
 | [Diccionario de columnas](data/diccionario_columnas.md) | Significado de filas, campos y denominadores |
 | [Paquete de datos para estudiantes](paquetes/datos_estudiantes.zip) | Descarga para carga manual, sin clasificaciones |
+| [Notebook para estudiantes](notebooks/estudiantes.ipynb) | Práctica individual con datos incluidos y preguntas antes de ejecutar |
+| [Notebook resuelto para el docente](notebooks/docente_resuelto.ipynb) | Respuestas orientativas y salidas de la ejecución local |
+| [Uso y pruebas de los notebooks](notebooks/README.md) | Carga, recuperación, entrega y diferencias respecto de Colab |
 
 ## Materiales por preparar
 
-1. Notebook para estudiantes y versión resuelta para el docente.
-2. Instrucciones de acceso y pruebas de ejecución, carga, copia y guardado en Colab.
-3. Guion docente, slides Beamer y ZIP autocontenido para Overleaf.
-4. Recursos para continuar y adaptar el procedimiento a otros documentos.
+1. Comprobación en Colab de acceso, ejecución, carga, copia y guardado al concluir los materiales.
+2. Guion docente, slides Beamer y ZIP autocontenido para Overleaf.
+3. Recursos para continuar y adaptar el procedimiento a otros documentos.
 
 La selección revisada comprende los mensajes del 28 de julio de Leguía de 1920 y 1921, Velasco de 1969 y 1970, y Alberto Fujimori de 1991 y 1992: seis PDF, 148 páginas y 619 unidades existentes. La documentación conserva diferencias de audiencia y ocasión. Los resultados describen esos documentos, sin extrapolarse al corpus completo.
 
 ## Acceso y entrega
 
-Este repositorio será público. El acceso a los materiales no requerirá aprender Git ni acceder al repositorio de investigación. Se preparará una alternativa de carga manual y resultados guardados.
+Este repositorio será público. El acceso a los materiales no requiere aprender Git ni acceder al repositorio de investigación. El notebook incluye los datos y dispone de una alternativa de carga manual con ZIP y resultados guardados. Ambos notebooks se probaron completos localmente; la comprobación en Colab sigue pendiente.
 
 La entrega se realizará en una carpeta de Drive cuyo enlace se comunicará en clase. Cada estudiante entregará su notebook con las respuestas y salidas guardadas. La prueba completa de Colab se realizará después de concluir el diseño y los materiales.
 

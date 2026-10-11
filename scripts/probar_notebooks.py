@@ -1,0 +1,154 @@
+"""Ejecuta ambos notebooks en kernels nuevos y registra resultados locales.
+
+Requiere el entorno docente con jupyter_client, ipykernel, pandas y matplotlib.
+No instala dependencias y no accede a investigación ni a Colab.
+"""
+
+import copy
+import hashlib
+import json
+from pathlib import Path
+import queue
+import sys
+import tempfile
+import time
+
+from jupyter_client import KernelManager
+
+
+RAIZ = Path(__file__).resolve().parents[1]
+
+
+def ejecutar(cliente, codigo, limite=60):
+    mensaje = cliente.execute(codigo, allow_stdin=False)
+    salidas, cuenta = [], None
+    fin = time.monotonic() + limite
+    while time.monotonic() < fin:
+        try:
+            respuesta = cliente.get_iopub_msg(timeout=1)
+        except queue.Empty:
+            continue
+        if respuesta.get("parent_header", {}).get("msg_id") != mensaje:
+            continue
+        tipo, contenido = respuesta["msg_type"], respuesta["content"]
+        if tipo == "status" and contenido["execution_state"] == "idle":
+            return salidas, cuenta
+        if tipo == "execute_input":
+            cuenta = contenido["execution_count"]
+        elif tipo in {"stream", "display_data", "execute_result", "error"}:
+            salida = {"output_type": tipo}
+            if tipo == "stream":
+                salida.update(name=contenido["name"], text=contenido["text"])
+            elif tipo == "error":
+                raise RuntimeError(contenido["ename"] + ": " + contenido["evalue"])
+            else:
+                salida.update(data=contenido["data"], metadata=contenido.get("metadata", {}))
+                if tipo == "execute_result":
+                    salida["execution_count"] = contenido["execution_count"]
+            salidas.append(salida)
+    raise TimeoutError("Una celda no terminó dentro del límite de prueba.")
+
+
+COMPROBACIONES = '''
+import json, math, platform, sys, matplotlib
+assert len(documentos) == 6 and len(unidades) == 619 and len(paginas) == 148
+assert "etiqueta_primaria" not in unidades.columns
+assert comparacion["menciones"].tolist() == [2, 11]
+assert comparacion["n_palabras_conteo"].tolist() == [4527, 23348]
+assert evidencia["documento_id"].nunique() == 2
+assert evidencia["unidad_id"].tolist() == ["u00126", "u14275"]
+assert Path("mi_comparacion.csv").exists() and Path("mi_evidencia.csv").exists()
+assert Path("mi_comparacion.png").exists()
+for _, fila in resultados_guardados.iterrows():
+    nueva = comparar_palabra(documentos, fila["palabra"], [fila["documento_id"],
+        next(x for x in documentos["documento_id"] if x != fila["documento_id"])]).iloc[0]
+    assert nueva["menciones"] == fila["menciones"]
+    assert math.isclose(nueva["menciones_por_1000"], fila["menciones_por_1000"])
+assert buscar_contextos(documentos, unidades, paginas, "palabrainexistente", ids_comparar, 100).empty
+assert comparar_palabra(documentos, "INVERSION", ids_comparar)["menciones"].sum() == 0
+assert comparar_palabra(documentos, "INVERSIÓN", ids_comparar)["menciones"].sum() > 0
+negaciones = buscar_contextos(documentos, unidades, paginas, "no", ids_comparar, 150)
+assert len(negaciones) > 0 and all("no" in texto.lower() for texto in negaciones["contexto"])
+for invalida in ["", "dos palabras", "empresa*"]:
+    try:
+        comparar_palabra(documentos, invalida, ids_comparar)
+        raise AssertionError("Consulta inválida aceptada")
+    except ValueError:
+        pass
+print(json.dumps({"python": sys.version.split()[0], "pandas": pd.__version__,
+    "matplotlib": matplotlib.__version__, "sistema": platform.system(),
+    "tabla": comparacion.to_dict(orient="records"),
+    "unidades_evidencia": evidencia["unidad_id"].tolist()}, ensure_ascii=False))
+'''
+
+
+def main():
+    resultados = []
+    for nombre in ["estudiantes.ipynb", "docente_resuelto.ipynb"]:
+        ruta = RAIZ / "notebooks" / nombre
+        notebook = json.loads(ruta.read_text(encoding="utf-8"))
+        ejecutado = copy.deepcopy(notebook)
+        gestor = KernelManager(kernel_name="python3")
+        with tempfile.TemporaryDirectory(prefix="curso_prueba_") as temporal:
+            try:
+                gestor.start_kernel(cwd=temporal)
+                cliente = gestor.client()
+                cliente.start_channels()
+                cliente.wait_for_ready(timeout=30)
+                ejecutar(cliente, "%matplotlib inline")
+                for celda in ejecutado["cells"]:
+                    if celda["cell_type"] != "code":
+                        continue
+                    celda["outputs"], celda["execution_count"] = ejecutar(cliente, "".join(celda["source"]))
+                    print(nombre, celda["id"], "correcta", flush=True)
+                salidas, _ = ejecutar(cliente, COMPROBACIONES)
+                datos = json.loads(next(s["text"] for s in salidas if s["output_type"] == "stream" and s["name"] == "stdout"))
+                # Probar el ZIP distribuido con la misma lectura usada por carga manual.
+                preparacion = "".join(next(c["source"] for c in notebook["cells"] if c["id"] == "preparacion"))
+                zip_local = preparacion.replace('modo_carga = "incluida"', 'modo_carga = "zip_local"')
+                zip_local = zip_local.replace('ruta_zip_local = ""', "ruta_zip_local = " + repr(str(RAIZ / "paquetes/datos_estudiantes.zip")))
+                ejecutar(cliente, zip_local)
+                ejecutar(cliente, 'assert len(documentos) == 6 and len(unidades) == 619\nassert "etiqueta_primaria" not in unidades.columns')
+                # La interfaz de subida de Colab no está disponible localmente.
+                # Simular únicamente los bytes que devolvería files.upload().
+                simular_subida = '''
+import types, sys
+colab_simulado = types.ModuleType("google.colab")
+bytes_subida = Path(ruta_zip_local).read_bytes()
+colab_simulado.files = types.SimpleNamespace(upload=lambda: {"datos_estudiantes.zip": bytes_subida})
+sys.modules["google.colab"] = colab_simulado
+'''
+                ejecutar(cliente, simular_subida)
+                ejecutar(cliente, preparacion.replace('modo_carga = "incluida"', 'modo_carga = "manual"'))
+                ejecutar(cliente, 'assert len(documentos) == 6 and len(unidades) == 619')
+                # Recuperación y salidas guardadas después de perder variables de resultados.
+                ejecutar(cliente, 'del comparacion, contextos, evidencia')
+                recuperar = "".join(next(c["source"] for c in notebook["cells"] if c["id"] == "recuperar"))
+                ejecutar(cliente, recuperar)
+                guardados = "".join(next(c["source"] for c in notebook["cells"] if c["id"] == "usar-guardados"))
+                ejecutar(cliente, guardados.replace("usar_resultados_guardados = False", "usar_resultados_guardados = True"))
+                ejecutar(cliente, 'assert comparacion.attrs["origen"] == "guardada"\nassert comparacion["menciones"].tolist() == [2, 11]')
+                desafio = "".join(next(c["source"] for c in notebook["cells"] if c["id"] == "desafio-codigo"))
+                ejecutar(cliente, desafio.replace("hacer_desafio = False", "hacer_desafio = True"))
+                imagenes = sum("image/png" in s.get("data", {}) for c in ejecutado["cells"] if c["cell_type"] == "code" for s in c["outputs"])
+                assert imagenes >= 1, "El gráfico debe quedar guardado en las salidas del notebook."
+                ejecutado["metadata"]["curso"]["prueba_local"] = {"fecha": "2026-10-11", "sistema": datos["sistema"], "python": datos["python"], "pandas": datos["pandas"], "matplotlib": datos["matplotlib"]}
+                if nombre == "docente_resuelto.ipynb":
+                    ruta.write_text(json.dumps(ejecutado, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+                resultados.append({"notebook": nombre, "celdas_codigo": sum(c["cell_type"] == "code" for c in ejecutado["cells"]),
+                    "ejecucion_completa": True, "imagenes_en_salidas": imagenes,
+                    "sha256_notebook_final": hashlib.sha256(ruta.read_bytes()).hexdigest(), **datos})
+            finally:
+                if "cliente" in locals():
+                    cliente.stop_channels()
+                gestor.shutdown_kernel(now=True)
+    informe = {"fecha": "2026-10-11", "pruebas": resultados,
+        "casos_adicionales": ["30 tasas contra resultados guardados", "tildes y mayúsculas", "consulta sin coincidencias", "negaciones conservadas", "consultas inválidas rechazadas", "ZIP manual real", "recepción de bytes de files.upload simulada", "recuperación sin variables de resultados", "salidas guardadas identificadas", "desafío opcional"],
+        "colab_comprobado": False, "subida_colab_comprobada": False,
+        "url_publica_comprobada": False, "nota": "No hay remoto configurado. La carga incluida no depende de él. La interfaz de Colab se comprobará después de concluir los materiales."}
+    (RAIZ / "notebooks/prueba_local.json").write_text(json.dumps(informe, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    print("Prueba local completa; Colab pendiente.")
+
+
+if __name__ == "__main__":
+    main()

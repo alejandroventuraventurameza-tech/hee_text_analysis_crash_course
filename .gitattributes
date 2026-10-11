@@ -5,3 +5,5 @@
 data/** text eol=lf
 data/originales/*.pdf binary
 paquetes/*.zip binary
+notebooks/*.ipynb text eol=lf
+notebooks/*.json text eol=lf

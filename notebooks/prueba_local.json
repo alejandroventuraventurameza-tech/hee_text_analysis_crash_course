@@ -1,0 +1,87 @@
+{
+  "fecha": "2026-10-11",
+  "pruebas": [
+    {
+      "notebook": "estudiantes.ipynb",
+      "celdas_codigo": 14,
+      "ejecucion_completa": true,
+      "imagenes_en_salidas": 1,
+      "sha256_notebook_final": "758f195433e547fa316efa32318bc127e37bb24725b698493870e9145e001ac7",
+      "python": "3.13.14",
+      "pandas": "3.0.2",
+      "matplotlib": "3.10.9",
+      "sistema": "Windows",
+      "tabla": [
+        {
+          "documento_id": "leguia_1921",
+          "fecha": "1921-07-28",
+          "palabra": "competencia",
+          "menciones": 2,
+          "n_palabras_conteo": 4527,
+          "menciones_por_1000": 0.4417936823503424
+        },
+        {
+          "documento_id": "alberto_fujimori_1991",
+          "fecha": "1991-07-28",
+          "palabra": "competencia",
+          "menciones": 11,
+          "n_palabras_conteo": 23348,
+          "menciones_por_1000": 0.4711324310433442
+        }
+      ],
+      "unidades_evidencia": [
+        "u00126",
+        "u14275"
+      ]
+    },
+    {
+      "notebook": "docente_resuelto.ipynb",
+      "celdas_codigo": 14,
+      "ejecucion_completa": true,
+      "imagenes_en_salidas": 1,
+      "sha256_notebook_final": "27726d3635bc5386285ef5f9ee16809ec9c6f7fc8915d39cfe302d84bb560137",
+      "python": "3.13.14",
+      "pandas": "3.0.2",
+      "matplotlib": "3.10.9",
+      "sistema": "Windows",
+      "tabla": [
+        {
+          "documento_id": "leguia_1921",
+          "fecha": "1921-07-28",
+          "palabra": "competencia",
+          "menciones": 2,
+          "n_palabras_conteo": 4527,
+          "menciones_por_1000": 0.4417936823503424
+        },
+        {
+          "documento_id": "alberto_fujimori_1991",
+          "fecha": "1991-07-28",
+          "palabra": "competencia",
+          "menciones": 11,
+          "n_palabras_conteo": 23348,
+          "menciones_por_1000": 0.4711324310433442
+        }
+      ],
+      "unidades_evidencia": [
+        "u00126",
+        "u14275"
+      ]
+    }
+  ],
+  "casos_adicionales": [
+    "30 tasas contra resultados guardados",
+    "tildes y mayúsculas",
+    "consulta sin coincidencias",
+    "negaciones conservadas",
+    "consultas inválidas rechazadas",
+    "ZIP manual real",
+    "recepción de bytes de files.upload simulada",
+    "recuperación sin variables de resultados",
+    "salidas guardadas identificadas",
+    "desafío opcional"
+  ],
+  "colab_comprobado": false,
+  "subida_colab_comprobada": false,
+  "url_publica_comprobada": false,
+  "nota": "No hay remoto configurado. La carga incluida no depende de él. La interfaz de Colab se comprobará después de concluir los materiales."
+}
