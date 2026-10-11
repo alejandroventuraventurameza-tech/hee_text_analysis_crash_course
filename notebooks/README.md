@@ -7,6 +7,7 @@ La práctica común tiene 14 celdas de código y explicaciones breves, distribui
 | [estudiantes.ipynb](estudiantes.ipynb) | Copia individual, sin salidas ejecutadas ni respuestas resueltas |
 | [docente_resuelto.ipynb](docente_resuelto.ipynb) | Mismo código y datos, con respuestas orientativas, tablas y gráfico guardados de la ejecución local |
 | [prueba_local.json](prueba_local.json) | Registro de ejecución, versiones, resultados y huellas de los notebooks |
+| [prueba_colab_guiada.json](prueba_colab_guiada.json) | Evidencia recibida del usuario y partes aún pendientes en Colab |
 
 ## Acceso y carga
 
@@ -24,7 +25,7 @@ El estudiante cambia el saludo de su primera celda y modifica al menos una decis
 
 Para el caso inicial, las filas 0 y 3 de contexto permiten recuperar unidades de documentos distintos. Si cambia la consulta, el estudiante debe revisar los índices. La selección muestra el texto completo de la unidad y su procedencia; si una coincidencia no tiene unidad, muestra su página completa. El notebook rechaza una selección inválida o del mismo documento con un mensaje y deja la evidencia vacía para no conservar pasajes anteriores por error.
 
-La búsqueda usa la extracción original, conserva signos y negaciones y solo reemplaza saltos de línea por espacios en la ventana visible. La comparación usa el texto para conteos, por lo que la reparación de guiones y los descartes editoriales pueden producir diferencias entre ambos. Una forma exacta no agrupa variantes, sinónimos ni significados.
+La búsqueda usa la extracción original, conserva signos y negaciones y solo reemplaza saltos de línea por espacios en la ventana visible. La tabla muestra la ventana completa, sin el límite visual de 250 caracteres detectado durante la prueba guiada en Colab. La comparación usa el texto para conteos, por lo que la reparación de guiones y los descartes editoriales pueden producir diferencias entre ambos. Una forma exacta no agrupa variantes, sinónimos ni significados.
 
 ## Recuperación y entrega
 
@@ -44,7 +45,7 @@ Se comprobaron: seis documentos, 619 unidades, 148 páginas, las 30 tasas guarda
 
 La lectura del ZIP distribuido se comprobó con sus bytes reales. La respuesta de `files.upload()` se simuló para probar la recepción de esos mismos bytes, sin usar la interfaz de Colab. La opción URL y una descarga pública del repositorio no se comprobaron; todavía no hay un remoto configurado.
 
-**Colab sigue pendiente.** Las versiones instaladas, el sistema operativo y la interfaz de carga, copia y guardado pueden diferir del entorno local. No se afirma que el notebook esté verificado allí. La revisión en Colab debe comprobar además el formulario de Preparación, las salidas del gráfico, el reinicio y la descarga del notebook con respuestas conservadas. No se necesitan GPU ni pagos.
+**La comprobación completa en Colab sigue pendiente.** El usuario compartió resultados de una prueba guiada parcial: carga, tabla, transformación inspeccionada, ranking modificado, tasas, gráfico, contextos y evidencia completa. El registro separado identifica esos pasos y la corrección del truncamiento visual. Falta ejecutar esa corrección en Colab y comprobar etiquetas, carga manual, reinicio real, copia, guardado, descarga y reapertura. Las versiones del entorno real aún no se han registrado. No se necesitan GPU ni pagos.
 
 ## Regeneración docente
 

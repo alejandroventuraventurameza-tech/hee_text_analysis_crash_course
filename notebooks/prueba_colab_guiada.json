@@ -1,0 +1,31 @@
+{
+  "fecha": "2026-10-11",
+  "modalidad": "Prueba guiada por el usuario en Colab, propuesta para Brave; sin control directo de esa sesión",
+  "evidencia": "Mensajes, tablas, imagen y salidas de texto compartidas por el usuario en la conversación",
+  "prueba_completa": false,
+  "comprobaciones_recibidas": {
+    "carga_incluida": "6 documentos y 619 unidades sin etiquetas",
+    "metadatos": "6 filas con identificadores, fechas, audiencias y conteos esperados",
+    "original_y_conteo": "Texto original y versión procesada de Leguía 1921, con 4527 palabras",
+    "modificacion_ranking": "Cambio de 10 a 8 filas, conservando el denominador 4527",
+    "comparacion": "Competencia: 2/4527 y 11/23348; tasas mostradas 0.442 y 0.471 por 1000",
+    "grafico": "Imagen de barras con los dos documentos y eje de menciones por 1000 palabras",
+    "salida_tras_recuperacion": "Tabla nuevamente compartida con los mismos valores",
+    "contextos": "13 coincidencias; dos salidas con distinta amplitud de contexto",
+    "evidencia_completa": "u00126, Leguía 1921, página 11, y u14275, Fujimori 1991, página 10, con textos y enlaces originales"
+  },
+  "incidencia": {
+    "descripcion": "La tabla limitaba el ancho visible a 250 caracteres, por lo que la ventana ampliada aparecía truncada con puntos suspensivos",
+    "correccion": "display.max_colwidth se cambia de 250 a None en ambas versiones",
+    "comprobacion_correccion_en_colab": "Pendiente de volver a ejecutar la celda modificada en la sesión del usuario"
+  },
+  "pendientes": [
+    "Contraste final con etiquetas existentes",
+    "Comprobación de entrega y archivos complementarios",
+    "Recuperación después de reiniciar realmente el entorno",
+    "Carga manual mediante la interfaz real",
+    "Copia y guardado en Drive",
+    "Descarga y reapertura con respuestas y salidas conservadas",
+    "Registro de versiones reales de Python, pandas y matplotlib en Colab"
+  ]
+}

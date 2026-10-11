@@ -328,7 +328,7 @@ def crear(docente=False):
     codigo("contextos", '''amplitud_contexto = 100
     contextos = buscar_contextos(documentos, unidades, paginas, palabra, ids_comparar, amplitud_contexto)
     print("Coincidencias en el original:", len(contextos))
-    with pd.option_context("display.max_colwidth", 250):
+    with pd.option_context("display.max_colwidth", None):
         display(contextos[["documento_id", "pagina_pdf", "unidad_id", "contexto"]])''')
     md("fragmentos-seleccion", '''Selecciona dos números de fila del resultado anterior, correspondientes a documentos distintos. Para la consulta inicial, 0 y 3 permiten una comparación. Si cambiaste la consulta, revisa esos números antes de ejecutar.
 
