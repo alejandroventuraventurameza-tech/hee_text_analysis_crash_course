@@ -1,0 +1,21 @@
+{
+  "fecha": "2026-10-11",
+  "documentos": 6,
+  "paginas": 148,
+  "unidades": 619,
+  "palabras_conteo": 65715,
+  "ejemplos_comunes": 2,
+  "ejemplos_reserva": 4,
+  "tasas_guardadas_recalculadas": 30,
+  "comprobaciones": [
+    "PDF y textos con huellas SHA-256 coherentes",
+    "Textos de unidades y campos de clasificacion identicos al commit congelado",
+    "Relaciones documento, pagina, unidad y etiqueta comprobadas",
+    "Posiciones por pagina y unidades dentro de limites",
+    "Ejemplos iniciales sin presidente, procedencia ni etiquetas en sus columnas",
+    "Enlaces locales existentes",
+    "ZIP sin carpeta docente y con huellas propias verificadas"
+  ],
+  "alcance_visual": "Primeras y ultimas paginas de los seis PDF y paginas de los seis ejemplos; no revision palabra por palabra de todas las paginas",
+  "colab": "Pendiente: aun no se ha preparado ni probado el notebook"
+}

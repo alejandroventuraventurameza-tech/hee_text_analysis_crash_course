@@ -167,7 +167,7 @@ Los desafíos avanzados son opcionales: retirar un documento y observar el efect
 
 ## Criterios para cerrar la selección de datos
 
-La selección candidata comprende dos mensajes por gobierno: Leguía, 28 de julio de 1920 y 1921; Velasco, 28 de julio de 1969 y 1970; Alberto Fujimori, 28 de julio de 1991 y 1992. La regla propuesta usa los primeros mensajes anuales disponibles posteriores al inicio del gobierno, antes de observar resultados. Deben comprobarse ocasión, audiencia, integridad y calidad de extracción. La coincidencia de fecha no elimina diferencias institucionales.
+La selección revisada comprende dos mensajes por gobierno: Leguía, 28 de julio de 1920 y 1921; Velasco, 28 de julio de 1969 y 1970; Alberto Fujimori, 28 de julio de 1991 y 1992. La regla usa los primeros mensajes anuales disponibles posteriores al inicio del gobierno, antes de observar resultados. Se comprobó la extracción y se conservaron diferencias de audiencia y ocasión en los metadatos. La coincidencia de fecha no elimina diferencias institucionales. El detalle está en la [documentación de datos](../data/README.md).
 
 Se compararán documentos completos. Los pasajes seleccionados para enseñar conceptos se identificarán como ejemplos dirigidos y no determinarán la muestra comparativa. Los textos originales se conservarán separados del procesamiento; cada extracto mantendrá identificador y procedencia desde `v1.0-ccl`.
 

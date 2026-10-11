@@ -14,16 +14,18 @@ Los discursos permiten estudiar instrumentos y prioridades declaradas. Para esta
 |---|---|
 | [Plan de la sesión](docs/plan_sesion.md) | Tiempos, objetivos, actividades, comprobaciones y recuperación |
 | [Ejercicio individual](actividades/ejercicio_individual.md) | Consigna, estructura de respuestas y autoevaluación |
+| [Datos didácticos](data/README.md) | Seis discursos, unidades sin etiquetas, fuentes, selección y límites |
+| [Diccionario de columnas](data/diccionario_columnas.md) | Significado de filas, campos y denominadores |
+| [Paquete de datos para estudiantes](paquetes/datos_estudiantes.zip) | Descarga para carga manual, sin clasificaciones |
 
 ## Materiales por preparar
 
-1. Selección documental revisada, datos didácticos y documentación de procedencia y columnas.
-2. Notebook para estudiantes y versión resuelta para el docente.
-3. Instrucciones de acceso y pruebas de ejecución, carga, copia y guardado en Colab.
-4. Guion docente, slides Beamer y ZIP autocontenido para Overleaf.
-5. Recursos para continuar y adaptar el procedimiento a otros documentos.
+1. Notebook para estudiantes y versión resuelta para el docente.
+2. Instrucciones de acceso y pruebas de ejecución, carga, copia y guardado en Colab.
+3. Guion docente, slides Beamer y ZIP autocontenido para Overleaf.
+4. Recursos para continuar y adaptar el procedimiento a otros documentos.
 
-La selección candidata comprende los mensajes del 28 de julio de Leguía de 1920 y 1921, Velasco de 1969 y 1970, y Alberto Fujimori de 1991 y 1992. Su inclusión definitiva depende de revisar los originales, la ocasión documental y la calidad de extracción. Los resultados de esa selección describirán esos documentos, sin extrapolarse al corpus completo.
+La selección revisada comprende los mensajes del 28 de julio de Leguía de 1920 y 1921, Velasco de 1969 y 1970, y Alberto Fujimori de 1991 y 1992: seis PDF, 148 páginas y 619 unidades existentes. La documentación conserva diferencias de audiencia y ocasión. Los resultados describen esos documentos, sin extrapolarse al corpus completo.
 
 ## Acceso y entrega
 
