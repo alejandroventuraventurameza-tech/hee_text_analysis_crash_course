@@ -1,5 +1,5 @@
 {
-  "beamer_sha256": "7e1af2e4b81da5b02c7b3ade8ad27ccba1a5f6d174c48e04724fd96b8b495fe1",
+  "beamer_sha256": "7cf9667f4ae75ef91b2b5b3fbc1be2d9eb6a56ed981819b3a65d95c00f2ed9db",
   "fecha": "2026-10-12",
   "frames": [
     {
@@ -211,6 +211,16 @@
       "numero": 42,
       "titulo_tex": "Límites de las etiquetas",
       "celda_colab": "etiquetas-intro"
+    },
+    {
+      "numero": 43,
+      "titulo_tex": "Un recurso muy útil para hacer research: \\textit{Applied Modeling Lib}",
+      "celda_colab": "research-final"
+    },
+    {
+      "numero": 44,
+      "titulo_tex": "Referencias",
+      "celda_colab": "referencias-final"
     }
   ],
   "conservado_del_colab_anterior": [

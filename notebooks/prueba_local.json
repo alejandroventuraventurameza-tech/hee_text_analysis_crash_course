@@ -6,7 +6,7 @@
       "celdas_codigo": 25,
       "ejecucion_completa": true,
       "imagenes_en_salidas": 1,
-      "sha256_notebook_final": "97100434cbc76344e20ad4b9917432483784bf322ce7a62497687e5b7a308f5f",
+      "sha256_notebook_final": "69572d62349dd20a082640a873fc1713a5c0b85b8cebbc1e50437650d0c2125e",
       "python": "3.13.14",
       "pandas": "3.0.2",
       "nltk": "3.10.3",
@@ -35,14 +35,15 @@
       "unidades_evidencia": [
         "u00126",
         "u14275"
-      ]
+      ],
+      "sha256_version_ejecutada": "97100434cbc76344e20ad4b9917432483784bf322ce7a62497687e5b7a308f5f"
     },
     {
       "notebook": "docente_resuelto.ipynb",
       "celdas_codigo": 25,
       "ejecucion_completa": true,
       "imagenes_en_salidas": 1,
-      "sha256_notebook_final": "935fdca404b3d721c9517d5e3564d17977d77a735686f0922e702a06047119db",
+      "sha256_notebook_final": "c12b72d1931a74ed011ec3afdef242ab7a6fb8beb6b0e3d32e2048ac89095c6d",
       "python": "3.13.14",
       "pandas": "3.0.2",
       "nltk": "3.10.3",
@@ -71,7 +72,8 @@
       "unidades_evidencia": [
         "u00126",
         "u14275"
-      ]
+      ],
+      "sha256_version_ejecutada": "935fdca404b3d721c9517d5e3564d17977d77a735686f0922e702a06047119db"
     }
   ],
   "casos_adicionales": [
@@ -95,5 +97,10 @@
   "colab_comprobado": false,
   "subida_colab_comprobada": false,
   "url_publica_comprobada": false,
-  "nota": "Este registro documenta únicamente la ejecución local. La evidencia recibida de la interfaz de Colab está separada en prueba_colab_guiada.json; no se extiende automáticamente a modificaciones posteriores de instrucciones o títulos."
+  "nota": "Este registro documenta únicamente la ejecución local. La evidencia recibida de la interfaz de Colab está separada en prueba_colab_guiada.json; no se extiende automáticamente a modificaciones posteriores de instrucciones o títulos.",
+  "actualizacion_posterior": {
+    "fecha": "2026-10-12",
+    "cambio": "Solo Markdown: enlace de entrega, objetivos del ZIP final, cierre Applied Modeling Lib y referencia NLTK; código y salidas conservados",
+    "confirmacion_usuario_colab": "El docente confirmó ejecución correcta antes de estos cambios de texto"
+  }
 }

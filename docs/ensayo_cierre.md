@@ -17,9 +17,13 @@ Si el estudiante ya redactó durante la práctica, revisa en lugar de reescribir
 
 La comprobación técnica no certifica calidad de la interpretación ni recepción en Drive. El archivo conserva las salidas, pero los archivos complementarios CSV y PNG no se incorporan automáticamente a Drive.
 
-## Carpeta preparada
+## Carpeta de entrega vigente
 
-Se creó [Entregas individuales](https://drive.google.com/drive/folders/1x5w-v2_1Yj5cqmvwdhwFEQ2XDQgAQqRl), dentro de la carpeta del curso. Continúa con acceso privado del docente; el enlace todavía no debe anunciarse como un destino habilitado para estudiantes.
+El 12 de octubre de 2026 el docente sustituyó el destino por esta [carpeta de entregas](https://drive.google.com/drive/folders/1ltfWYqk4Oub7Tajh_r7jktODdlfan4IM?usp=sharing). Es el enlace que debe comunicarse a estudiantes. Sus permisos y la subida desde una cuenta institucional todavía no se han comprobado.
+
+## Prueba histórica en la carpeta anterior
+
+La prueba administrativa anterior se realizó en [Entregas individuales](https://drive.google.com/drive/folders/1x5w-v2_1Yj5cqmvwdhwFEQ2XDQgAQqRl), dentro de la carpeta del curso. Ese enlace fue sustituido y se conserva aquí únicamente como procedencia del registro histórico; no es el destino de entrega vigente.
 
 Se subió `prueba_recepcion_docente.ipynb`, identificado como prueba administrativa. Contiene tabla, gráfico y dos fragmentos procedentes de salidas ejecutadas localmente. La subida, el tamaño y la ubicación se verificaron mediante el conector de Drive. No es una entrega de estudiante ni un ensayo cronometrado del aula.
 

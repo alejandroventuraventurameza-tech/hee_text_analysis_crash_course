@@ -468,7 +468,7 @@ def crear(docente=False):
 
     1. **Guarda:** confirma que tu copia conserva respuestas, tabla y dos fragmentos. Ejecuta **Comprobación antes de guardar** y revisa su mensaje. El mensaje comprueba la consulta; tú revisas tus explicaciones.
     2. **Descarga:** desde **Archivo → Descargar → Descargar .ipynb**, guarda `apellido_nombre_analisis_textual.ipynb`. Si se descargó con otro nombre, renómbralo conservando `.ipynb`.
-    3. **Entrega:** entra con tu cuenta institucional de la UP a la carpeta que indique el docente, sube el archivo y comprueba que aparece con tu nombre. Conserva la copia descargada hasta confirmar recepción.
+    3. **Entrega:** entra con tu cuenta institucional de la UP a la [carpeta de entregas](https://drive.google.com/drive/folders/1ltfWYqk4Oub7Tajh_r7jktODdlfan4IM?usp=sharing), sube el archivo y comprueba que aparece con tu nombre. Conserva la copia descargada hasta confirmar recepción.
 
     Si aparece «Solicitar acceso» o no puedes subir el archivo, avisa a la persona de apoyo y conserva tu copia. La carpeta de clase debe tener acceso comprobado antes de utilizarse para la entrega.
 

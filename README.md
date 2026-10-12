@@ -2,7 +2,7 @@
 
 Materiales para la sesión del lunes 12 de octubre de 2026, a cargo de Alejandro Ventura, para Historia Económica y Empresarial, semestre 2026 II. El curso utiliza Google Colab y mensajes presidenciales peruanos como caso para aprender a comparar palabras y comprobar interpretaciones con evidencia textual.
 
-El Beamer final proporcionado por el expositor en `paquetes/hee_text_analysis_crash_course.zip` es la referencia para el recorrido. El Colab se adapta a sus 42 diapositivas; ese ZIP y la carpeta `slides` se conservan intactos. NLTK trabaja en español y spaCy se utiliza exclusivamente para comparar lematización con stemming. La correspondencia se registra en `notebooks/alineacion_beamer.json`. Los guiones anteriores conservan su planificación original y no sustituyen la secuencia del ZIP final.
+El Beamer final proporcionado por el expositor en `paquetes/hee_text_analysis_crash_course.zip` es la referencia para el recorrido. El Colab se adapta a sus 44 frames de contenido y referencias; ese ZIP y la carpeta `slides` se conservan intactos. NLTK trabaja en español y spaCy se utiliza exclusivamente para comparar lematización con stemming. La correspondencia se registra en `notebooks/alineacion_beamer.json`. Los guiones anteriores conservan su planificación original y no sustituyen la secuencia del ZIP final.
 
 ## Diseño acordado
 
@@ -62,7 +62,7 @@ La selección revisada comprende los mensajes del 28 de julio de Leguía de 1920
 
 Este repositorio será público. El acceso a los materiales no requiere aprender Git ni acceder al repositorio de investigación. El notebook incluye los datos y dispone de una alternativa de carga manual con ZIP y resultados guardados. Ambos notebooks se probaron completos localmente. La prueba guiada en Colab confirmó resultados hasta el contraste y la comprobación técnica de entrega; su [registro](notebooks/prueba_colab_guiada.json) distingue los pasos recibidos de las comprobaciones aún pendientes.
 
-La entrega se realizará en una carpeta de Drive cuyo enlace se comunicará en clase. Cada estudiante entregará su notebook con las respuestas y salidas guardadas. La prueba completa de Colab se realizará después de concluir el diseño y los materiales.
+La entrega se realizará en la [carpeta indicada por el docente](https://drive.google.com/drive/folders/1ltfWYqk4Oub7Tajh_r7jktODdlfan4IM?usp=sharing). Cada estudiante entregará su notebook con las respuestas y salidas guardadas usando su cuenta institucional UP. El docente confirmó que la versión adaptada al Beamer final corrió correctamente en Google Colab. El acceso y la subida a esta nueva carpeta todavía no se han comprobado desde una cuenta de estudiante.
 
 ## Procedencia y preparación
 

@@ -1,14 +1,14 @@
 # Colab: Las palabras como datos
 
-Las versiones de estudiantes y docente siguen las 42 diapositivas del Beamer final proporcionado por Alejandro Ventura en `paquetes/hee_text_analysis_crash_course.zip`. El ZIP y los archivos de `slides` no se modifican. La correspondencia se conserva en `alineacion_beamer.json`, junto con la huella SHA256 del ZIP leído.
+Las versiones de estudiantes y docente siguen los 44 frames de contenido y referencias del Beamer final proporcionado por Alejandro Ventura en `paquetes/hee_text_analysis_crash_course.zip`. El ZIP y los archivos de `slides` no se modifican. La correspondencia se conserva en `alineacion_beamer.json`, junto con la huella SHA256 del ZIP leído.
 
-El recorrido comprende motivación, variable proxy, fuentes presidenciales y API conceptual, flujo del NLP, corpus y clasificación manual, procesamiento en español, frecuencias y comparación normalizada, contexto, contraste de etiquetas y límites. Se conservan del Colab anterior recuperación, respuestas individuales, entrega formativa sin calificación y desafío opcional. El Beamer final tiene la sección Cierre sin diapositivas; el notebook conserva las instrucciones de guardado y entrega acordadas.
+El recorrido comprende motivación, variable proxy, fuentes presidenciales y API conceptual, flujo del NLP, corpus y clasificación manual, procesamiento en español, frecuencias y comparación normalizada, contexto, contraste de etiquetas y límites. Se conservan del Colab anterior recuperación, respuestas individuales, entrega formativa sin calificación y desafío opcional. El cierre incluye Applied Modeling Lib y las referencias unificadas; el notebook conserva las instrucciones de guardado y entrega acordadas.
 
 | Archivo | Uso |
 |---|---|
 | [estudiantes.ipynb](estudiantes.ipynb) | Copia individual, sin salidas ni respuestas resueltas |
 | [docente_resuelto.ipynb](docente_resuelto.ipynb) | Mismo código, respuestas orientativas y salidas de ejecución local |
-| [alineacion_beamer.json](alineacion_beamer.json) | Correspondencia de las 42 diapositivas con celdas |
+| [alineacion_beamer.json](alineacion_beamer.json) | Correspondencia de los 44 frames de contenido y referencias con celdas |
 | [prueba_local.json](prueba_local.json) | Ejecución local, versiones, resultados y huellas |
 | [prueba_colab_guiada.json](prueba_colab_guiada.json) | Evidencia histórica del recorrido anterior en Colab |
 
@@ -34,7 +34,7 @@ Las etiquetas existentes se cargan por separado al final, después de la clasifi
 
 Abrir estudiantes.ipynb en Colab, guardar una copia en Drive y seguir al docente. Las celdas **Mi respuesta** se editan con doble clic. Cambiar una instrucción, volver a ejecutar y explicar su efecto. Los encabezados no muestran tiempos; los emojis permiten localizar las etapas.
 
-La comprobación antes de guardar detecta consultas cambiadas sin actualizar tabla y evidencia. Guarda CSV complementarios; el gráfico se conserva como PNG. No califica las explicaciones. La entrega principal es apellido_nombre_analisis_textual.ipynb, con respuestas y salidas, en la carpeta indicada por el docente usando la cuenta institucional UP.
+La comprobación antes de guardar detecta consultas cambiadas sin actualizar tabla y evidencia. Guarda CSV complementarios; el gráfico se conserva como PNG. No califica las explicaciones. La entrega principal es apellido_nombre_analisis_textual.ipynb, con respuestas y salidas, en la [carpeta de entregas](https://drive.google.com/drive/folders/1ltfWYqk4Oub7Tajh_r7jktODdlfan4IM?usp=sharing) usando la cuenta institucional UP.
 
 ## Regeneración y pruebas
 
@@ -47,4 +47,4 @@ El generador adapta ambas versiones mediante adaptar_colab_final.py, que solo le
 
 Las nuevas comprobaciones incluyen segmentación de oraciones, negaciones conservadas, signos españoles, raíces, lemas y denominadores de los seis textos. También se conserva la comprobación de tasas guardadas, consultas inválidas, tildes, recuperación y carga de los bytes del ZIP. La interfaz files.upload() se simula localmente y no sustituye una prueba real de Colab.
 
-**La versión nueva debe comprobarse en Colab.** La evidencia guiada anterior no valida las instalaciones nuevas ni la representación actual de imágenes y emojis. El informe prueba_local.json documenta exclusivamente ejecución local.
+El docente confirmó que **la versión nueva corrió correctamente en Colab**. El informe prueba_local.json documenta exclusivamente ejecución local; la confirmación posterior del docente corresponde a la versión adaptada al Beamer final. Falta comprobar acceso y subida desde una cuenta institucional a la nueva carpeta de entregas.

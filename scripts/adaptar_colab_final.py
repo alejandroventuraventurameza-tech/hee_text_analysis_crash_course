@@ -63,12 +63,11 @@ Departamento de Economía y Finanzas · Universidad del Pacífico
 
 Al finalizar esta clase deberías poder:
 
-- Entender el NLP y su flujo: **raw text → preprocessing → feature extraction → model → output**.
-- Aplicar tokenización, stop words, manejo de puntuación y normalización.
-- Modificar una instrucción y explicar su efecto.
-- Comparar menciones considerando la extensión de los documentos.
-- Interpretar palabras en contexto y contrastar una etiqueta automática.
-- Formular una conclusión con evidencia, límites y una aplicación a tu carrera.
+- Entender el NLP y las partes de su flujo: **raw text, preprocessing, feature extraction y model**.
+- Entender en detalle el preprocessing: **tokenization, stop words, punctuation y common text normalization techniques**.
+- Aprender a elaborar una tabla de frecuencias de palabras.
+- Entender la importancia del contexto para interpretar los resultados de un modelo NLP.
+- Aprender que **las palabras también pueden ser datos** :).
 ''')
     conservar('uso')
     md('problematica-final', '''## 💬 Una pregunta para entrar en calor
@@ -296,14 +295,35 @@ print("Seis documentos tokenizados; denominadores comprobados.")
     conservar('comparacion', 'prediccion-lexica', 'tasas', 'grafico-explicacion', 'grafico', 'lectura-tasas', 'recuperacion', 'recuperar', 'contexto', 'contextos', 'fragmentos-seleccion', 'evidencia', 'interpretacion-fragmentos')
     inicio = list(anteriores).index('etiquetas-intro')
     conservar(*list(anteriores)[inicio:])
-    md('referencias-final', '''## 📚 Lecturas de la apertura y herramientas
+    md('research-final', '''## 🔬 Un recurso muy útil para hacer research: Applied Modeling Lib
+
+- Proyecto experimental que utiliza IA para traducir definiciones y demostraciones matemáticas al lenguaje de **Lean**, un asistente de pruebas.
+- Incluye trabajos sobre mercados, teoría de juegos, subastas, elección social y aprendizaje automático.
+- Lean comprueba las demostraciones formalizadas; las personas revisan si representan fielmente los supuestos y resultados del artículo.
+
+**La lección de hoy también aplica aquí: producir un resultado exige saber cómo comprobarlo.**
+
+[Explora Applied Modeling Lib](https://gargnikhil.com/AppliedModelingLib/).
+
+Verificar una demostración matemática no comprueba que sus supuestos describan la realidad ni valida los datos empíricos.
+''')
+    md('referencias-final', '''## 📚 Referencias
+
+- Berelson, B. (1952). *Content Analysis in Communication Research*. Free Press.
+- Grimmer, J. y Stewart, B. M. (2013). *Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts*. Political Analysis, 21(3), 267–297. [Artículo](https://doi.org/10.1093/pan/mps028).
+- General Inquirer. *Inquirer Home Page*. Harvard University. [Sitio](https://inquirer.sites.fas.harvard.edu/).
+- Gilardi, F., Alizadeh, M. M. y Kubli, M. (2023). *ChatGPT outperforms crowd workers for text-annotation tasks*. PNAS, 120(30), e2305016120. [Artículo](https://doi.org/10.1073/pnas.2305016120).
+- pandas. *Getting started tutorials*. [Documentación](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html).
+- Matplotlib. *Pyplot tutorial*. [Documentación](https://matplotlib.org/stable/tutorials/pyplot.html).
+- Google. *Colab Frequently Asked Questions*. [Documentación](https://research.google.com/colaboratory/faq.html).
 
 - Harari, Y. N. (2014). *Sapiens: De animales a dioses. Una breve historia de la humanidad*. Debate.
 - Cunningham, E., Saich, T. y Turiel, J. (2020). *Understanding CCP Resilience: Surveying Chinese Public Opinion Through Time*. Harvard Kennedy School. [Documento citado en las diapositivas](https://rajawali.hks.harvard.edu/wp-content/uploads/sites/2/2020/07/final_policy_brief_7.6.2020.pdf).
 - Ministerio de Justicia y Derechos Humanos (2025). *Constitución Política del Perú*, 21.ª edición oficial, actualizada al 5 de diciembre de 2025. Artículo 110. [Edición citada en las diapositivas](https://cdn.www.gob.pe/uploads/document/file/9139522/7498785-constitucion-politica_2025-final-dic-2025.pdf?v=1765572191).
+- Bird, S., Loper, E. y Klein, E. (2009). *Natural Language Processing with Python*. O'Reilly Media. [Libro de NLTK](https://www.nltk.org/book/).
 - [Tokenización de NLTK](https://www.nltk.org/api/nltk.tokenize.html), [stemming de NLTK](https://www.nltk.org/api/nltk.stem.SnowballStemmer.html) y [modelos de spaCy](https://spacy.io/usage/models).
 
-Las referencias de la apertura se transcriben de la bibliografía incluida en el Beamer final.
+Las once entradas bibliográficas se transcriben del Beamer final; los enlaces a las herramientas complementan esas referencias.
 ''')
 
     # Evitar afirmaciones antiguas y sincronizar el conteo también en las ayudas.
@@ -336,7 +356,7 @@ Las referencias de la apertura se transcriben de la bibliografía incluida en el
                 'stopwords-final', 'nltk-stop-lista', 'puntuacion-final', 'normalizacion-final',
                 'nltk-minusculas', 'nltk-stemming', 'comparar-normalizacion', 'aplicar-corpus-final',
                 'frecuencias', 'prediccion-lexica', 'tasas', 'contexto', 'evidencia',
-                'etiquetas-preparadas', 'etiquetas-intro']
+                'etiquetas-preparadas', 'etiquetas-intro', 'research-final', 'referencias-final']
     assert len(titulos) == len(destinos), 'Revisar alineación: cambió la secuencia del ZIP final.'
     assert set(destinos).issubset({c['id'] for c in celdas})
     auditoria = {'beamer_sha256': notebook['metadata']['curso']['beamer_sha256'],
