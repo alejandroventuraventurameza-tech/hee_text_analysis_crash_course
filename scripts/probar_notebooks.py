@@ -145,9 +145,9 @@ sys.modules["google.colab"] = colab_simulado
     informe = {"fecha": "2026-10-11", "pruebas": resultados,
         "casos_adicionales": ["30 tasas contra resultados guardados", "tildes y mayúsculas", "consulta sin coincidencias", "negaciones conservadas", "consultas inválidas rechazadas", "ZIP manual real", "recepción de bytes de files.upload simulada", "recuperación sin variables de resultados", "salidas guardadas identificadas", "desafío opcional"],
         "colab_comprobado": False, "subida_colab_comprobada": False,
-        "url_publica_comprobada": False, "nota": "No hay remoto configurado. La carga incluida no depende de él. La interfaz de Colab se comprobará después de concluir los materiales."}
+        "url_publica_comprobada": False, "nota": "Este registro documenta únicamente la ejecución local. La evidencia recibida de la interfaz de Colab está separada en prueba_colab_guiada.json; no se extiende automáticamente a modificaciones posteriores de instrucciones o títulos."}
     (RAIZ / "notebooks/prueba_local.json").write_text(json.dumps(informe, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    print("Prueba local completa; Colab pendiente.")
+    print("Prueba local completa; evidencia de Colab registrada por separado.")
 
 
 if __name__ == "__main__":

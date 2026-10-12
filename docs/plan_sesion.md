@@ -53,7 +53,7 @@ Las preguntas y dificultades breves forman parte de todos los bloques. Los ocho 
 
 **0–3.** Plantear: «¿Cómo analizarían cientos de discursos sin leerlos todos de principio a fin?». Recoger procedimientos propuestos y distinguir localizar pasajes, contar y comprender significado. Aclarar el alcance de la evidencia discursiva.
 
-**3–7.** Mostrar dos fragmentos reales, sin identificar inicialmente al presidente y sin etiquetas. Cada estudiante escribe qué intervención económica reconoce y subraya la expresión que sostiene su interpretación. Discutir una ambigüedad antes de revelar la procedencia. Los ejemplos comunes son A, `u11860`, y B, `u14275`, con unidades completas en el notebook y extractos literales en las slides.
+**3–7.** Mostrar dos fragmentos reales, sin identificar inicialmente al presidente y sin etiquetas. Cada estudiante escribe, en su notebook si ya está abierto o en papel para transferir después, qué intervención económica reconoce y subraya la expresión que sostiene su interpretación. Discutir una ambigüedad antes de revelar la procedencia. Los ejemplos comunes son A, `u11860`, y B, `u14275`, con unidades completas en el notebook y extractos literales en las slides.
 
 **7–10.** Pedir una hipótesis sobre diferencias entre los documentos. Conectar el procedimiento con obligaciones en contratos y normas, riesgos en reportes financieros, prioridades empresariales y problemas recurrentes en noticias, reclamos o encuestas abiertas. Presentar la entrega individual para que el estudiante sepa qué irá construyendo.
 
@@ -105,11 +105,11 @@ Las preguntas y dificultades breves forman parte de todos los bloques. Los ocho 
 
 ### Comparación normalizada
 
-**51–54.** Preguntar si un discurso más largo podría acumular más menciones sin una mayor presencia relativa. Cada estudiante registra una predicción sobre una palabra de su elección entre las opciones que se preparen tras revisar los documentos.
+**51–54.** Preguntar si un discurso más largo podría acumular más menciones sin una mayor presencia relativa. Cada estudiante registra una predicción sobre competencia en Leguía 1921 y Alberto Fujimori 1991; se conserva esa consulta hasta obtener tabla y dos pasajes.
 
 **54–58.** Ejecutar una comparación con conteo, total de palabras y tasa: menciones por 1.000 palabras = 1.000 × menciones / palabras del documento procesado. El denominador incluye todas las palabras obtenidas por la misma regla, incluso las ocultas del ranking. Mostrar resultados por documento.
 
-**58–62.** Cambiar la palabra consultada. Presentar matplotlib cuando se necesite representar las tasas. Ejecutar el gráfico preparado y leer ejes y unidades. No exigir personalización del diseño.
+**58–62.** Mantener la palabra de la primera comparación común. Presentar matplotlib cuando se necesite representar las tasas. Ejecutar el gráfico preparado y leer ejes y unidades. No exigir personalización del diseño.
 
 **62–66.** Comparar predicción y resultado. Guardar una tabla o gráfico para la entrega. Si se agrupa por gobierno, explicar que la tasa conjunta divide la suma de menciones por la suma de palabras, no el promedio simple de tasas; el recorrido común prioriza la comparación por documento.
 
@@ -181,4 +181,4 @@ La progresión de texto, metadatos, transformaciones, frecuencias y búsqueda en
 - Grimmer, J. y Stewart, B. M. (2013). [Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts](https://www.cambridge.org/core/journals/political-analysis/article/text-as-datathe-promise-and-pitfalls-of-automatic-content-analysis-methods-for-politicaltexts/F7AAC8B2909441603FEB25C156448F20). Fundamento para relacionar automatización e interpretación.
 - [Documentación de pandas](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html) y [preguntas frecuentes de Colab](https://research.google.com/colaboratory/faq.html). Referencias para preparar la práctica y el acceso.
 
-Las divisiones de tiempo, actividades, recuperación y entrega son decisiones de diseño de esta sesión, no resultados de esas fuentes. Los fragmentos, conteos y respuestas orientativas están incorporados en los datos, notebooks y slides. El [guion docente](guion_docente.md) coordina su uso; la ejecución en Colab y compilación en Overleaf siguen pendientes.
+Las divisiones de tiempo, actividades, recuperación y entrega son decisiones de diseño de esta sesión, no resultados de esas fuentes. Los fragmentos, conteos y respuestas orientativas están incorporados en los datos, notebooks y slides. El [guion docente](guion_docente.md) coordina su uso; el recorrido común en Colab tiene evidencia guiada y las slides se compilaron y revisaron localmente. La entrega en Drive y la proyección del aula siguen pendientes.

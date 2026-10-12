@@ -1,5 +1,7 @@
 # Notebooks del curso de análisis textual
 
+Las operaciones tienen títulos para facilitar su localización; las celdas de respuesta se editan con doble clic. El caso común conserva competencia y los dos documentos iniciales hasta recuperar la evidencia; luego permite otras consultas.
+
 La práctica común tiene 14 celdas de código y explicaciones breves, distribuidas en 47 celdas totales. Permite cargar seis documentos y sus metadatos, explicar una transformación, contar palabras, comparar menciones por 1.000 palabras, buscar en el original y formular una conclusión limitada a los documentos examinados.
 
 | Archivo | Uso |
@@ -35,7 +37,7 @@ La alternativa de resultados guardados está desactivada por defecto y se usa ú
 
 Al minuto 90 debe haber comparación y dos fragmentos. En el cierre, la comprobación técnica detecta si se cambió la palabra o los documentos sin actualizar tabla y evidencia. No evalúa la calidad de las respuestas. Cuando ambos resultados corresponden a la consulta actual, guarda complementos CSV; el gráfico se guarda como PNG. Las explicaciones, limitación, clasificación y aplicación siguen siendo responsabilidad del estudiante.
 
-La entrega principal es el notebook `.ipynb` con respuestas y salidas visibles, no los complementos. Se descarga y entrega en la carpeta de Drive que comunicará el docente. El procedimiento de copia, guardado y entrega se comprobará en Colab después de concluir los materiales.
+La entrega principal es el notebook `.ipynb` con respuestas y salidas visibles, no los complementos. Se descarga y entrega en la carpeta de Drive que comunicará el docente. La copia y el guardado ya cuentan con evidencia de una prueba guiada; aún falta verificar la recepción en la carpeta de entrega de la clase.
 
 ## Prueba local y límites de la comprobación
 
@@ -59,3 +61,5 @@ python scripts/probar_notebooks.py
 El primer script regenera ambas versiones sin salidas a partir de los datos revisados y de las respuestas orientativas. El segundo las ejecuta en kernels independientes, guarda resultados en la versión docente y registra las pruebas. La regeneración reemplaza el contenido de esas dos versiones: no debe ejecutarse sobre notebooks personales con respuestas nuevas que se quieran conservar.
 
 El código de creación usa la biblioteca estándar. La comprobación local requiere el entorno docente con `jupyter_client`, `ipykernel`, pandas y matplotlib; no instala dependencias. Los estudiantes solo necesitan Colab y su notebook.
+
+Los títulos de celdas y las instrucciones de afinamiento se verificaron mediante ejecución local de las dos versiones. Su presentación en Colab todavía no se observó directamente; la prueba guiada anterior corresponde a la versión previa.

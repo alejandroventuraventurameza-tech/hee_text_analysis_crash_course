@@ -27,13 +27,13 @@ Mantener visibles tres metas de avance: seis documentos al minuto 36; comparaci�
 | 90–98 | S23–S24 | Contraste final y respuesta | Un acuerdo, desacuerdo o duda justificada |
 | 98–110 | S25–S27 | Conclusión, limitación, aplicación, comprobación | Guardar y entregar individualmente |
 
-Los nombres de slide son referencias estables de guion; las etiquetas internas permiten localizar cada frame en `3_content.tex`. No es necesario proyectar todas las slides mientras los estudiantes están ejecutando.
+Los nombres de slide son referencias estables de guion; las etiquetas internas permiten localizar cada frame en `3_content.tex`. No es necesario proyectar todas las slides mientras los estudiantes están ejecutando. Las celdas de código del notebook tienen títulos; úsarlos al indicar qué ejecutar. Para escribir, señalar la celda «Mi respuesta» correspondiente y mostrar una vez el doble clic. Reservar las explicaciones extensas para la voz del docente, sin leer todos los materiales de corrido.
 
 ## Apertura de 0 a 10 minutos
 
 **0–3, S02.** Preguntar: «¿Cómo analizarían cientos de discursos sin leerlos completos?». Recoger dos procedimientos y preguntar qué puede contarse y qué requiere lectura. Decir: «Hoy estudiaremos lo que los mensajes declaran. Para establecer qué se ejecutó necesitamos otras fuentes».
 
-**3–7, S03–S04.** Mostrar A y B, primero sin presidente. Pedir una expresión y una duda. Las slides contienen extractos breves; las unidades completas están en el notebook. No asignar aún una etiqueta ni anticipar quién habla. Si alguien reconoce al presidente, pedir que igualmente justifique con el texto, no con su reputación histórica.
+**3–7, S03–S04.** Si alguien todavía no tiene Colab abierto, pedir que anote A, B, una expresión y una duda en papel. Transferirá esas notas al abrir su copia; el acceso no debe detener esta discusión. Mostrar A y B, primero sin presidente. Pedir una expresión y una duda. Las slides contienen extractos breves; las unidades completas están en el notebook. No asignar aún una etiqueta ni anticipar quién habla. Si alguien reconoce al presidente, pedir que igualmente justifique con el texto, no con su reputación histórica.
 
 **7–10, S05.** Presentar la pregunta y la entrega. Cada estudiante escribe su primera hipótesis. Conectar brevemente con un documento de su carrera: contratos y excepciones, riesgos en reportes, prioridades empresariales, noticias, reclamos o encuestas abiertas. No pedir que todos expliquen su aplicación en este momento.
 
@@ -47,19 +47,19 @@ Preguntar qué enfoque permite fijar reglas, qué operación amplía la escala y
 
 **15–18, S07.** Definir roles por instrumento dominante. Empresario exige propiedad y control de producción; regulador refiere a reglas generales y supervisión de mercados; facilitador refiere a promoción selectiva sin requerir propiedad. También existen asistencial y no aplica. Aceptar evidencia insuficiente como respuesta provisional didáctica, no como una etiqueta nueva del modelo.
 
-**18–21, S08 y retorno a fragmentos.** Pedir decisión, expresión y duda sobre A y B. No preguntar solo «¿qué rol es?». Preguntar quién produce, qué se transfiere y qué finalidad se declara. Advertir que en B la oración anterior llama al Estado ente promotor: leer esa oración en el notebook antes de cerrar la interpretación.
+**18–21, S08 y retorno a fragmentos.** Pedir decisión, expresión y duda sobre A y B. No preguntar solo «¿qué rol es?». Preguntar quién produce, qué se transfiere y qué finalidad se declara. Advertir que en B la oración anterior llama al Estado ente promotor: si el notebook ya está abierto, leer esa oración; si no, conservar la duda y revisar el pasaje completo antes del contraste final. La decisión inicial es provisional.
 
 **21–23.** Recoger dos razonamientos y revelar oralmente la procedencia: A es Velasco 1970, `u11860`, p. 10; B es Alberto Fujimori 1991, `u14275`, p. 10. Conservar ocultas las etiquetas automáticas. Recordar que una unidad es un segmento reconstruido y puede reunir asuntos distintos. Las etiquetas se contrastarán al minuto 90.
 
 ## Colab y carga de 23 a 36 minutos
 
-**23–26, S09.** Distinguir lenguaje, biblioteca y entorno. Mostrar la copia propia y cómo editar una celda de texto. La persona de apoyo atiende accesos; mantener una explicación común breve.
+**23–26, S09.** Distinguir lenguaje, biblioteca y entorno. Mostrar la copia propia y cómo editar una celda de texto. Pedir que transfieran las notas iniciales si las hicieron en papel. La persona de apoyo atiende accesos; mantener una explicación común breve.
 
 **26–29, S10.** Ejecutar el saludo, cambiarlo y volver a ejecutar. Explicar únicamente variable, asignación, comillas y mostrar resultados. No convertir este paso en una introducción completa a Python.
 
 **29–33, S11.** Presentar pandas cuando resuelve la tabla. Ejecutar Preparación con carga incluida; los datos están dentro del notebook. La implementación extensa permanece en una celda preparada. Si se necesita el ZIP, elegir manual y subir el archivo indicado. No hace falta enseñar Git ni montar Drive.
 
-**33–36, S12.** Ejecutar la tabla. Preguntar qué representa una fila, qué metadatos permiten comparar y qué diferencia hay entre documento y unidad. Distinguir la tabla agrupada de tres pares en las slides de las seis filas del notebook. No cargar clasificaciones.
+**33–36, S12.** Ejecutar la tabla. Preguntar qué representa una fila, qué metadatos permiten comparar y qué diferencia hay entre documento y unidad. Distinguir los tres pares ilustrados con facsímiles en las slides de las seis filas del notebook. No cargar clasificaciones.
 
 **Punto de recuperación:** seis documentos disponibles. Si falta un nombre, ejecutar Preparación; si se reinició el entorno, la misma celda reconstruye datos y herramientas. La persona de apoyo mantiene registro de quienes aún necesitan completar este paso.
 
@@ -75,7 +75,7 @@ Definir token como cada aparición según la regla. Singular, plural y sinónimo
 
 ## Comparación de 51 a 66 minutos
 
-**51–54, S15.** Mantener oculta S17. Pedir la predicción y advertir que mayor extensión permite más menciones absolutas. El ejemplo común es competencia en Leguía 1921 y Alberto Fujimori 1991; se puede cambiar la palabra o los documentos.
+**51–54, S15.** Mantener oculta S17. Pedir la predicción y advertir que mayor extensión permite más menciones absolutas. El ejemplo común es competencia en Leguía 1921 y Alberto Fujimori 1991; mantener esta consulta hasta reunir tabla y dos fragmentos. La modificación individual ya puede hacerse con el ranking de 10 a 8 o el contexto de 100 a 180. Después del caso común, permitir otra palabra o documentos a quienes estén listos.
 
 **54–58, S16.** Ejecutar tasas y explicar numerador y denominador. Leer «menciones por mil palabras». No llamar porcentaje a la tasa. Mostrar la tabla con menciones, palabras y tasas, sin ocultar el denominador.
 
@@ -141,3 +141,9 @@ Si hay unos cinco minutos de retraso, mantener competencia y los dos documentos 
 Si al minuto 74 persisten problemas, recuperar tablas, leer dos pasajes de la consulta común y reducir el contraste con etiquetas a un caso breve. Trasladar ese tiempo a ejecución y entrega, registrando quién necesita apoyo. No agregar el desafío opcional a quienes todavía construyen su producto común.
 
 Los apéndices A01–A04 y las referencias se reservan para consultas y continuación. Los datos, citas y respuestas orientativas proceden de los materiales revisados; la [guía de ejemplos](../data/docente/guia_ejemplos.md) amplía los casos de reserva. La [documentación de slides](../slides/README.md) explica la compilación local, la alternativa de Overleaf y la revisión visual realizada.
+
+## Foco para el afinamiento
+
+El aprendizaje central del caso común es distinguir una frecuencia de palabra de su significado y de lo que un gobierno efectivamente ejecutó. Al cerrar la lectura, preguntar: «¿Podemos interpretar las 13 coincidencias como 13 referencias a competencia de mercado? ¿Qué muestran los dos pasajes y qué falta revisar?». Dos usos distintos bastan para cuestionar esa equivalencia; no permiten clasificar las restantes coincidencias sin leerlas.
+
+Durante el cierre, pedir a una persona que explique el denominador y a otra que explique qué cambió al leer. Es una comprobación oral breve dentro del tiempo ya reservado, no una actividad adicional ni una evaluación con puntajes.

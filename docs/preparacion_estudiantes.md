@@ -8,7 +8,7 @@ Esta comprobación toma aproximadamente cinco minutos. Usa la misma cuenta de Go
 2. Abre [Google Colab](https://colab.research.google.com/) e inicia sesión en tu cuenta. En la portada, pulsa **Subir cuaderno** y selecciona el archivo descargado.
 3. Guarda una copia propia en Drive y cambia su nombre a `apellido_nombre_analisis_textual`. Si el archivo ya se guardó en tu Drive, confirma su nombre y ubicación antes de continuar.
 
-La portada en español y el botón Subir cuaderno se comprobaron el 11 de octubre de 2026. Una prueba guiada posterior confirmó la carga incluida y resultados de tablas, gráfico y contexto; copia, guardado y descarga siguen pendientes de comprobación. Los nombres pueden aparecer en español o inglés. La documentación oficial confirma que Colab admite subir notebooks y guardarlos en Drive. [Preguntas frecuentes de Colab](https://research.google.com/colaboratory/faq.html).
+La portada en español y el botón Subir cuaderno se comprobaron el 11 de octubre de 2026. Una prueba guiada posterior confirmó la carga incluida y resultados de tablas, gráfico y contexto; copia, guardado, descarga y reapertura fueron confirmados por el usuario, y la copia descargada conserva texto, tablas y gráfico. Los títulos añadidos durante el afinamiento aún requieren comprobar su presentación en la interfaz de Colab. Los nombres pueden aparecer en español o inglés. La documentación oficial confirma que Colab admite subir notebooks y guardarlos en Drive. [Preguntas frecuentes de Colab](https://research.google.com/colaboratory/faq.html).
 
 ## Ejecutar y cargar
 

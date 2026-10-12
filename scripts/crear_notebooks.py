@@ -162,18 +162,35 @@ def crear(docente=False):
         agregar("markdown", identificador, texto)
 
     def codigo(identificador, texto, preparado=False):
+        titulos = {
+            "primera-celda": "Saludo: tu primer resultado",
+            "tabla-documentos": "Tabla de los seis documentos",
+            "original-conteo": "Texto original y versión para conteos",
+            "frecuencias": "Frecuencias: cambia de 10 a 8 palabras",
+            "tasas": "Comparación: conteos y menciones por 1.000 palabras",
+            "grafico": "Gráfico de la comparación",
+            "contextos": "Contextos: amplía de 100 a 180 caracteres",
+            "evidencia": "Dos fragmentos completos y su procedencia",
+            "comprobacion-entrega": "Comprobación antes de guardar",
+            "usar-guardados": "Resultados guardados: solo si el docente lo indica",
+            "desafio-codigo": "Desafío opcional: retirar un documento",
+        }
         agregar("code", identificador, texto, preparado)
+        if identificador in titulos:
+            celdas[-1]["source"].insert(0, "# @title " + titulos[identificador] + "\n")
 
     def respuesta(identificador, consigna, resuelta):
         md(identificador, consigna + ("\n\n**Ejemplo docente de respuesta, no respuesta única.**\n\n" + resuelta if docente else "\n\n**Mi respuesta:** completa aquí."))
 
     filas_ejemplos = list(csv.DictReader((DATOS / "ejemplos_manuales.csv").open(encoding="utf-8")))
     a, b = (next(r["texto"] for r in filas_ejemplos if r["ejemplo_id"] == letra) for letra in ["A", "B"])
-    md("portada", f'''# Análisis textual de mensajes presidenciales con Python
+    md("portada", f'''# Discursos presidenciales bajo la lupa
+
+    Análisis textual con Python · Historia Económica y Empresarial · 2026 II
 
     {"Versión resuelta para el docente. Sus respuestas son ejemplos para discutir; no constituyen etiquetas humanas validadas." if docente else "Notebook individual para estudiantes. Ejecuta y modifica código en tu propia laptop, aunque discutas con otras personas."}
 
-    Sesión presencial de 110 minutos, 12 de octubre de 2026. Alejandro Ventura, por invitación de la profesora Beatriz Rodríguez Santizabal.
+    Alejandro Ventura · al.venturam@up.edu.pe
 
     **Pregunta:** ¿Qué instrumentos de intervención económica aparecen en estos mensajes y qué diferencias podemos sostener al comparar palabras y leer fragmentos?
 
@@ -183,9 +200,13 @@ def crear(docente=False):
 
     Antes de cada resultado escribe una predicción, ejecuta, interpreta y comprueba con el original. Cambia los valores señalados y vuelve a ejecutar. Las celdas tituladas Preparación ya resuelven las operaciones difíciles; no necesitas copiarlas ni entender toda su implementación.
 
-    Completa las celdas de texto que dicen Mi respuesta; en Colab puedes editarlas con doble clic. No borres tu primera hipótesis si cambia. Al final entrega este notebook con una tabla o gráfico, dos fragmentos identificados, conclusión, limitación y aplicación a tu carrera. La actividad no tiene calificación.
+    **Para escribir:** haz doble clic en una celda que diga **Mi respuesta** y reemplaza «completa aquí» por tu explicación. Usa las celdas ya incluidas. Las respuestas se escriben como texto; los cálculos se ejecutan con el botón ▶ de las celdas de código. Conserva tu primera hipótesis si cambia.
 
-    **Antes de ejecutar:** guarda una copia propia en Drive y ponle `apellido_nombre_analisis_textual`. Las instrucciones de copia, ejecución y descarga se comprobarán en Colab antes de la clase. Esta versión fue preparada para Colab; la comprobación allí sigue pendiente. En clase sigue el ritmo del docente; no ejecutes todas las celdas antes de escribir tus predicciones.
+    **Para encontrar una operación:** busca su título, por ejemplo **Recuperación de la comparación** o **Comprobación antes de guardar**. Puedes usar Ctrl+F en el navegador. Si un título de código no aparece como encabezado, está escrito en la primera línea de la celda.
+
+    Al final entrega este notebook con una tabla o gráfico, dos fragmentos identificados, conclusión, limitación y aplicación a tu carrera. La actividad no tiene calificación.
+
+    **Antes de ejecutar:** guarda una copia propia en Drive y ponle `apellido_nombre_analisis_textual`. En clase sigue el ritmo del docente y escribe tus predicciones antes de obtener resultados. Si todavía no tienes el notebook abierto en la primera discusión, anota A y B en papel y transfiere tus respuestas cuando abras tu copia.
     ''')
     md("fragmentos-ciegos", f'''## 0–10 minutos Primera hipótesis
 
@@ -279,7 +300,9 @@ def crear(docente=False):
 
     **Antes de ejecutar escribe una predicción:** ¿en qué documento aparecerá más la palabra? ¿Cambiará la comparación si atendemos a la extensión?
 
-    Cambia `palabra` o los identificadores de `ids_comparar`. Una lista usa corchetes y separa sus elementos con comas. Usa una sola forma exacta, con tildes. El recorrido mínimo necesita dos documentos distintos; puedes incluir otros de los seis.
+    **Primera comparación común:** usa `competencia`, `leguia_1921` y `alberto_fujimori_1991` hasta completar la tabla y los dos fragmentos. Tu modificación personal puede ser cambiar el ranking de 10 a 8 o el contexto de 100 a 180. Después de interpretar el caso común puedes explorar otra palabra o cambiar los documentos.
+
+    Para esa exploración, cambia `palabra` o los identificadores de `ids_comparar` y vuelve a ejecutar comparación, gráfico, contextos y fragmentos. Una lista usa corchetes y separa sus elementos con comas. Usa una sola forma exacta, con tildes, y al menos dos documentos distintos.
 
     **Menciones por 1.000 palabras = 1.000 × menciones / palabras del mismo documento procesado.** La función preparada hace este cálculo. La tasa no es porcentaje de unidades con un rol. Ni normalizar ni aumentar documentos elimina las diferencias de ocasión.
     ''')

@@ -8,7 +8,7 @@ Puedes discutir con otras personas, pero cada estudiante ejecuta y modifica cód
 
 ¿Qué sugiere la presencia de una palabra sobre los instrumentos de intervención económica mencionados en estos documentos y qué cambia al leerla en contexto?
 
-Elige una palabra que permita una comparación útil entre al menos dos documentos. Una frecuencia sirve para localizar y comparar menciones; no determina por sí sola un rol empresario, regulador o facilitador.
+Primero completa el caso común: competencia en Leguía 1921 y Alberto Fujimori 1991. Después puedes elegir otra palabra para explorar al menos dos documentos. Una frecuencia sirve para localizar y comparar menciones; no determina por sí sola un rol empresario, regulador o facilitador.
 
 ## Construye la entrega durante la práctica
 
@@ -61,7 +61,7 @@ En dos o tres oraciones, propone una aplicación a tu carrera: qué documentos e
 
 ## Estructura breve para tus respuestas
 
-Completa estos campos en las celdas de texto del notebook; conserva las salidas junto a las respuestas que explican.
+Completa estos campos en las celdas de texto del notebook; conserva las salidas junto a las respuestas que explican. Para los campos previos basta una o dos oraciones; la conclusión tiene tres a cinco y la aplicación dos o tres. La modificación de código puede ser cambiar el ranking de 10 a 8 o el contexto de 100 a 180; no exige cambiar la consulta común.
 
 1. **Documentos y fila:** …
 2. **Palabra y predicción inicial:** …

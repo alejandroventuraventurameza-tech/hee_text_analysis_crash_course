@@ -24,6 +24,10 @@ Las ventanas ampliadas aparecían recortadas por un límite visual de 250 caract
 
 El usuario confirmó el guardado, descarga y reapertura. Se inspeccionó la copia local `estudiantes_prueba_11_10_1811pm.ipynb`, conservando su archivo sin modificaciones: contiene Prueba de guardado, un gráfico PNG, seis salidas de tabla HTML, las justificaciones completas y ninguna salida de error. La copia descargada respalda la conservación de texto y resultados; el guardado en Drive y la reapertura se registran según la confirmación del usuario. La carga manual real del ZIP también fue confirmada por el usuario con la salida de seis documentos y 619 unidades. Después de las instrucciones de reinicio y carga incluida, se recibió nuevamente la comparación correcta. El reinicio no se observó directamente ni se confirmó de forma explícita. El usuario compartió las versiones reales de Colab: Python 3.13.16, pandas 2.2.3 y matplotlib 3.10.0.
 
+## Revisión del afinamiento
+
+El notebook tiene ahora títulos en todas las celdas de código e instrucciones más precisas para escribir, conservar la consulta común y explorar después. Las dos versiones se ejecutaron de nuevo localmente. Falta observar estos títulos e instrucciones en Colab; la evidencia guiada anterior no comprueba automáticamente esta revisión. Las decisiones están en [afinamiento](afinamiento.md).
+
 ## Prueba completa en Colab
 
 Usar una copia de prueba del notebook de estudiantes. Esta comprobación docente puede ejecutar el recorrido completo; durante la clase se conserva el orden de predicciones antes de resultados.
