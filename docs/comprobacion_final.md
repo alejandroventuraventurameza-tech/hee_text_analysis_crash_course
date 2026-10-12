@@ -10,9 +10,9 @@ Los materiales están preparados para revisar el recorrido de principio a fin an
 | Datos | Seis PDF trazables, 148 páginas y 619 unidades; integridad y procedencia comprobadas |
 | Notebooks | Ambas versiones ejecutadas completas localmente; [registro](../notebooks/prueba_local.json) |
 | Carga manual | Lectura local y subida mediante interfaz real de Colab comprobadas; el usuario recibió 6 documentos y 619 unidades |
-| Colab | Recorrido común recibido mediante prueba guiada, con guardado y reapertura confirmados. Copia descargada revisada con texto, gráfico y tablas. Reinicio real y versiones pendientes |
-| Beamer | Revisión estática aprobada; [registro](../slides/revision_estatica.json) |
-| Overleaf | Compilación y revisión visual pendientes, a cargo del docente |
+| Colab | Recorrido común recibido mediante prueba guiada, con guardado y reapertura confirmados. Copia descargada revisada con texto, gráfico y tablas. Recuperación final recibida y versiones registradas; reinicio real sin confirmación explícita |
+| Beamer | Revisión estática, compilación local y revisión visual de 34 páginas realizadas; [registro visual](../slides/revision_visual.json) |
+| Overleaf | Alternativa opcional; la presentación ya se compiló localmente |
 | Acceso público | Repositorio local sin remoto configurado; publicación a cargo del autor |
 | Entrega en Drive | Carpeta y enlace por definir y comprobar |
 
@@ -22,7 +22,7 @@ El 11 de octubre se abrió Colab en el navegador integrado y se observó el enla
 
 Las ventanas ampliadas aparecían recortadas por un límite visual de 250 caracteres. Se retiró ese límite en las dos versiones del notebook y el usuario compartió la salida corregida sin truncamiento. La tabla de etiquetas también recortaba justificaciones: se retiró el límite en esa celda, pendiente de ejecutar el cambio de tabla en la copia del usuario. Las justificaciones completas se recibieron mediante una celda adicional de impresión. Los textos originales, conteos y etiquetas no cambian.
 
-El usuario confirmó el guardado, descarga y reapertura. Se inspeccionó la copia local `estudiantes_prueba_11_10_1811pm.ipynb`, conservando su archivo sin modificaciones: contiene Prueba de guardado, un gráfico PNG, seis salidas de tabla HTML, las justificaciones completas y ninguna salida de error. La copia descargada respalda la conservación de texto y resultados; el guardado en Drive y la reapertura se registran según la confirmación del usuario. La carga manual real del ZIP también fue confirmada por el usuario con la salida de seis documentos y 619 unidades. Aún faltan reinicio del entorno y versiones de Colab.
+El usuario confirmó el guardado, descarga y reapertura. Se inspeccionó la copia local `estudiantes_prueba_11_10_1811pm.ipynb`, conservando su archivo sin modificaciones: contiene Prueba de guardado, un gráfico PNG, seis salidas de tabla HTML, las justificaciones completas y ninguna salida de error. La copia descargada respalda la conservación de texto y resultados; el guardado en Drive y la reapertura se registran según la confirmación del usuario. La carga manual real del ZIP también fue confirmada por el usuario con la salida de seis documentos y 619 unidades. Después de las instrucciones de reinicio y carga incluida, se recibió nuevamente la comparación correcta. El reinicio no se observó directamente ni se confirmó de forma explícita. El usuario compartió las versiones reales de Colab: Python 3.13.16, pandas 2.2.3 y matplotlib 3.10.0.
 
 ## Prueba completa en Colab
 
@@ -41,9 +41,9 @@ Usar una copia de prueba del notebook de estudiantes. Esta comprobación docente
 
 No hacen falta claves, instalaciones de modelos ni GPU. Si aparece un fallo, registrar celda y mensaje, reparar la causa y repetir el tramo afectado; si se modifica código del recorrido común, volver a ejecutar el notebook completo.
 
-## Revisión en Overleaf y proyección
+## Compilación y proyección
 
-Importar [beamer_overleaf.zip](../paquetes/beamer_overleaf.zip), seleccionar `1_main.tex`, XeLaTeX y Biber. Revisar el log y las referencias. Comprobar especialmente portada, fragmento B, tabla de aplicaciones y las tres slides bibliográficas, además de las restantes páginas. Revisar que notas ocultas no aparezcan en el PDF distribuido.
+La versión actual ya se compiló localmente con XeLaTeX y Biber y se revisaron las 34 páginas. Como alternativa, importar [beamer_overleaf.zip](../paquetes/beamer_overleaf.zip), seleccionar `1_main.tex`, XeLaTeX y Biber. Revisar el log y las referencias. Comprobar especialmente portada, fragmento B, tabla de aplicaciones y las tres slides bibliográficas, además de las restantes páginas. Revisar que notas ocultas no aparezcan en el PDF distribuido.
 
 Proyectar unas slides con fragmentos, una tabla y el gráfico para comprobar legibilidad desde el aula. Confirmar HDMI y que alternar PDF y notebook no oculta instrucciones relevantes. Si el contenido desborda, recortar o dividir antes de reducir el tamaño del texto. La revisión estática no sustituye estas acciones.
 
@@ -59,12 +59,13 @@ Realizar una entrega de prueba de un notebook sin datos personales innecesarios,
 
 | Comprobación | Fecha y entorno | Resultado o incidencia |
 |---|---|---|
-| Ejecución completa real en Colab | Pendiente | |
+| Recorrido común real en Colab | 11/10/2026, prueba guiada | Salidas esperadas recibidas; recuperación final correcta. Reinicio real sin confirmación explícita |
+| Versiones reales de Colab | 11/10/2026, salida del usuario | Python 3.13.16, pandas 2.2.3 y matplotlib 3.10.0 |
 | Carga manual mediante interfaz | 11/10/2026, Colab, prueba guiada | ZIP subido y seis documentos con 619 unidades cargados |
 | Copia y guardado en Drive | 11/10/2026, prueba guiada | Confirmados por el usuario |
 | Descarga y reapertura con salidas | 11/10/2026, prueba guiada y archivo local | Texto, gráfico y tablas conservados en la copia revisada; reapertura confirmada por el usuario |
-| Compilación de Overleaf y referencias | Pendiente | |
-| Revisión visual de todas las slides | Pendiente | |
+| Compilación local y referencias | 11/10/2026, XeLaTeX y Biber | PDF de 34 páginas, referencias resueltas y sin avisos de desbordes |
+| Revisión visual de todas las slides | 11/10/2026, PDF renderizado | 34 páginas revisadas; proyección en aula pendiente |
 | Acceso a materiales públicos | Pendiente | |
 | Recepción de entrega de prueba | Pendiente | |
 | Proyector y HDMI | Pendiente | |

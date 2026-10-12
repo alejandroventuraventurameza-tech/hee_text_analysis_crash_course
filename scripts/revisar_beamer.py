@@ -92,6 +92,9 @@ def main():
         ruta = template / entrada["archivo_template"]
         assert hashlib.sha256(ruta.read_bytes()).hexdigest() == entrada["sha256"]
     assert (template / "images/UP_logo.jpg").read_bytes() == (SLIDES / "images/UP_logo.jpg").read_bytes()
+    for facsimil in procedencia.get("facsimiles", []):
+        assert hashlib.sha256((RAIZ / facsimil["original"]).read_bytes()).hexdigest() == facsimil["sha256_original"]
+        assert hashlib.sha256((SLIDES / facsimil["imagen"]).read_bytes()).hexdigest() == facsimil["sha256_imagen"]
     colores = re.findall(r"\\definecolor\{[^}]+\}\{[^}]+\}\{[^}]+\}", textos["2_preamble.tex"])
     colores_originales = re.findall(r"\\definecolor\{[^}]+\}\{[^}]+\}\{[^}]+\}", (template / "2_preamble_pd01.tex").read_text(encoding="utf-8"))
     assert colores == colores_originales, "La paleta original debe conservarse"
@@ -106,18 +109,19 @@ def main():
         "limite": "La revisión estática no confirma compilación, referencias resueltas ni ajuste visual."}
     (SLIDES / "revision_estatica.json").write_text(json.dumps(informe, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     contenidos = {p.relative_to(SLIDES).as_posix(): p.read_bytes() for p in sorted(SLIDES.rglob("*"))
-                  if p.is_file() and p.name != "README.md"}
+                  if p.is_file() and (p.suffix in {".tex", ".bib", ".png", ".jpg", ".csv"}
+                    or p.relative_to(SLIDES).as_posix() in {"data/procedencia.json", "revision_estatica.json"})}
     leeme = """# Proyecto Beamer para Overleaf
 
 Importa este ZIP como proyecto nuevo. Selecciona 1_main.tex y el compilador XeLaTeX. La bibliografía usa Biber y estilo APA. Overleaf normalmente ejecuta Biber durante la compilación; si faltan referencias, recompila desde cero y revisa el log.
 
-1_main.tex carga 2_preamble.tex y 3_content.tex desde la raíz. La bibliografía está en 4_bibliography.bib, el logo en images/ y la procedencia y datos en data/. No se requiere una carpeta pd01 ni acceso al repositorio de investigación.
+1_main.tex carga 2_preamble.tex y 3_content.tex desde la raíz. La bibliografía está en 4_bibliography.bib, el logo y cuatro facsímiles documentales en images/ y la procedencia y datos en data/. No se requiere una carpeta pd01 ni acceso al repositorio de investigación.
 
 La presentación conserva el formato 4:3 y la identidad del template original. Contiene 27 slides comunes, cuatro de consulta y tres de referencias. Las notas permanecen ocultas. Los resultados aparecen después de las actividades de predicción; el docente controla cuándo avanzar.
 
 Dependencias de TeX: Beamer, fontspec, babel español, amsmath, amssymb, graphicx, geometry, multicol, TikZ, etoolbox, biblatex-apa con Biber e idioma español, csquotes, pgfplots y appendixnumberbeamer. El gráfico de reserva usa pgfplots con compatibilidad 1.18. No hay fuentes privadas, claves ni descargas durante la compilación.
 
-Se revisaron estáticamente rutas, referencias, estructura y coherencia con los datos. NO se compiló localmente ni se verificó en Overleaf. Revisa allí portada, fragmento B, tabla de aplicaciones y bibliografía, además de los avisos del log. La revisión estática no prueba ausencia de desbordes ni ajuste visual.
+Se revisan estáticamente rutas, referencias, estructura y coherencia con los datos. Este registro estático no prueba ausencia de desbordes ni ajuste visual. La revisión de compilación local se documenta por separado en slides/revision_visual.json, cuando existe, dentro del repositorio de clase. Overleaf no se comprueba mediante este script. También puedes compilar localmente con XeLaTeX, Biber y dos pasadas adicionales de XeLaTeX.
 
 SHA256SUMS.txt identifica los archivos incluidos, excepto el propio listado. El guion docente y los notebooks se distribuyen por separado desde el repositorio de clase.
 """

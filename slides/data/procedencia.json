@@ -44,5 +44,59 @@
       "texto_unidad": "En general, hemos contemplado simplificar o eliminar la mayor cantidad de procedimientos burocráticos, para devolver de esta manera al Estado su condición de ente promotor de la actividad económica y fiel cumplidor de la atención de necesidades básicas de la población. Esto supone que el Estado concentre su acción en el diseño de políticas generales y en la atención de servicios básicos y traslade al sector privado, con algunas excepciones, la responsabilidad del desarrollo de la producción y la comercialización de bienes y servicios, el que se dará bajo condición de competencia y de mercado.",
       "url_pdf": "https://www3.congreso.gob.pe/Docs/participacion/museo/congreso/files/mensajes/1981-2000/files/mensaje-1991-af.pdf"
     }
+  ],
+  "facsimiles": [
+    {
+      "imagen": "images/28_07_1921_leguia_pagina1.png",
+      "original": "data/originales/28_07_1921_leguia.pdf",
+      "pagina_pdf": 1,
+      "recorte_puntos": [
+        75,
+        65,
+        520,
+        770
+      ],
+      "sha256_original": "e82fcf707ac3af362ffc5767c4d7f22d747b21cbd1b9f9d98f26a000bbef8f0a",
+      "sha256_imagen": "9c134164d1243a35bcce1b3d97225e80a3b7ca1f2fbe37f59c001e2e1668c2fb"
+    },
+    {
+      "imagen": "images/28_07_1920_leguia_pagina1.png",
+      "original": "data/originales/28_07_1920_leguia.pdf",
+      "pagina_pdf": 1,
+      "recorte_puntos": [
+        75,
+        65,
+        520,
+        770
+      ],
+      "sha256_original": "a2700d63632038d77afda8fb4c8e7822770dd72d81d78ccb4b742e90e09d2397",
+      "sha256_imagen": "657390aece66e98f8399939b7d32f205394ce62520b923c51d79ca870fd3b5b1"
+    },
+    {
+      "imagen": "images/28_07_1969_velasco_pagina1.png",
+      "original": "data/originales/28_07_1969_velasco.pdf",
+      "pagina_pdf": 1,
+      "recorte_puntos": [
+        75,
+        65,
+        520,
+        770
+      ],
+      "sha256_original": "5785b5bd5884b436d14c9ab0188b10d48dcb9f14964b0930094db372892f9d3e",
+      "sha256_imagen": "c55db939694d73bc9561a9ae3fe011e10089fe1903e49f7982d7f7a01631ba87"
+    },
+    {
+      "imagen": "images/28_07_1991_alberto_fujimori_pagina1.png",
+      "original": "data/originales/28_07_1991_alberto_fujimori.pdf",
+      "pagina_pdf": 1,
+      "recorte_puntos": [
+        75,
+        65,
+        520,
+        770
+      ],
+      "sha256_original": "284e12c95e9daffc8633df0b0fa4a235f3d52e92a7f44ce440a9148c8278e9cc",
+      "sha256_imagen": "a1fb221c24a2a55bc88312f5e7dac439b21f7532b77b73865f86b6de87b89b50"
+    }
   ]
 }

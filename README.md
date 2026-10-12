@@ -1,6 +1,6 @@
-# Curso presencial de análisis textual con Python
+# Discursos presidenciales bajo la lupa
 
-Materiales para una sesión de 110 minutos prevista para el lunes 12 de octubre de 2026, a cargo de Alejandro Ventura, por invitación de la profesora Beatriz Rodríguez Santizabal. El curso utiliza Google Colab y mensajes presidenciales peruanos como caso para aprender a comparar palabras y comprobar interpretaciones con evidencia textual.
+Materiales para una sesión de 110 minutos prevista para el lunes 12 de octubre de 2026, a cargo de Alejandro Ventura, para Historia Económica y Empresarial, semestre 2026 II. El curso utiliza Google Colab y mensajes presidenciales peruanos como caso para aprender a comparar palabras y comprobar interpretaciones con evidencia textual.
 
 ## Diseño acordado
 
@@ -23,7 +23,7 @@ Para estudiantes: empezar por la [preparación breve](docs/preparacion_estudiant
 | [Notebook resuelto para el docente](notebooks/docente_resuelto.ipynb) | Respuestas orientativas y salidas de la ejecución local |
 | [Uso y pruebas de los notebooks](notebooks/README.md) | Carga, recuperación, entrega y diferencias respecto de Colab |
 | [Guion docente](docs/guion_docente.md) | Coordinación de tiempos, preguntas, errores y recortes |
-| [Slides Beamer](slides/README.md) | Archivos editables y configuración para Overleaf |
+| [Slides Beamer](slides/README.md) | PDF revisado, archivos editables y compilación local u Overleaf |
 | [ZIP para Overleaf](paquetes/beamer_overleaf.zip) | Proyecto autocontenido para XeLaTeX y Biber |
 | [Preparación de estudiantes](docs/preparacion_estudiantes.md) | Acceso, primera celda, carga y guardado |
 | [Recursos para continuar](docs/recursos_continuacion.md) | Prácticas y lecturas opcionales verificadas |
@@ -33,7 +33,7 @@ Para estudiantes: empezar por la [preparación breve](docs/preparacion_estudiant
 ## Comprobaciones antes de la clase
 
 1. Comprobación en Colab de acceso, ejecución, carga, copia y guardado al concluir los materiales.
-2. Compilación y revisión visual de las slides en Overleaf a cargo del docente.
+2. Comprobación de legibilidad de las slides con el proyector del aula; compilación y revisión visual local realizadas.
 3. Publicación del repositorio por el autor y comprobación del acceso público.
 4. Carpeta de entrega en Drive y recepción de una entrega de prueba.
 

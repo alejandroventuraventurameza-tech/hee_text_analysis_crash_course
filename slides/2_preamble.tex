@@ -69,7 +69,7 @@
 \setbeamercolor{normal text}{fg=UWGrayL4}
 \setbeamercolor{section in toc}{fg=emerald}
 \setbeamercolor{subsection in toc}{fg=bluegreen}
-\setbeamercolor{frametitle}{fg=UWMathPinkL2, bg=UWGrayL1}
+\setbeamercolor{frametitle}{fg=UWMathPinkL4, bg=UWGrayL1}
 \setbeamercolor{block title}{bg=emerald, fg=ivory}
 \setbeamercolor{block body}{bg=peacockblue!20, fg=peacockblue}
 \setbeamercolor{section number projected}{bg=turquise, fg=black}
@@ -125,13 +125,17 @@
     {\includegraphics[width=0.34\paperwidth]{UP_logo.jpg}};
   \node[anchor=north west] at ([yshift=-35pt,xshift=15pt]current page.north west)
     {\parbox[t]{0.51\paperwidth}{\usebeamercolor[fg]{author}\Large\bfseries\insertauthor}};
-  \node[anchor=north west] at ([yshift=-66pt,xshift=15pt]current page.north west)
+  \node[anchor=north west] at ([yshift=-61pt,xshift=15pt]current page.north west)
+    {\parbox[t]{0.51\paperwidth}{\hypersetup{urlcolor=UWWhite}\small\href{mailto:al.venturam@up.edu.pe}{al.venturam@up.edu.pe}}};
+  \node[anchor=north west] at ([yshift=-82pt,xshift=15pt]current page.north west)
     {\parbox[t]{0.51\paperwidth}{\usebeamercolor[fg]{institute}\normalsize\insertinstitute}};
   \node[anchor=north] at ([yshift=-1pt]current page.center)
-    {\parbox[t]{\textwidth}{\centering\usebeamercolor[fg]{title}\fontsize{23}{26}\selectfont\bfseries\inserttitle}};
-  \node[anchor=north] at ([yshift=-68pt]current page.center)
-    {\parbox[t]{\textwidth}{\centering\insertcourse}};
+    {\parbox[t]{\textwidth}{\centering\usebeamercolor[fg]{title}\fontsize{22}{25}\selectfont\bfseries\inserttitle}};
+  \node[anchor=north] at ([yshift=-60pt]current page.center)
+    {\parbox[t]{\textwidth}{\centering\large Análisis textual con Python}};
   \node[anchor=north] at ([yshift=-90pt]current page.center)
+    {\parbox[t]{\textwidth}{\centering\insertcourse}};
+  \node[anchor=north] at ([yshift=-111pt]current page.center)
     {\parbox[t]{\textwidth}{\centering\small\insertclass}};
 \end{tikzpicture}
 }
@@ -220,10 +224,18 @@
 \renewcommand{\thefootnote}{\ensuremath{\ast}}
 
 % Configuración de la diapositiva de título
-\title[Análisis textual]{Análisis textual\\con Python}
+\title[Análisis textual]{Discursos presidenciales\\bajo la lupa}
 \author[Alejandro V.]{Alejandro Ventura}
 \institute[UP]{Universidad del Pacífico}
-\course{Curso presencial de 110 minutos}
-\class{12 de octubre de 2026\\Por invitación de Beatriz Rodríguez Santizabal}
+\course{Historia Económica y Empresarial}
+\class{2026 II}
 \setbeameroption{hide notes}
+\setbeamertemplate{bibliography item}{}
+\setbeamercolor{bibliography entry author}{fg=UWBlack}
+\setbeamercolor{bibliography entry title}{fg=UWBlack}
+\setbeamercolor{bibliography entry location}{fg=UWBlack}
+\setbeamercolor{bibliography entry note}{fg=UWBlack}
+\hypersetup{colorlinks=true,linkcolor=UWBlack,citecolor=UWBlack,urlcolor=peacockblue}
+\setbeamercolor{description item}{fg=UWMathPinkL4}
+\setbeamercolor{item projected}{fg=UWMathPinkL4}
 \newcommand{\fuente}[1]{\par\vspace{0.15cm}{\scriptsize #1\par}}

@@ -8,6 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import fitz
 
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -22,13 +23,17 @@ COVER = r"""\setbeamertemplate{title page}{
     {\includegraphics[width=0.34\paperwidth]{UP_logo.jpg}};
   \node[anchor=north west] at ([yshift=-35pt,xshift=15pt]current page.north west)
     {\parbox[t]{0.51\paperwidth}{\usebeamercolor[fg]{author}\Large\bfseries\insertauthor}};
-  \node[anchor=north west] at ([yshift=-66pt,xshift=15pt]current page.north west)
+  \node[anchor=north west] at ([yshift=-61pt,xshift=15pt]current page.north west)
+    {\parbox[t]{0.51\paperwidth}{\hypersetup{urlcolor=UWWhite}\small\href{mailto:al.venturam@up.edu.pe}{al.venturam@up.edu.pe}}};
+  \node[anchor=north west] at ([yshift=-82pt,xshift=15pt]current page.north west)
     {\parbox[t]{0.51\paperwidth}{\usebeamercolor[fg]{institute}\normalsize\insertinstitute}};
   \node[anchor=north] at ([yshift=-1pt]current page.center)
-    {\parbox[t]{\textwidth}{\centering\usebeamercolor[fg]{title}\fontsize{23}{26}\selectfont\bfseries\inserttitle}};
-  \node[anchor=north] at ([yshift=-68pt]current page.center)
-    {\parbox[t]{\textwidth}{\centering\insertcourse}};
+    {\parbox[t]{\textwidth}{\centering\usebeamercolor[fg]{title}\fontsize{22}{25}\selectfont\bfseries\inserttitle}};
+  \node[anchor=north] at ([yshift=-60pt]current page.center)
+    {\parbox[t]{\textwidth}{\centering\large Análisis textual con Python}};
   \node[anchor=north] at ([yshift=-90pt]current page.center)
+    {\parbox[t]{\textwidth}{\centering\insertcourse}};
+  \node[anchor=north] at ([yshift=-111pt]current page.center)
     {\parbox[t]{\textwidth}{\centering\small\insertclass}};
 \end{tikzpicture}
 }
@@ -45,6 +50,7 @@ def main():
     preambulo = preambulo.replace(r"\addbibresource{pd01/4_bibliography_pd01.bib}",
         "\\addbibresource{4_bibliography.bib}\n\\DeclareLanguageMapping{spanish}{spanish-apa}\n\\usepackage{csquotes}\n\\usepackage{pgfplots}\n\\pgfplotsset{compat=1.18}")
     preambulo = preambulo.replace(r"\setbeamercolor{normal text}{fg=UWGrayL3}", r"\setbeamercolor{normal text}{fg=UWGrayL4}")
+    preambulo = preambulo.replace(r"\setbeamercolor{frametitle}{fg=UWMathPinkL2, bg=UWGrayL1}", r"\setbeamercolor{frametitle}{fg=UWMathPinkL4, bg=UWGrayL1}")
     preambulo = preambulo.replace("{Definition \\thedefcounter", "{Definición \\thedefcounter")
     preambulo = preambulo.replace("{Theorem \\thetheocounter", "{Teorema \\thetheocounter")
     preambulo = preambulo.replace("{Example \\theexcounter", "{Ejemplo \\theexcounter")
@@ -55,18 +61,33 @@ def main():
     fin = preambulo.index("% Configuración de la cabecera", inicio)
     preambulo = preambulo[:inicio] + COVER + "\n" + preambulo[fin:]
     preambulo = preambulo[:preambulo.index(r"\title[")]
-    preambulo += r"""\title[Análisis textual]{Análisis textual\\con Python}
+    preambulo += r"""\title[Análisis textual]{Discursos presidenciales\\bajo la lupa}
 \author[Alejandro V.]{Alejandro Ventura}
 \institute[UP]{Universidad del Pacífico}
-\course{Curso presencial de 110 minutos}
-\class{12 de octubre de 2026\\Por invitación de Beatriz Rodríguez Santizabal}
+\course{Historia Económica y Empresarial}
+\class{2026 II}
 \setbeameroption{hide notes}
+\setbeamertemplate{bibliography item}{}
+\setbeamercolor{bibliography entry author}{fg=UWBlack}
+\setbeamercolor{bibliography entry title}{fg=UWBlack}
+\setbeamercolor{bibliography entry location}{fg=UWBlack}
+\setbeamercolor{bibliography entry note}{fg=UWBlack}
+\hypersetup{colorlinks=true,linkcolor=UWBlack,citecolor=UWBlack,urlcolor=peacockblue}
+\setbeamercolor{description item}{fg=UWMathPinkL4}
+\setbeamercolor{item projected}{fg=UWMathPinkL4}
 \newcommand{\fuente}[1]{\par\vspace{0.15cm}{\scriptsize #1\par}}
 """
     SLIDES.mkdir(exist_ok=True)
     (SLIDES / "2_preamble.tex").write_text(preambulo, encoding="utf-8", newline="\n")
     (SLIDES / "images").mkdir(exist_ok=True)
     shutil.copyfile(TEMPLATE / "images/UP_logo.jpg", SLIDES / "images/UP_logo.jpg")
+    facsimiles = []
+    for nombre in ("28_07_1921_leguia", "28_07_1920_leguia", "28_07_1969_velasco", "28_07_1991_alberto_fujimori"):
+        origen = RAIZ / "data/originales" / (nombre + ".pdf")
+        destino = SLIDES / "images" / (nombre + "_pagina1.png")
+        with fitz.open(origen) as pdf:
+            pdf[0].get_pixmap(matrix=fitz.Matrix(2, 2), clip=fitz.Rect(75, 65, 520, 770)).save(destino)
+        facsimiles.append({"imagen": destino.relative_to(SLIDES).as_posix(), "original": origen.relative_to(RAIZ).as_posix(), "pagina_pdf": 1, "recorte_puntos": [75,65,520,770], "sha256_original": hashlib.sha256(origen.read_bytes()).hexdigest(), "sha256_imagen": hashlib.sha256(destino.read_bytes()).hexdigest()})
     datos = SLIDES / "data"
     datos.mkdir(exist_ok=True)
     with (RAIZ / "data/resultados_guardados/comparacion_palabras.csv").open(encoding="utf-8") as archivo:
@@ -89,7 +110,7 @@ def main():
                 "url_pdf": next(d["url_pdf"] for d in originales if d["documento_id"] == u["documento_id"])}
                for u in unidades.values()]
     (datos / "procedencia.json").write_text(json.dumps({"commit_investigacion": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
-        "huellas_template_original": huellas, "fuentes_fragmentos": fuentes}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+        "huellas_template_original": huellas, "fuentes_fragmentos": fuentes, "facsimiles": facsimiles}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print("Preámbulo, logo y procedencia preparados. Sin compilación local.")
 
 

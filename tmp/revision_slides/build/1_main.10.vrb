@@ -1,0 +1,8 @@
+\frametitle{Una variable y su resultado}
+Una variable conserva un valor. \texttt{=} asigna y las comillas delimitan texto.
+  \begin{verbatim}
+saludo = "Estoy explorando textos"
+print(saludo)
+  \end{verbatim}\par
+  Cambia el saludo y vuelve a ejecutar. ¿Dónde aparece tu modificación?
+  \note{El notebook usa un saludo algo más largo. La sintaxis es la misma. Mostrar también la edición de una celda de texto para guardar hipótesis.}

@@ -18,7 +18,8 @@
     "comprobacion_entrega": "Tabla y dos fragmentos corresponden a tu consulta. Origen de la tabla: recalculada. La celda llegó a la rama que escribe los CSV complementarios; todavía no se comprobó su descarga",
     "justificaciones_completas": "El usuario compartió las justificaciones A y B completas mediante la celda de impresión adicional",
     "guardado_y_reapertura": "El usuario confirmó todo en orden después de las instrucciones de guardado, descarga y reapertura",
-    "carga_manual": "El usuario compartió la subida real de datos_estudiantes.zip en Colab y el mensaje de 6 documentos y 619 unidades sin etiquetas"
+    "carga_manual": "El usuario compartió la subida real de datos_estudiantes.zip en Colab y el mensaje de 6 documentos y 619 unidades sin etiquetas",
+    "recuperacion_final": "Después de las instrucciones de reinicio y carga incluida, el usuario compartió nuevamente la tabla con 2 y 11 menciones y tasas 0.442 y 0.471; no se observó directamente el reinicio de su sesión"
   },
   "incidencia": {
     "descripcion": "La tabla limitaba el ancho visible a 250 caracteres, por lo que la ventana ampliada aparecía truncada con puntos suspensivos",
@@ -32,8 +33,7 @@
   },
   "pendientes": [
     "Descarga y revisión de archivos complementarios si se utilizarán",
-    "Recuperación después de reiniciar realmente el entorno",
-    "Registro de versiones reales de Python, pandas y matplotlib en Colab"
+    "Confirmación explícita del reinicio real del entorno; la tabla de recuperación ya fue recibida"
   ],
   "archivo_descargado_revisado": {
     "ruta_relativa": "notebooks/estudiantes_prueba_11_10_1811pm.ipynb",
@@ -44,5 +44,11 @@
     "celdas_con_salidas": 13,
     "errores_en_salidas": 0,
     "alcance": "Inspección del archivo local; la reapertura y guardado en Drive se apoyan en la confirmación del usuario"
+  },
+  "versiones_colab": {
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "fuente": "Salida de la celda de versiones compartida por el usuario el 11 de octubre de 2026"
   }
 }

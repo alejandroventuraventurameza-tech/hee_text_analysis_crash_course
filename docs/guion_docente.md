@@ -4,7 +4,7 @@ La sesión dura 110 minutos, incluidos preguntas, dificultades y entrega. Las sl
 
 ## Materiales y control del tiempo
 
-Mantener abiertos el [notebook resuelto](../notebooks/docente_resuelto.ipynb), la copia que se ejecutará en vivo y las slides compiladas en Overleaf. Distribuir únicamente el [notebook de estudiantes](../notebooks/estudiantes.ipynb) para la práctica. Tener disponible el [ZIP de datos](../paquetes/datos_estudiantes.zip) y el [ejercicio individual](../actividades/ejercicio_individual.md). La versión docente tiene resultados orientativos y no se comparte como ejercicio inicial.
+Mantener abiertos el [notebook resuelto](../notebooks/docente_resuelto.ipynb), la copia que se ejecutará en vivo y el PDF de slides compilado localmente o en Overleaf. Distribuir únicamente el [notebook de estudiantes](../notebooks/estudiantes.ipynb) para la práctica. Tener disponible el [ZIP de datos](../paquetes/datos_estudiantes.zip) y el [ejercicio individual](../actividades/ejercicio_individual.md). La versión docente tiene resultados orientativos y no se comparte como ejercicio inicial.
 
 La preparación del aula incluye comprobar proyector y HDMI, acceso al notebook y enlace de la carpeta de entrega en Drive. El acceso, copia, guardado y ejecución en Colab se comprobarán después de concluir los materiales. No afirmar que la prueba local sustituye esa comprobación. El estudiante debe conservar las salidas al descargar su `.ipynb`.
 
@@ -140,4 +140,4 @@ Si hay unos cinco minutos de retraso, mantener competencia y los dos documentos 
 
 Si al minuto 74 persisten problemas, recuperar tablas, leer dos pasajes de la consulta común y reducir el contraste con etiquetas a un caso breve. Trasladar ese tiempo a ejecución y entrega, registrando quién necesita apoyo. No agregar el desafío opcional a quienes todavía construyen su producto común.
 
-Los apéndices A01–A04 y las referencias se reservan para consultas y continuación. Los datos, citas y respuestas orientativas proceden de los materiales revisados; la [guía de ejemplos](../data/docente/guia_ejemplos.md) amplía los casos de reserva. La [documentación de slides](../slides/README.md) explica cómo preparar Overleaf y qué queda sin verificar.
+Los apéndices A01–A04 y las referencias se reservan para consultas y continuación. Los datos, citas y respuestas orientativas proceden de los materiales revisados; la [guía de ejemplos](../data/docente/guia_ejemplos.md) amplía los casos de reserva. La [documentación de slides](../slides/README.md) explica la compilación local, la alternativa de Overleaf y la revisión visual realizada.

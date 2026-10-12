@@ -1,6 +1,6 @@
-# Slides Beamer para el curso de análisis textual
+# Discursos presidenciales bajo la lupa
 
-La presentación acompaña la sesión de 110 minutos con 27 slides comunes, cuatro de consulta y tres de referencias. Las slides comunes contienen preguntas, extractos literales, conceptos e instrucciones breves; la práctica y las respuestas se realizan en el notebook. El [guion docente](../docs/guion_docente.md) coordina tiempos, slides, preguntas y recuperación.
+La presentación corresponde a Historia Económica y Empresarial, semestre 2026 II, y acompaña la sesión de 110 minutos con 27 slides comunes, cuatro de consulta y tres de referencias. Las slides comunes contienen preguntas, extractos literales, conceptos e instrucciones breves; la práctica y las respuestas se realizan en el notebook. El [guion docente](../docs/guion_docente.md) coordina tiempos, slides, preguntas y recuperación.
 
 ## Archivos y configuración de Overleaf
 
@@ -14,6 +14,9 @@ La presentación acompaña la sesión de 110 minutos con 27 slides comunes, cuat
 | `data/comparacion_competencia.csv` | Dos registros que sustentan la tabla y el gráfico de la consulta inicial |
 | `data/procedencia.json` | Unidades completas citadas, URL de los PDF y huellas del template original |
 | `revision_estatica.json` | Comprobaciones de estructura y recursos, sin compilación |
+| `revision_visual.json` | Compilación local y revisión visual del PDF actualizado |
+| `discursos_presidenciales_bajo_la_lupa.pdf` | PDF actualizado para proyectar |
+| `images/*_pagina1.png` | Cuatro facsímiles renderizados de los PDF oficiales, con procedencia registrada |
 
 Importar [beamer_overleaf.zip](../paquetes/beamer_overleaf.zip) como proyecto en Overleaf y seleccionar `1_main.tex` como archivo principal. Usar **XeLaTeX** y **Biber**. Overleaf normalmente coordina Biber con la compilación; si aparecen citas sin resolver, recompilar desde cero y revisar el log. La secuencia equivalente es XeLaTeX, Biber sobre `1_main`, y dos pasadas de XeLaTeX.
 
@@ -23,7 +26,7 @@ Las dependencias LaTeX son Beamer, fontspec, babel con español, amsmath, amssym
 
 ## Adaptación del template
 
-Se conserva el formato 4:3, la composición de portada negra y blanca, el logo sin alterar proporciones, la paleta original, los encabezados de sección y el pie en tres franjas. El texto base aumenta de 9 a 11 puntos para proyección. El cuerpo pasa del gris original a negro para mayor contraste. Se ajustan las posiciones de portada para el título del curso, fecha e invitación y se usan nombres cortos en el pie.
+Se conserva el formato 4:3, la composición de portada negra y blanca, el logo sin alterar proporciones, la paleta original, los encabezados de sección y el pie en tres franjas. El texto base aumenta de 9 a 11 puntos para proyección. El cuerpo pasa del gris original a negro para mayor contraste. La portada incluye el título Discursos presidenciales bajo la lupa, el subtítulo Análisis textual con Python, Historia Económica y Empresarial, 2026 II y el correo al.venturam@up.edu.pe debajo del nombre. No muestra duración ni invitación. Los títulos usan el tono magenta más oscuro de la misma paleta para aumentar el contraste.
 
 El contenido, portada y entornos se adaptan al español. Se eliminan los comandos de calavera y carita y sus fuentes especiales, que no se utilizan en la clase. Se mantienen las definiciones de colores y bloques del template. Las referencias de macroeconomía se sustituyen por las del análisis textual y las herramientas utilizadas. El template original permanece intacto.
 
@@ -43,12 +46,25 @@ La referencia de Berelson de 1952 se corroboró bibliográficamente con una rese
 
 Se revisan estáticamente rutas de entrada, imagen y bibliografía; etiquetas; claves de citas; balance de llaves y entornos; cierres de filas de tablas; correspondencia de citas con las unidades; números con el CSV; identidad del logo y conservación del template. El ZIP se comprueba contra los archivos locales y se incluye un listado de huellas propio.
 
-**No se compiló localmente ni se verificó la compilación en Overleaf.** La revisión estática no prueba ajuste visual, ausencia de desbordes, disponibilidad de todas las versiones de paquetes ni referencias resueltas. Después de compilar, revisar especialmente la portada, el fragmento B, la tabla de aplicaciones y las tres slides bibliográficas. Si falta espacio, recortar o dividir contenido antes de reducir el texto.
+La versión actual se compiló localmente con XeLaTeX y Biber el 11 de octubre de 2026. Se revisaron las 34 páginas renderizadas y el registro final de compilación, sin avisos de desbordes ni citas sin resolver. El detalle y las huellas están en [revision_visual.json](revision_visual.json). El PDF que aportó el docente, `beamer_overleaf.pdf`, se conserva sin modificaciones; la revisión se entrega en un archivo distinto.
 
-La presentación no incluye un PDF. El docente lo compilará en Overleaf y lo utilizará junto con el notebook y el guion.
+La revisión de proyección y legibilidad desde el aula sigue pendiente. Overleaf es opcional; no se ha verificado esta versión dentro de esa plataforma.
+
+## Compilación local
+
+Desde la carpeta `slides`, con MiKTeX o TeX Live disponibles:
+
+```powershell
+xelatex '-interaction=nonstopmode' '-halt-on-error' 1_main.tex
+biber 1_main
+xelatex '-interaction=nonstopmode' '-halt-on-error' 1_main.tex
+xelatex '-interaction=nonstopmode' '-halt-on-error' 1_main.tex
+```
+
+El resultado es `1_main.pdf`. No sobrescribe el PDF revisado ni el PDF original que aportó el docente. El ZIP contiene las fuentes y los facsímiles, y también permite compilar sin acceso al repositorio de investigación.
 
 ## Regeneración de recursos
 
-Desde la raíz del repositorio de clase, `python scripts/preparar_beamer.py` adapta una copia del preámbulo y copia el logo desde el template, además de actualizar CSV y procedencia. No modifica investigación ni el template y no compila LaTeX. No regenera el contenido de las slides ni el guion.
+Desde la raíz del repositorio de clase, `python scripts/preparar_beamer.py` adapta una copia del preámbulo y copia el logo desde el template, además de actualizar CSV, facsímiles y procedencia. La renderización de las primeras páginas usa PyMuPDF (`fitz`), ya disponible en el entorno docente. No modifica investigación ni el template y no compila LaTeX. No regenera el contenido de las slides ni el guion.
 
 `python scripts/revisar_beamer.py` comprueba la estructura local y genera el ZIP después de pasar las comprobaciones. Si se modifican los `.tex` o la bibliografía, ejecutar esta revisión antes de reemplazar el paquete para Overleaf.

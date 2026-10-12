@@ -24,4 +24,4 @@ El script regenera datos, no documentación ni ZIP. Después de editar la docume
 
 ## Preparación de Beamer
 
-`preparar_beamer.py` adapta una copia del preámbulo del template, conserva el logo y registra la procedencia de pasajes y valores. `revisar_beamer.py` comprueba rutas, referencias, estructura y coherencia con datos, y prepara el ZIP para Overleaf. Ambos utilizan Python estándar y no compilan LaTeX. El contenido de las slides y el guion se editan por separado. Consultar [slides/README.md](../slides/README.md).
+`preparar_beamer.py` adapta una copia del preámbulo del template, conserva el logo y registra la procedencia de pasajes y valores. `revisar_beamer.py` comprueba rutas, referencias, estructura y coherencia con datos, y prepara el ZIP para Overleaf. La preparación usa además PyMuPDF (`fitz`) para renderizar cuatro primeras páginas de los PDF oficiales; la revisión utiliza Python estándar. Ninguno compila LaTeX. El contenido de las slides y el guion se editan por separado. Consultar [slides/README.md](../slides/README.md).
