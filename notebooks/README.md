@@ -1,69 +1,50 @@
-# Notebooks del curso de análisis textual
+# Colab: Las palabras como datos
 
-Las operaciones tienen títulos para facilitar su localización; las celdas de respuesta se editan con doble clic. El caso común conserva competencia y los dos documentos iniciales hasta recuperar la evidencia; luego permite otras consultas.
+Las versiones de estudiantes y docente siguen las 42 diapositivas del Beamer final proporcionado por Alejandro Ventura en `paquetes/hee_text_analysis_crash_course.zip`. El ZIP y los archivos de `slides` no se modifican. La correspondencia se conserva en `alineacion_beamer.json`, junto con la huella SHA256 del ZIP leído.
 
-La práctica común tiene 14 celdas de código y explicaciones breves, distribuidas en 47 celdas totales. Permite cargar seis documentos y sus metadatos, explicar una transformación, contar palabras, comparar menciones por 1.000 palabras, buscar en el original y formular una conclusión limitada a los documentos examinados.
+El recorrido comprende motivación, variable proxy, fuentes presidenciales y API conceptual, flujo del NLP, corpus y clasificación manual, procesamiento en español, frecuencias y comparación normalizada, contexto, contraste de etiquetas y límites. Se conservan del Colab anterior recuperación, respuestas individuales, entrega formativa sin calificación y desafío opcional. El Beamer final tiene la sección Cierre sin diapositivas; el notebook conserva las instrucciones de guardado y entrega acordadas.
 
 | Archivo | Uso |
 |---|---|
-| [estudiantes.ipynb](estudiantes.ipynb) | Copia individual, sin salidas ejecutadas ni respuestas resueltas |
-| [docente_resuelto.ipynb](docente_resuelto.ipynb) | Mismo código y datos, con respuestas orientativas, tablas y gráfico guardados de la ejecución local |
-| [prueba_local.json](prueba_local.json) | Registro de ejecución, versiones, resultados y huellas de los notebooks |
-| [prueba_colab_guiada.json](prueba_colab_guiada.json) | Evidencia recibida del usuario y partes aún pendientes en Colab |
+| [estudiantes.ipynb](estudiantes.ipynb) | Copia individual, sin salidas ni respuestas resueltas |
+| [docente_resuelto.ipynb](docente_resuelto.ipynb) | Mismo código, respuestas orientativas y salidas de ejecución local |
+| [alineacion_beamer.json](alineacion_beamer.json) | Correspondencia de las 42 diapositivas con celdas |
+| [prueba_local.json](prueba_local.json) | Ejecución local, versiones, resultados y huellas |
+| [prueba_colab_guiada.json](prueba_colab_guiada.json) | Evidencia histórica del recorrido anterior en Colab |
 
-## Acceso y carga
+## Procesamiento en español
 
-Descargar `estudiantes.ipynb` y abrirlo mediante la opción de subir notebook en Colab; guardar una copia propia en Drive. El repositorio será público, pero todavía no tiene remoto configurado, por lo que no se incluye un botón que apunte a una dirección de GitHub inventada. El acceso desde GitHub se podrá añadir cuando exista la URL pública.
+NLTK realiza tokenización de oraciones y palabras, consulta de stop words españolas y stemming con `SnowballStemmer("spanish")`. Los ejemplos de sentence tokenization, word tokenization y consulta de stop words se leen directamente del código del ZIP del Beamer. Después se aplica eliminación de stop words a un pasaje real, protegiendo las negaciones, manejo de puntuación española y lowercasing.
 
-La carga común usa datos comprimidos incluidos en una celda preparada del propio notebook. No consulta investigación, una API ni una cuenta de Drive; tampoco instala bibliotecas o modelos. Esa celda se presenta como formulario en Colab para evitar mostrar a principiantes toda la implementación. El tamaño de cada notebook es de aproximadamente 0,9 MB antes de guardar salidas; la versión resuelta es mayor porque conserva los resultados.
+**Excepción autorizada:** spaCy se utiliza únicamente para lematizar con el modelo español `es_core_news_sm`. Se compara palabra por palabra con el stemming de NLTK, primero en una oración didáctica identificada como tal y después en un pasaje real de Leguía de 1921. No se usa WordNetLemmatizer para español. No se llama a una API de IA ni se entrena un clasificador.
 
-Hay una alternativa de carga manual con [datos_estudiantes.zip](../paquetes/datos_estudiantes.zip). En Preparación, elegir `manual` y subir ese ZIP. También existen las opciones `url`, para un enlace HTTPS directo al ZIP público, y `zip_local`, para comprobaciones docentes fuera de Colab. Ninguna es necesaria para el recorrido inicial.
+La preparación comprueba y, si hace falta, instala bibliotecas y descarga recursos lingüísticos. La primera ejecución requiere internet. Las versiones de referencia están en las celdas y el informe de prueba. Tras reiniciar el entorno, ejecutar desde el inicio; para recuperar solamente la comparación, ejecutar Preparación, Preparar NLTK y Recuperación de la comparación.
 
-El ZIP y la carga inicial no incluyen clasificaciones. Las etiquetas existentes están en un segundo paquete independiente incluido exclusivamente en la celda del contraste de los minutos 90–98. Esa celda no se ejecuta durante la clasificación manual. Al distribuir un notebook público, su separación es pedagógica, no una protección frente a consultar el código por anticipado.
+## Datos, conteos y evidencia
 
-## Modificaciones de los estudiantes
+Los seis documentos, 148 páginas y 619 unidades sin etiquetas están incluidos en el notebook. La carga inicial se presenta como formulario en Colab. También se conserva la carga manual de `datos_estudiantes.zip`, la opción URL con un enlace proporcionado por el docente y la carga local para pruebas.
 
-El estudiante cambia el saludo de su primera celda y modifica al menos una decisión del análisis: cantidad de términos del ranking, documento explorado, palabra comparada, documentos incluidos o amplitud de contexto. La consulta inicial es `competencia`, con Leguía de 1921 y Alberto Fujimori de 1991. El docente debe pedir la predicción antes de ejecutar; la versión del estudiante no muestra conteos ni interpretaciones resueltas por anticipado.
+La tabla de las diapositivas exige contar formas exactas con la regla documentada de `texto_conteo`. NLTK tokeniza esa versión para los seis documentos. Se comprueban sus denominadores: Leguía de 1921 tiene 4.527 palabras y Fujimori de 1991 tiene 23.348. La comparación inicial de competencia produce 2 y 11 menciones, aproximadamente 0,442 y 0,471 por 1.000 palabras.
 
-Para el caso inicial, las filas 0 y 3 de contexto permiten recuperar unidades de documentos distintos. Si cambia la consulta, el estudiante debe revisar los índices. La selección muestra el texto completo de la unidad y su procedencia; si una coincidencia no tiene unidad, muestra su página completa. El notebook rechaza una selección inválida o del mismo documento con un mensaje y deja la evidencia vacía para no conservar pasajes anteriores por error.
+Las técnicas de normalización son alternativas: no se aplica stemming ni lematización a la consulta de forma exacta. Ocultar stop words del ranking no las retira del denominador. El texto original conserva signos y negaciones para leer en contexto. Las filas 0 y 3 de la consulta inicial recuperan `u00126` y `u14275`; al cambiar la consulta hay que revisar los índices.
 
-La búsqueda usa la extracción original, conserva signos y negaciones y solo reemplaza saltos de línea por espacios en la ventana visible. La tabla muestra la ventana completa, sin el límite visual de 250 caracteres detectado durante la prueba guiada en Colab. La comparación usa el texto para conteos, por lo que la reparación de guiones y los descartes editoriales pueden producir diferencias entre ambos. Una forma exacta no agrupa variantes, sinónimos ni significados.
+Las etiquetas existentes se cargan por separado al final, después de la clasificación manual de A y B. La confianza categórica no es una probabilidad calibrada; el segundo anotador fue otro modelo y la referencia de 30 unidades tiene poco soporte para clases raras. La separación de etiquetas es pedagógica: el código de un notebook público puede consultarse anticipadamente.
 
-## Recuperación y entrega
+## Uso y entrega
 
-Al minuto 36 debe haber seis documentos cargados. Si se perdió una variable, ejecutar Preparación. Si se reinició el entorno, esa celda reconstruye los datos y herramientas sin descargas. Al minuto 74, la celda Recuperación vuelve a cargar las tablas y recalcula la comparación con la consulta actual o la inicial. Las respuestas escritas en celdas de texto no se reemplazan.
+Abrir estudiantes.ipynb en Colab, guardar una copia en Drive y seguir al docente. Las celdas **Mi respuesta** se editan con doble clic. Cambiar una instrucción, volver a ejecutar y explicar su efecto. Los encabezados no muestran tiempos; los emojis permiten localizar las etapas.
 
-La alternativa de resultados guardados está desactivada por defecto y se usa únicamente después de escribir la predicción. Su tabla queda marcada como `guardada`, para distinguirla de una comparación recalculada por el estudiante. La ejecución individual debe retomarse cuando se resuelva la dificultad.
+La comprobación antes de guardar detecta consultas cambiadas sin actualizar tabla y evidencia. Guarda CSV complementarios; el gráfico se conserva como PNG. No califica las explicaciones. La entrega principal es apellido_nombre_analisis_textual.ipynb, con respuestas y salidas, en la carpeta indicada por el docente usando la cuenta institucional UP.
 
-Al minuto 90 debe haber comparación y dos fragmentos. En el cierre, la comprobación técnica detecta si se cambió la palabra o los documentos sin actualizar tabla y evidencia. No evalúa la calidad de las respuestas. Cuando ambos resultados corresponden a la consulta actual, guarda complementos CSV; el gráfico se guarda como PNG. Las explicaciones, limitación, clasificación y aplicación siguen siendo responsabilidad del estudiante.
-
-La entrega principal es el notebook `.ipynb` con respuestas y salidas visibles, no los complementos. Se descarga y entrega en la carpeta de Drive que comunicará el docente. La copia y el guardado ya cuentan con evidencia de una prueba guiada; aún falta verificar la recepción en la carpeta de entrega de la clase.
-
-## Prueba local y límites de la comprobación
-
-El 11 de octubre de 2026 se ejecutaron las 14 celdas de código de cada versión, en orden, en kernels nuevos de Python sobre Windows. Entorno: Python 3.13.14, pandas 3.0.2 y matplotlib 3.10.9. Se configuró el modo gráfico inline en el kernel de prueba. La versión docente conserva las salidas de ese recorrido común; el estudiante recibe celdas sin salidas.
-
-Se comprobaron: seis documentos, 619 unidades, 148 páginas, las 30 tasas guardadas frente a cálculos nuevos, tildes y mayúsculas, consultas sin coincidencias, negaciones en ventanas, rechazo de consultas inválidas, selección de evidencia de documentos distintos, recuperación tras perder variables, salida guardada identificada y desafío opcional. La tabla inicial produjo 2 menciones entre 4.527 palabras y 11 entre 23.348, equivalentes aproximadamente a 0,442 y 0,471 por 1.000 palabras. Las dos unidades de evidencia fueron `u00126` y `u14275`.
-
-La lectura del ZIP distribuido se comprobó con sus bytes reales. La respuesta de `files.upload()` se simuló para probar la recepción de esos mismos bytes, sin usar la interfaz de Colab. La opción URL y una descarga pública del repositorio no se comprobaron; todavía no hay un remoto configurado.
-
-**La comprobación completa en Colab sigue pendiente.** El usuario compartió resultados del recorrido común hasta el contraste y la comprobación técnica de entrega. La ampliación de contexto ya se recibió sin truncamiento, y las justificaciones completas mediante una celda adicional. Confirmó el guardado, descarga y reapertura; la copia local de prueba conserva el texto escrito, gráfico y tablas, sin salidas de error. El registro separado distingue inspección del archivo y confirmación del usuario. La carga manual real del ZIP también fue confirmada. Después de las instrucciones de reinicio se recibió otra comparación correcta; no se observó ni confirmó explícitamente el reinicio. Las versiones comunicadas por el usuario son Python 3.13.16, pandas 2.2.3 y matplotlib 3.10.0. No se necesitan GPU ni pagos.
-
-## Regeneración docente
-
-Desde la raíz del repositorio de la clase:
+## Regeneración y pruebas
 
 ```powershell
 python scripts/crear_notebooks.py
 python scripts/probar_notebooks.py
 ```
 
-El primer script regenera ambas versiones sin salidas a partir de los datos revisados y de las respuestas orientativas. El segundo las ejecuta en kernels independientes, guarda resultados en la versión docente y registra las pruebas. La regeneración reemplaza el contenido de esas dos versiones: no debe ejecutarse sobre notebooks personales con respuestas nuevas que se quieran conservar.
+El generador adapta ambas versiones mediante adaptar_colab_final.py, que solo lee el ZIP final. No ejecutar sobre copias personales con respuestas nuevas. La prueba requiere Jupyter, ipykernel, pandas y matplotlib, además de los recursos preparados por las celdas; ejecuta cada versión en un kernel nuevo y guarda salidas únicamente en la versión docente.
 
-El código de creación usa la biblioteca estándar. La comprobación local requiere el entorno docente con `jupyter_client`, `ipykernel`, pandas y matplotlib; no instala dependencias. Los estudiantes solo necesitan Colab y su notebook.
+Las nuevas comprobaciones incluyen segmentación de oraciones, negaciones conservadas, signos españoles, raíces, lemas y denominadores de los seis textos. También se conserva la comprobación de tasas guardadas, consultas inválidas, tildes, recuperación y carga de los bytes del ZIP. La interfaz files.upload() se simula localmente y no sustituye una prueba real de Colab.
 
-Los títulos de celdas y las instrucciones de afinamiento se verificaron mediante ejecución local de las dos versiones. Su presentación en Colab todavía no se observó directamente; la prueba guiada anterior corresponde a la versión previa.
-
-## Presentación visual
-
-Los encabezados ya no muestran intervalos ni minutos. La portada incluye título, curso, expositor, semestre y el logo UP embebido, sin depender de una descarga externa. Los emojis distinguen etapas y operaciones, conservando sus nombres. La presentación del logo y los iconos dentro de Colab aún debe observarse en la interfaz; la ejecución de cálculos ya fue verificada localmente.
+**La versión nueva debe comprobarse en Colab.** La evidencia guiada anterior no valida las instalaciones nuevas ni la representación actual de imágenes y emojis. El informe prueba_local.json documenta exclusivamente ejecución local.

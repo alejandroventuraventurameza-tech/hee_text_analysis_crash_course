@@ -1,7 +1,8 @@
 """Construye las dos versiones del notebook con datos de clase incluidos.
 
-No requiere bibliotecas externas. La ejecución de los notebooks sí usa pandas
-y matplotlib. Las etiquetas se incluyen en una celda independiente al final.
+La generación usa la biblioteca estándar y lee el ZIP final sin modificarlo.
+Los notebooks ejecutan pandas, matplotlib y NLTK; spaCy se limita a lematizar.
+Las etiquetas se incluyen en una celda independiente al final.
 """
 
 import base64
@@ -12,6 +13,7 @@ import re
 from pathlib import Path
 import textwrap
 import zipfile
+from adaptar_colab_final import adaptar
 
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -513,7 +515,7 @@ def crear(docente=False):
 def main():
     DESTINO.mkdir(exist_ok=True)
     for docente, nombre in [(False, "estudiantes.ipynb"), (True, "docente_resuelto.ipynb")]:
-        notebook = crear(docente)
+        notebook = adaptar(crear(docente), docente)
         (DESTINO / nombre).write_text(json.dumps(notebook, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
         print(nombre, len(notebook["cells"]), "celdas")
 

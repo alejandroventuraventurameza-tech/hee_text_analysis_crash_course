@@ -1,0 +1,224 @@
+{
+  "beamer_sha256": "7e1af2e4b81da5b02c7b3ade8ad27ccba1a5f6d174c48e04724fd96b8b495fe1",
+  "fecha": "2026-10-12",
+  "frames": [
+    {
+      "numero": 1,
+      "titulo_tex": "Portada",
+      "celda_colab": "portada"
+    },
+    {
+      "numero": 2,
+      "titulo_tex": "¿Qué aprenderemos hoy?",
+      "celda_colab": "objetivos-final"
+    },
+    {
+      "numero": 3,
+      "titulo_tex": "Una pregunta para entrar en calor",
+      "celda_colab": "problematica-final"
+    },
+    {
+      "numero": 4,
+      "titulo_tex": "Un buen punto de partida: métricas observables",
+      "celda_colab": "proxy-final"
+    },
+    {
+      "numero": 5,
+      "titulo_tex": "Un buen punto de partida: métricas observables",
+      "celda_colab": "proxy-final"
+    },
+    {
+      "numero": 6,
+      "titulo_tex": "Esbozando una \\textit{proxy variable}",
+      "celda_colab": "proxy-final"
+    },
+    {
+      "numero": 7,
+      "titulo_tex": "Esbozando una \\textit{proxy variable}",
+      "celda_colab": "proxy-final"
+    },
+    {
+      "numero": 8,
+      "titulo_tex": "Esbozando una \\textit{proxy variable}",
+      "celda_colab": "proxy-final"
+    },
+    {
+      "numero": 9,
+      "titulo_tex": "Esbozando una \\textit{proxy variable}",
+      "celda_colab": "proxy-final"
+    },
+    {
+      "numero": 10,
+      "titulo_tex": "¿Cómo entender el pensamiento de un presidente?",
+      "celda_colab": "proxy-final"
+    },
+    {
+      "numero": 11,
+      "titulo_tex": "¿Cómo entender el pensamiento de un presidente?",
+      "celda_colab": "proxy-final"
+    },
+    {
+      "numero": 12,
+      "titulo_tex": "Y, ¿Si hubiéramos querido emplear \\textit{posts} de X como insumo?",
+      "celda_colab": "api-final"
+    },
+    {
+      "numero": 13,
+      "titulo_tex": "¿Qué es el NLP?",
+      "celda_colab": "nlp-final"
+    },
+    {
+      "numero": 14,
+      "titulo_tex": "¿Qué es el NLP?",
+      "celda_colab": "nlp-final"
+    },
+    {
+      "numero": 15,
+      "titulo_tex": "El \\textit{workflow} del NLP",
+      "celda_colab": "nlp-final"
+    },
+    {
+      "numero": 16,
+      "titulo_tex": "\\textit{Raw text}",
+      "celda_colab": "raw-final"
+    },
+    {
+      "numero": 17,
+      "titulo_tex": "Tres roles del Estado",
+      "celda_colab": "roles-imagen-final"
+    },
+    {
+      "numero": 18,
+      "titulo_tex": "Tres roles del Estado",
+      "celda_colab": "roles-imagen-final"
+    },
+    {
+      "numero": 19,
+      "titulo_tex": "Tres roles del Estado",
+      "celda_colab": "roles"
+    },
+    {
+      "numero": 20,
+      "titulo_tex": "Fragmento A",
+      "celda_colab": "fragmentos-ciegos"
+    },
+    {
+      "numero": 21,
+      "titulo_tex": "Fragmento B",
+      "celda_colab": "fragmentos-ciegos"
+    },
+    {
+      "numero": 22,
+      "titulo_tex": "Seis mensajes seleccionados",
+      "celda_colab": "tabla-documentos"
+    },
+    {
+      "numero": 23,
+      "titulo_tex": "\\textit{Preprocessing}",
+      "celda_colab": "nltk-final"
+    },
+    {
+      "numero": 24,
+      "titulo_tex": "\\textit{Tokenization}",
+      "celda_colab": "tokenizacion-final"
+    },
+    {
+      "numero": 25,
+      "titulo_tex": "\\textit{Sentence tokenization}",
+      "celda_colab": "tokenizacion-final"
+    },
+    {
+      "numero": 26,
+      "titulo_tex": "\\textit{Sentence tokenization}",
+      "celda_colab": "nltk-oraciones"
+    },
+    {
+      "numero": 27,
+      "titulo_tex": "\\textit{Word tokenization}",
+      "celda_colab": "nltk-palabras"
+    },
+    {
+      "numero": 28,
+      "titulo_tex": "\\textit{Stop words} y manejo de singos de puntuación",
+      "celda_colab": "stopwords-final"
+    },
+    {
+      "numero": 29,
+      "titulo_tex": "\\textit{Stop words} y manejo de singos de puntuación",
+      "celda_colab": "nltk-stop-lista"
+    },
+    {
+      "numero": 30,
+      "titulo_tex": "\\textit{Stop words} y manejo de singos de puntuación",
+      "celda_colab": "puntuacion-final"
+    },
+    {
+      "numero": 31,
+      "titulo_tex": "\\textit{Common text normalization techniques}",
+      "celda_colab": "normalizacion-final"
+    },
+    {
+      "numero": 32,
+      "titulo_tex": "\\textit{Lowercasing}",
+      "celda_colab": "nltk-minusculas"
+    },
+    {
+      "numero": 33,
+      "titulo_tex": "\\textit{Stemming}",
+      "celda_colab": "nltk-stemming"
+    },
+    {
+      "numero": 34,
+      "titulo_tex": "\\textit{Lemmatization}",
+      "celda_colab": "comparar-normalizacion"
+    },
+    {
+      "numero": 35,
+      "titulo_tex": "Menciones por 1.000 palabras",
+      "celda_colab": "aplicar-corpus-final"
+    },
+    {
+      "numero": 36,
+      "titulo_tex": "Tabla de frecuencias",
+      "celda_colab": "frecuencias"
+    },
+    {
+      "numero": 37,
+      "titulo_tex": "Competencia: ¿Qué nos dice esta palabra?",
+      "celda_colab": "prediccion-lexica"
+    },
+    {
+      "numero": 38,
+      "titulo_tex": "Competencia: ¿Qué nos dice esta palabra?",
+      "celda_colab": "tasas"
+    },
+    {
+      "numero": 39,
+      "titulo_tex": "La importancia del contexto",
+      "celda_colab": "contexto"
+    },
+    {
+      "numero": 40,
+      "titulo_tex": "La importancia del contexto",
+      "celda_colab": "evidencia"
+    },
+    {
+      "numero": 41,
+      "titulo_tex": "Contraste de tus etiquetas iniciales",
+      "celda_colab": "etiquetas-preparadas"
+    },
+    {
+      "numero": 42,
+      "titulo_tex": "Límites de las etiquetas",
+      "celda_colab": "etiquetas-intro"
+    }
+  ],
+  "conservado_del_colab_anterior": [
+    "carga incluida y manual",
+    "recuperación",
+    "preguntas individuales",
+    "entrega sin calificación",
+    "desafío opcional"
+  ],
+  "excepcion_autorizada": "spaCy exclusivamente para lematización española"
+}

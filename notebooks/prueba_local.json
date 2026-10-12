@@ -1,14 +1,17 @@
 {
-  "fecha": "2026-10-11",
+  "fecha": "2026-10-12",
   "pruebas": [
     {
       "notebook": "estudiantes.ipynb",
-      "celdas_codigo": 14,
+      "celdas_codigo": 25,
       "ejecucion_completa": true,
       "imagenes_en_salidas": 1,
-      "sha256_notebook_final": "2b9661d4855102fc7ef5444d016b1edac83c0190162f26f48a6c0a1ec9039329",
+      "sha256_notebook_final": "97100434cbc76344e20ad4b9917432483784bf322ce7a62497687e5b7a308f5f",
       "python": "3.13.14",
       "pandas": "3.0.2",
+      "nltk": "3.10.3",
+      "spacy": "3.8.16",
+      "modelo_es": "3.8.0",
       "matplotlib": "3.10.9",
       "sistema": "Windows",
       "tabla": [
@@ -36,12 +39,15 @@
     },
     {
       "notebook": "docente_resuelto.ipynb",
-      "celdas_codigo": 14,
+      "celdas_codigo": 25,
       "ejecucion_completa": true,
       "imagenes_en_salidas": 1,
-      "sha256_notebook_final": "8f0e9fbf7f31b74b6932f7ccbc729be3c935b3797a0ef5465617765a5a68ae42",
+      "sha256_notebook_final": "935fdca404b3d721c9517d5e3564d17977d77a735686f0922e702a06047119db",
       "python": "3.13.14",
       "pandas": "3.0.2",
+      "nltk": "3.10.3",
+      "spacy": "3.8.16",
+      "modelo_es": "3.8.0",
       "matplotlib": "3.10.9",
       "sistema": "Windows",
       "tabla": [
@@ -69,6 +75,12 @@
     }
   ],
   "casos_adicionales": [
+    "tokenización de oraciones españolas",
+    "ejemplos NLTK localizados en originales",
+    "puntuación española",
+    "stop words con negaciones protegidas",
+    "stemming frente a lemas españoles",
+    "denominadores de seis textos tokenizados con NLTK",
     "30 tasas contra resultados guardados",
     "tildes y mayúsculas",
     "consulta sin coincidencias",
@@ -83,6 +95,5 @@
   "colab_comprobado": false,
   "subida_colab_comprobada": false,
   "url_publica_comprobada": false,
-  "nota": "Este registro documenta únicamente la ejecución local. La evidencia recibida de la interfaz de Colab está separada en prueba_colab_guiada.json; no se extiende automáticamente a modificaciones posteriores de instrucciones o títulos.",
-  "titulos_decorados": "Después de la ejecución local se añadieron iconos a comentarios de título; AST de código comprobado idéntico, salidas conservadas."
+  "nota": "Este registro documenta únicamente la ejecución local. La evidencia recibida de la interfaz de Colab está separada en prueba_colab_guiada.json; no se extiende automáticamente a modificaciones posteriores de instrucciones o títulos."
 }

@@ -1,6 +1,8 @@
-# Discursos presidenciales bajo la lupa
+# Las palabras como datos: análisis textual de discursos presidenciales con Python
 
-Materiales para una sesión de 110 minutos prevista para el lunes 12 de octubre de 2026, a cargo de Alejandro Ventura, para Historia Económica y Empresarial, semestre 2026 II. El curso utiliza Google Colab y mensajes presidenciales peruanos como caso para aprender a comparar palabras y comprobar interpretaciones con evidencia textual.
+Materiales para la sesión del lunes 12 de octubre de 2026, a cargo de Alejandro Ventura, para Historia Económica y Empresarial, semestre 2026 II. El curso utiliza Google Colab y mensajes presidenciales peruanos como caso para aprender a comparar palabras y comprobar interpretaciones con evidencia textual.
+
+El Beamer final proporcionado por el expositor en `paquetes/hee_text_analysis_crash_course.zip` es la referencia para el recorrido. El Colab se adapta a sus 42 diapositivas; ese ZIP y la carpeta `slides` se conservan intactos. NLTK trabaja en español y spaCy se utiliza exclusivamente para comparar lematización con stemming. La correspondencia se registra en `notebooks/alineacion_beamer.json`. Los guiones anteriores conservan su planificación original y no sustituyen la secuencia del ZIP final.
 
 ## Diseño acordado
 
