@@ -63,3 +63,7 @@ El primer script regenera ambas versiones sin salidas a partir de los datos revi
 El código de creación usa la biblioteca estándar. La comprobación local requiere el entorno docente con `jupyter_client`, `ipykernel`, pandas y matplotlib; no instala dependencias. Los estudiantes solo necesitan Colab y su notebook.
 
 Los títulos de celdas y las instrucciones de afinamiento se verificaron mediante ejecución local de las dos versiones. Su presentación en Colab todavía no se observó directamente; la prueba guiada anterior corresponde a la versión previa.
+
+## Presentación visual
+
+Los encabezados ya no muestran intervalos ni minutos. La portada incluye título, curso, expositor, semestre y el logo UP embebido, sin depender de una descarga externa. Los emojis distinguen etapas y operaciones, conservando sus nombres. La presentación del logo y los iconos dentro de Colab aún debe observarse en la interfaz; la ejecución de cálculos ya fue verificada localmente.

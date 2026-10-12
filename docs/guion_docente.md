@@ -16,104 +16,106 @@ Mantener visibles tres metas de avance: seis documentos al minuto 36; comparaci�
 
 | Minutos | Slides comunes | Celdas del notebook | Meta y decisión de avance |
 |---|---|---|---|
-| 0–10 | S01–S05 | Primera hipótesis | Interpretación inicial escrita, sin etiquetas ni presidente |
-| 10–15 | S06 | Categorías, conteos y modelos | Historia breve y relación entre enfoques |
-| 15–23 | S07–S08, volver a S03–S04 | Clasificación manual | Decisión, evidencia y duda antes de revelar procedencia |
-| 23–36 | S09–S12 | Primera celda, Preparación, tabla | Copia propia, código modificado y seis filas |
-| 36–51 | S13–S14 | Original y conteo, frecuencias | Transformación explicada y ranking modificado |
-| 51–66 | S15–S17 | Predicción, tasas, gráfico | Denominador y comparación individual |
-| 66–74 | S18 | Recuperación | Reanudar y comprobar la consulta antes del contexto |
-| 74–90 | S19–S22 | Contextos, evidencia, interpretación | Dos documentos distintos y conclusión provisional |
-| 90–98 | S23–S24 | Contraste final y respuesta | Un acuerdo, desacuerdo o duda justificada |
-| 98–110 | S25–S27 | Conclusión, limitación, aplicación, comprobación | Guardar y entregar individualmente |
+| 0–10 | S01–S11 | Primera hipótesis | Interpretación inicial escrita, sin etiquetas ni presidente |
+| 10–15 | S12 | Categorías, conteos y modelos | Historia breve y relación entre enfoques |
+| 15–23 | S13–S14, volver a S09–S10 | Clasificación manual | Decisión, evidencia y duda antes de revelar procedencia |
+| 23–36 | S15–S18 | Primera celda, Preparación, tabla | Copia propia, código modificado y seis filas |
+| 36–51 | S19–S20 | Original y conteo, frecuencias | Transformación explicada y ranking modificado |
+| 51–66 | S21–S23 | Predicción, tasas, gráfico | Denominador y comparación individual |
+| 66–74 | S24 | Recuperación | Reanudar y comprobar la consulta antes del contexto |
+| 74–90 | S25–S28 | Contextos, evidencia, interpretación | Dos documentos distintos y conclusión provisional |
+| 90–98 | S29–S30 | Contraste final y respuesta | Un acuerdo, desacuerdo o duda justificada |
+| 98–110 | S31–S33 | Conclusión, limitación, aplicación, comprobación | Guardar y entregar individualmente |
 
 Los nombres de slide son referencias estables de guion; las etiquetas internas permiten localizar cada frame en `3_content.tex`. No es necesario proyectar todas las slides mientras los estudiantes están ejecutando. Las celdas de código del notebook tienen títulos; úsarlos al indicar qué ejecutar. Para escribir, señalar la celda «Mi respuesta» correspondiente y mostrar una vez el doble clic. Reservar las explicaciones extensas para la voz del docente, sin leer todos los materiales de corrido.
 
-## Apertura de 0 a 10 minutos
+## Apertura: problemática y fuentes
 
-**0–3, S02.** Preguntar: «¿Cómo analizarían cientos de discursos sin leerlos completos?». Recoger dos procedimientos y preguntar qué puede contarse y qué requiere lectura. Decir: «Hoy estudiaremos lo que los mensajes declaran. Para establecer qué se ejecutó necesitamos otras fuentes».
+La nueva apertura ocupa S02–S07: problemática, indicador observable, orientación declarada, canales, API y objetivos. Presentar la pregunta sin anticipar una etiqueta política: estudiar el rol económico del Estado con criterios explícitos y evidencia revisable. Explicar proxy como una aproximación; los discursos indican orientación declarada y no prueban la actuación efectiva. El artículo 110 de la Constitución vigente motiva la figura presidencial, sin trasladarlo a todos los periodos históricos.
 
-**3–7, S03–S04.** Si alguien todavía no tiene Colab abierto, pedir que anote A, B, una expresión y una duda en papel. Transferirá esas notas al abrir su copia; el acceso no debe detener esta discusión. Mostrar A y B, primero sin presidente. Pedir una expresión y una duda. Las slides contienen extractos breves; las unidades completas están en el notebook. No asignar aún una etiqueta ni anticipar quién habla. Si alguien reconoce al presidente, pedir que igualmente justifique con el texto, no con su reputación histórica.
+La slide de canales distingue conferencias, X, Facebook y mensajes presidenciales. El esquema de API es conceptual y motiva una extensión futura; no abrir cuentas, solicitar claves ni hacer llamadas en vivo. Mostrar los objetivos y enlazar con el ejercicio común.
 
-**7–10, S05.** Presentar la pregunta y la entrega. Cada estudiante escribe su primera hipótesis. Conectar brevemente con un documento de su carrera: contratos y excepciones, riesgos en reportes, prioridades empresariales, noticias, reclamos o encuestas abiertas. No pedir que todos expliquen su aplicación en este momento.
+S08 presenta los discursos como fuentes y S09–S10 muestran A y B sin presidente ni etiquetas. Quien no tenga Colab abierto escribe en papel y transfiere después. Pedir una expresión y una duda, sin clasificar por la reputación del presidente. S11 delimita la pregunta que sí responderá la práctica.
+
+La nueva secuencia añade seis apoyos visuales. Los tiempos del plan anterior son referencias del docente y deben ajustarse al ensayo de esta apertura; no se muestran dentro del notebook estudiantil. Mantener el tiempo de ejecución y cierre, y explicar API brevemente como motivación.
 
 ## Historia de 10 a 15 minutos
 
-**S06.** Explicar categorías y reglas de análisis de contenido, situar Berelson en 1952 y presentar General Inquirer como ejemplo computacional con diccionarios. Introducir modelos de lenguaje mediante el estudio de Gilardi, Alizadeh y Kubli de 2023. No atribuir a Berelson el nacimiento de toda lectura sistemática ni extrapolar el desempeño del estudio reciente a esta investigación.
+**S12.** Explicar categorías y reglas de análisis de contenido, situar Berelson en 1952 y presentar General Inquirer como ejemplo computacional con diccionarios. Introducir modelos de lenguaje mediante el estudio de Gilardi, Alizadeh y Kubli de 2023. No atribuir a Berelson el nacimiento de toda lectura sistemática ni extrapolar el desempeño del estudio reciente a esta investigación.
 
 Preguntar qué enfoque permite fijar reglas, qué operación amplía la escala y qué resultados exigen volver al texto. Aclarar que los modelos de lenguaje también son métodos computacionales. Los enfoques conviven; la cronología no demuestra que los anteriores se hayan vuelto innecesarios. Detener la historia al minuto 15.
 
 ## Clasificación manual de 15 a 23 minutos
 
-**15–18, S07.** Definir roles por instrumento dominante. Empresario exige propiedad y control de producción; regulador refiere a reglas generales y supervisión de mercados; facilitador refiere a promoción selectiva sin requerir propiedad. También existen asistencial y no aplica. Aceptar evidencia insuficiente como respuesta provisional didáctica, no como una etiqueta nueva del modelo.
+**15–18, S13.** Definir roles por instrumento dominante. Empresario exige propiedad y control de producción; regulador refiere a reglas generales y supervisión de mercados; facilitador refiere a promoción selectiva sin requerir propiedad. También existen asistencial y no aplica. Aceptar evidencia insuficiente como respuesta provisional didáctica, no como una etiqueta nueva del modelo.
 
-**18–21, S08 y retorno a fragmentos.** Pedir decisión, expresión y duda sobre A y B. No preguntar solo «¿qué rol es?». Preguntar quién produce, qué se transfiere y qué finalidad se declara. Advertir que en B la oración anterior llama al Estado ente promotor: si el notebook ya está abierto, leer esa oración; si no, conservar la duda y revisar el pasaje completo antes del contraste final. La decisión inicial es provisional.
+**18–21, S14 y retorno a fragmentos.** Pedir decisión, expresión y duda sobre A y B. No preguntar solo «¿qué rol es?». Preguntar quién produce, qué se transfiere y qué finalidad se declara. Advertir que en B la oración anterior llama al Estado ente promotor: si el notebook ya está abierto, leer esa oración; si no, conservar la duda y revisar el pasaje completo antes del contraste final. La decisión inicial es provisional.
 
 **21–23.** Recoger dos razonamientos y revelar oralmente la procedencia: A es Velasco 1970, `u11860`, p. 10; B es Alberto Fujimori 1991, `u14275`, p. 10. Conservar ocultas las etiquetas automáticas. Recordar que una unidad es un segmento reconstruido y puede reunir asuntos distintos. Las etiquetas se contrastarán al minuto 90.
 
 ## Colab y carga de 23 a 36 minutos
 
-**23–26, S09.** Distinguir lenguaje, biblioteca y entorno. Mostrar la copia propia y cómo editar una celda de texto. Pedir que transfieran las notas iniciales si las hicieron en papel. La persona de apoyo atiende accesos; mantener una explicación común breve.
+**23–26, S15.** Distinguir lenguaje, biblioteca y entorno. Mostrar la copia propia y cómo editar una celda de texto. Pedir que transfieran las notas iniciales si las hicieron en papel. La persona de apoyo atiende accesos; mantener una explicación común breve.
 
-**26–29, S10.** Ejecutar el saludo, cambiarlo y volver a ejecutar. Explicar únicamente variable, asignación, comillas y mostrar resultados. No convertir este paso en una introducción completa a Python.
+**26–29, S16.** Ejecutar el saludo, cambiarlo y volver a ejecutar. Explicar únicamente variable, asignación, comillas y mostrar resultados. No convertir este paso en una introducción completa a Python.
 
-**29–33, S11.** Presentar pandas cuando resuelve la tabla. Ejecutar Preparación con carga incluida; los datos están dentro del notebook. La implementación extensa permanece en una celda preparada. Si se necesita el ZIP, elegir manual y subir el archivo indicado. No hace falta enseñar Git ni montar Drive.
+**29–33, S17.** Presentar pandas cuando resuelve la tabla. Ejecutar Preparación con carga incluida; los datos están dentro del notebook. La implementación extensa permanece en una celda preparada. Si se necesita el ZIP, elegir manual y subir el archivo indicado. No hace falta enseñar Git ni montar Drive.
 
-**33–36, S12.** Ejecutar la tabla. Preguntar qué representa una fila, qué metadatos permiten comparar y qué diferencia hay entre documento y unidad. Distinguir los tres pares ilustrados con facsímiles en las slides de las seis filas del notebook. No cargar clasificaciones.
+**33–36, S18.** Ejecutar la tabla. Preguntar qué representa una fila, qué metadatos permiten comparar y qué diferencia hay entre documento y unidad. Distinguir los tres pares ilustrados con facsímiles en las slides de las seis filas del notebook. No cargar clasificaciones.
 
 **Punto de recuperación:** seis documentos disponibles. Si falta un nombre, ejecutar Preparación; si se reinició el entorno, la misma celda reconstruye datos y herramientas. La persona de apoyo mantiene registro de quienes aún necesitan completar este paso.
 
 ## Transformación y frecuencias de 36 a 51 minutos
 
-**36–43, S13.** Pedir una predicción sobre original y versión para conteos; ejecutar la celda que recupera ambas. El procesamiento se hizo durante la preparación de datos, no con un modelo lingüístico en vivo. Explicar minúsculas, secuencias de letras, descarte editorial y conservación de negaciones. Mostrar por qué quitar «no» puede cambiar el sentido. El ejemplo de la slide es literal y localizable en Leguía de 1921, p. 11.
+**36–43, S19.** Pedir una predicción sobre original y versión para conteos; ejecutar la celda que recupera ambas. El procesamiento se hizo durante la preparación de datos, no con un modelo lingüístico en vivo. Explicar minúsculas, secuencias de letras, descarte editorial y conservación de negaciones. Mostrar por qué quitar «no» puede cambiar el sentido. El ejemplo de la slide es literal y localizable en Leguía de 1921, p. 11.
 
 Definir token como cada aparición según la regla. Singular, plural y sinónimos siguen separados. Mostrar la diferencia entre conservar textos para leer y preparar una copia para contar, sin explicar expresiones regulares durante el recorrido común.
 
-**43–47, S14.** Antes de ejecutar, pedir una predicción sobre el ranking. Presentar Counter como herramienta estándar para conteos. Ejecutar y cambiar `numero_palabras` de 10 a 8. Explicar que ocultar palabras del ranking no modifica el denominador.
+**43–47, S20.** Antes de ejecutar, pedir una predicción sobre el ranking. Presentar Counter como herramienta estándar para conteos. Ejecutar y cambiar `numero_palabras` de 10 a 8. Explicar que ocultar palabras del ranking no modifica el denominador.
 
 **47–51.** Pedir que expliquen su modificación y una transformación. Comprobar un término en el original o señalar que lo harán con la búsqueda preparada. Aceptar una pregunta breve sobre ambigüedad, sin empezar técnicas nuevas.
 
 ## Comparación de 51 a 66 minutos
 
-**51–54, S15.** Mantener oculta S17. Pedir la predicción y advertir que mayor extensión permite más menciones absolutas. El ejemplo común es competencia en Leguía 1921 y Alberto Fujimori 1991; mantener esta consulta hasta reunir tabla y dos fragmentos. La modificación individual ya puede hacerse con el ranking de 10 a 8 o el contexto de 100 a 180. Después del caso común, permitir otra palabra o documentos a quienes estén listos.
+**51–54, S21.** Mantener oculta S23. Pedir la predicción y advertir que mayor extensión permite más menciones absolutas. El ejemplo común es competencia en Leguía 1921 y Alberto Fujimori 1991; mantener esta consulta hasta reunir tabla y dos fragmentos. La modificación individual ya puede hacerse con el ranking de 10 a 8 o el contexto de 100 a 180. Después del caso común, permitir otra palabra o documentos a quienes estén listos.
 
-**54–58, S16.** Ejecutar tasas y explicar numerador y denominador. Leer «menciones por mil palabras». No llamar porcentaje a la tasa. Mostrar la tabla con menciones, palabras y tasas, sin ocultar el denominador.
+**54–58, S22.** Ejecutar tasas y explicar numerador y denominador. Leer «menciones por mil palabras». No llamar porcentaje a la tasa. Mostrar la tabla con menciones, palabras y tasas, sin ocultar el denominador.
 
-**58–62, S17 y notebook.** Mostrar S17 solo después de que los estudiantes hayan escrito y ejecutado. En la consulta inicial hay 2/4.527 y 11/23.348, aproximadamente 0,442 y 0,471 por mil. Preguntar qué cambió frente al conteo. Presentar matplotlib cuando se necesita el gráfico. El apéndice A02 conserva un gráfico de reserva.
+**58–62, S23 y notebook.** Mostrar S23 solo después de que los estudiantes hayan escrito y ejecutado. En la consulta inicial hay 2/4.527 y 11/23.348, aproximadamente 0,442 y 0,471 por mil. Preguntar qué cambió frente al conteo. Presentar matplotlib cuando se necesita el gráfico. El apéndice A02 conserva un gráfico de reserva.
 
-**62–66.** Guardar tabla o gráfico y una interpretación provisional. No convertir la cercanía de tasas en prueba de igualdad ni su diferencia en significación estadística. Si alguien cambia la consulta, interpretar su resultado; los valores de S17 solo describen la consulta inicial.
+**62–66.** Guardar tabla o gráfico y una interpretación provisional. No convertir la cercanía de tasas en prueba de igualdad ni su diferencia en significación estadística. Si alguien cambia la consulta, interpretar su resultado; los valores de S23 solo describen la consulta inicial.
 
 ## Recuperación de 66 a 74 minutos
 
-**S18.** Dedicar dos minutos a identificar problemas, cuatro a reanudar y dos a comprobar que todos entienden palabra, documentos y denominador. Si los problemas están resueltos, una pausa de hasta dos minutos cabe dentro del bloque. La celda Recuperación vuelve a cargar tablas y recalcula; si el entorno se reinició, ejecutar Preparación primero.
+**S24.** Dedicar dos minutos a identificar problemas, cuatro a reanudar y dos a comprobar que todos entienden palabra, documentos y denominador. Si los problemas están resueltos, una pausa de hasta dos minutos cabe dentro del bloque. La celda Recuperación vuelve a cargar tablas y recalcula; si el entorno se reinició, ejecutar Preparación primero.
 
 Los resultados guardados son una alternativa indicada por el docente después de la predicción. Se marcan como guardados y permiten interpretar durante la reparación. La ejecución individual debe retomarse. No presentar esa salida como cálculo realizado por el estudiante.
 
 ## Contexto de 74 a 90 minutos
 
-**74–77, S19.** Pedir una predicción de significado y explicar búsqueda en contexto. Se busca en la extracción original, no en una versión sin negaciones. Guiones reparados y rótulos excluidos pueden producir diferencias respecto del conteo.
+**74–77, S25.** Pedir una predicción de significado y explicar búsqueda en contexto. Se busca en la extracción original, no en una versión sin negaciones. Guiones reparados y rótulos excluidos pueden producir diferencias respecto del conteo.
 
-**77–81, S20.** Ejecutar contextos y cambiar amplitud de 100 a 180 caracteres. Explicar que son caracteres a cada lado, no palabras. Pedir dos filas de documentos distintos. Para la consulta inicial sirven 0 y 3; otros términos requieren revisar los índices.
+**77–81, S26.** Ejecutar contextos y cambiar amplitud de 100 a 180 caracteres. Explicar que son caracteres a cada lado, no palabras. Pedir dos filas de documentos distintos. Para la consulta inicial sirven 0 y 3; otros términos requieren revisar los índices.
 
-**81–86.** Recuperar las unidades completas. Si no hay unidad asociada, la celda recupera la página. Mostrar S21 después de que hayan examinado sus pasajes: Leguía utiliza competencia para capacidad profesional y el pasaje de Fujimori refiere al mercado. Los dos ejemplos no clasifican todas las ocurrencias. `u00126` continúa con fomento agrícola, lo que ilustra una unidad con varios temas.
+**81–86.** Recuperar las unidades completas. Si no hay unidad asociada, la celda recupera la página. Mostrar S27 después de que hayan examinado sus pasajes: Leguía utiliza competencia para capacidad profesional y el pasaje de Fujimori refiere al mercado. Los dos ejemplos no clasifican todas las ocurrencias. `u00126` continúa con fomento agrícola, lo que ilustra una unidad con varios temas.
 
-**86–90, S22.** Redactar una conclusión provisional y una limitación concreta. Si la palabra no produce coincidencias útiles, cambiarla y explicarlo. No inventar fragmentos ni tratar la ausencia léxica como ausencia conceptual.
+**86–90, S28.** Redactar una conclusión provisional y una limitación concreta. Si la palabra no produce coincidencias útiles, cambiarla y explicarlo. No inventar fragmentos ni tratar la ausencia léxica como ausencia conceptual.
 
 **Punto de recuperación:** resultado numérico y dos fragmentos identificados, con sus páginas y unidades.
 
 ## Etiquetas de 90 a 98 minutos
 
-**90–95, S23.** Ejecutar la celda independiente de etiquetas existentes. Volver a la primera clasificación: el modelo asignó empresario con confianza alta a A y regulador con confianza media a B, además de asistencial como secundaria en B. Preguntar por un acuerdo, desacuerdo o duda y exigir evidencia. Aceptar una revisión de la decisión inicial sin borrarla.
+**90–95, S29.** Ejecutar la celda independiente de etiquetas existentes. Volver a la primera clasificación: el modelo asignó empresario con confianza alta a A y regulador con confianza media a B, además de asistencial como secundaria en B. Preguntar por un acuerdo, desacuerdo o duda y exigir evidencia. Aceptar una revisión de la decisión inicial sin borrarla.
 
-**95–98, S24.** Explicar dos límites: el segundo anotador fue otro modelo de lenguaje, y la referencia de 30 unidades solo contiene un caso empresario y uno regulador. La confianza no es una probabilidad calibrada. No presentar validación entre dos humanos ni calcular proporciones con los seis ejemplos dirigidos.
+**95–98, S30.** Explicar dos límites: el segundo anotador fue otro modelo de lenguaje, y la referencia de 30 unidades solo contiene un caso empresario y uno regulador. La confianza no es una probabilidad calibrada. No presentar validación entre dos humanos ni calcular proporciones con los seis ejemplos dirigidos.
 
 ## Entrega de 98 a 110 minutos
 
-**98–102, S25.** Completar conclusión y verificar palabra, documentos, denominadores y localización de los dos fragmentos. La tabla basta si falta tiempo. El cierre técnico solo comprueba que tabla y evidencia corresponden a la consulta actual; no evalúa las respuestas.
+**98–102, S31.** Completar conclusión y verificar palabra, documentos, denominadores y localización de los dos fragmentos. La tabla basta si falta tiempo. El cierre técnico solo comprueba que tabla y evidencia corresponden a la consulta actual; no evalúa las respuestas.
 
-**102–106, S25–S26.** Completar una limitación que restrinja una afirmación y la aplicación a documentos de la carrera. Usar la tabla de aplicaciones como apoyo, sin exigir que todos compartan oralmente. Realizar autoevaluación sin puntos.
+**102–106, S31–S32.** Completar una limitación que restrinja una afirmación y la aplicación a documentos de la carrera. Usar la tabla de aplicaciones como apoyo, sin exigir que todos compartan oralmente. Realizar autoevaluación sin puntos.
 
-**106–109, S27.** Separar tres pasos: guardar y comprobar, descargar y renombrar, subir y verificar recepción. La secuencia detallada está en [ensayo del cierre](ensayo_cierre.md). Guardar y descargar `.ipynb` con respuestas y salidas; subir a la carpeta de Drive indicada y comprobar que aparece. Los CSV y PNG complementarios no sustituyen la entrega. Si falla la subida, conservar el archivo y registrar la incidencia.
+**106–109, S33.** Separar tres pasos: guardar y comprobar, descargar y renombrar, subir y verificar recepción. La secuencia detallada está en [ensayo del cierre](ensayo_cierre.md). Guardar y descargar `.ipynb` con respuestas y salidas; subir a la carpeta de Drive indicada y comprobar que aparece. Los CSV y PNG complementarios no sustituyen la entrega. Si falla la subida, conservar el archivo y registrar la incidencia.
 
 **109–110.** Pedir una decisión que puedan modificar y una afirmación que todavía no puedan sostener. Confirmar entregas pendientes.
 

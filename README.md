@@ -24,7 +24,7 @@ Para estudiantes: empezar por la [preparación breve](docs/preparacion_estudiant
 | [Uso y pruebas de los notebooks](notebooks/README.md) | Carga, recuperación, entrega y diferencias respecto de Colab |
 | [Guion docente](docs/guion_docente.md) | Coordinación de tiempos, preguntas, errores y recortes |
 | [Slides Beamer](slides/README.md) | PDF revisado, archivos editables y compilación local u Overleaf |
-| [ZIP para Overleaf](paquetes/beamer_overleaf.zip) | Proyecto autocontenido para XeLaTeX y Biber |
+| [ZIP para Overleaf](paquetes/hee_text_analysis_crash_course.zip) | Proyecto autocontenido para XeLaTeX y Biber |
 | [Preparación de estudiantes](docs/preparacion_estudiantes.md) | Acceso, primera celda, carga y guardado |
 | [Recursos para continuar](docs/recursos_continuacion.md) | Prácticas y lecturas opcionales verificadas |
 | [Adaptación a documentos nuevos](docs/adaptacion_nuevos_documentos.md) | Pregunta, selección, metadatos, conteos y evidencia |

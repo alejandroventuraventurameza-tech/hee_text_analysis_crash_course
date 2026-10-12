@@ -1,6 +1,6 @@
 # Discursos presidenciales bajo la lupa
 
-La presentación corresponde a Historia Económica y Empresarial, semestre 2026 II, y acompaña la sesión de 110 minutos con 27 slides comunes, cuatro de consulta y tres de referencias. Las slides comunes contienen preguntas, extractos literales, conceptos e instrucciones breves; la práctica y las respuestas se realizan en el notebook. El [guion docente](../docs/guion_docente.md) coordina tiempos, slides, preguntas y recuperación.
+La presentación corresponde a Historia Económica y Empresarial, semestre 2026 II, y acompaña la sesión de 110 minutos con 33 slides comunes, cuatro de consulta y tres de referencias. Las slides comunes contienen preguntas, extractos literales, conceptos e instrucciones breves; la práctica y las respuestas se realizan en el notebook. El [guion docente](../docs/guion_docente.md) coordina tiempos, slides, preguntas y recuperación.
 
 ## Archivos y configuración de Overleaf
 
@@ -15,10 +15,10 @@ La presentación corresponde a Historia Económica y Empresarial, semestre 2026 
 | `data/procedencia.json` | Unidades completas citadas, URL de los PDF y huellas del template original |
 | `revision_estatica.json` | Comprobaciones de estructura y recursos, sin compilación |
 | `revision_visual.json` | Compilación local y revisión visual del PDF actualizado |
-| `discursos_presidenciales_bajo_la_lupa.pdf` | PDF actualizado para proyectar |
+| `hee_text_analysis_crash_course.pdf` | PDF actualizado para proyectar |
 | `images/*_pagina1.png` | Cuatro facsímiles renderizados de los PDF oficiales, con procedencia registrada |
 
-Importar [beamer_overleaf.zip](../paquetes/beamer_overleaf.zip) como proyecto en Overleaf y seleccionar `1_main.tex` como archivo principal. Usar **XeLaTeX** y **Biber**. Overleaf normalmente coordina Biber con la compilación; si aparecen citas sin resolver, recompilar desde cero y revisar el log. La secuencia equivalente es XeLaTeX, Biber sobre `1_main`, y dos pasadas de XeLaTeX.
+Importar [hee_text_analysis_crash_course.zip](../paquetes/hee_text_analysis_crash_course.zip) como proyecto en Overleaf y seleccionar `1_main.tex` como archivo principal. Usar **XeLaTeX** y **Biber**. Overleaf normalmente coordina Biber con la compilación; si aparecen citas sin resolver, recompilar desde cero y revisar el log. La secuencia equivalente es XeLaTeX, Biber sobre `1_main`, y dos pasadas de XeLaTeX.
 
 Todos los archivos compilables están en la raíz del ZIP, junto con `images/` y `data/`. Las rutas no dependen de `pd01/`, carpetas externas, Python, una clave o archivos del repositorio de investigación. Los datos de trazabilidad no se descargan durante la compilación.
 
@@ -46,7 +46,9 @@ La referencia de Berelson de 1952 se corroboró bibliográficamente con una rese
 
 Se revisan estáticamente rutas de entrada, imagen y bibliografía; etiquetas; claves de citas; balance de llaves y entornos; cierres de filas de tablas; correspondencia de citas con las unidades; números con el CSV; identidad del logo y conservación del template. El ZIP se comprueba contra los archivos locales y se incluye un listado de huellas propio.
 
-La versión actual se compiló localmente con XeLaTeX y Biber el 11 de octubre de 2026. Se revisaron las 34 páginas renderizadas y el registro final de compilación, sin avisos de desbordes ni citas sin resolver. El detalle y las huellas están en [revision_visual.json](revision_visual.json). El PDF que aportó el docente, `beamer_overleaf.pdf`, se conserva sin modificaciones; la revisión se entrega en un archivo distinto.
+La nueva apertura añade seis slides sobre problemática, proxy, orientación declarada, canales, API y objetivos. El cuerpo usa Latin Modern Sans con tamaño uniforme y el encabezado muestra las cuatro secciones. [GUIA_EDICION.md](GUIA_EDICION.md) explica los controles de portada y la imagen pendiente del presidente.
+
+La versión actual se compiló localmente con XeLaTeX y Biber el 11 de octubre de 2026. Se revisaron las 40 páginas renderizadas y el registro final de compilación, sin avisos de desbordes ni citas sin resolver. El detalle y las huellas están en [revision_visual.json](revision_visual.json). Los PDF anteriores fueron retirados por el docente antes de esta revisión; el archivo actual es `hee_text_analysis_crash_course.pdf`.
 
 La revisión de proyección y legibilidad desde el aula sigue pendiente. Overleaf es opcional; no se ha verificado esta versión dentro de esa plataforma.
 

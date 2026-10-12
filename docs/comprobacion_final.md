@@ -11,7 +11,7 @@ Los materiales están preparados para revisar el recorrido de principio a fin an
 | Notebooks | Ambas versiones ejecutadas completas localmente; [registro](../notebooks/prueba_local.json) |
 | Carga manual | Lectura local y subida mediante interfaz real de Colab comprobadas; el usuario recibió 6 documentos y 619 unidades |
 | Colab | Recorrido común recibido mediante prueba guiada, con guardado y reapertura confirmados. Copia descargada revisada con texto, gráfico y tablas. Recuperación final recibida y versiones registradas; reinicio real sin confirmación explícita |
-| Beamer | Revisión estática, compilación local y revisión visual de 34 páginas realizadas; [registro visual](../slides/revision_visual.json) |
+| Beamer | Revisión estática, compilación local y revisión visual de 40 páginas realizadas; [registro visual](../slides/revision_visual.json) |
 | Overleaf | Alternativa opcional; la presentación ya se compiló localmente |
 | Acceso público | Repositorio local sin remoto configurado; publicación a cargo del autor |
 | Entrega en Drive | Carpeta creada y prueba docente recibida; acceso institucional de estudiantes pendiente |
@@ -47,7 +47,7 @@ No hacen falta claves, instalaciones de modelos ni GPU. Si aparece un fallo, reg
 
 ## Compilación y proyección
 
-La versión actual ya se compiló localmente con XeLaTeX y Biber y se revisaron las 34 páginas. Como alternativa, importar [beamer_overleaf.zip](../paquetes/beamer_overleaf.zip), seleccionar `1_main.tex`, XeLaTeX y Biber. Revisar el log y las referencias. Comprobar especialmente portada, fragmento B, tabla de aplicaciones y las tres slides bibliográficas, además de las restantes páginas. Revisar que notas ocultas no aparezcan en el PDF distribuido.
+La versión actual ya se compiló localmente con XeLaTeX y Biber y se revisaron las 40 páginas. Como alternativa, importar [hee_text_analysis_crash_course.zip](../paquetes/hee_text_analysis_crash_course.zip), seleccionar `1_main.tex`, XeLaTeX y Biber. Revisar el log y las referencias. Comprobar especialmente portada, fragmento B, tabla de aplicaciones y las tres slides bibliográficas, además de las restantes páginas. Revisar que notas ocultas no aparezcan en el PDF distribuido.
 
 Proyectar unas slides con fragmentos, una tabla y el gráfico para comprobar legibilidad desde el aula. Confirmar HDMI y que alternar PDF y notebook no oculta instrucciones relevantes. Si el contenido desborda, recortar o dividir antes de reducir el tamaño del texto. La revisión estática no sustituye estas acciones.
 
@@ -68,8 +68,8 @@ Realizar una entrega de prueba de un notebook sin datos personales innecesarios,
 | Carga manual mediante interfaz | 11/10/2026, Colab, prueba guiada | ZIP subido y seis documentos con 619 unidades cargados |
 | Copia y guardado en Drive | 11/10/2026, prueba guiada | Confirmados por el usuario |
 | Descarga y reapertura con salidas | 11/10/2026, prueba guiada y archivo local | Texto, gráfico y tablas conservados en la copia revisada; reapertura confirmada por el usuario |
-| Compilación local y referencias | 11/10/2026, XeLaTeX y Biber | PDF de 34 páginas, referencias resueltas y sin avisos de desbordes |
-| Revisión visual de todas las slides | 11/10/2026, PDF renderizado | 34 páginas revisadas; proyección en aula pendiente |
+| Compilación local y referencias | 11/10/2026, XeLaTeX y Biber | PDF de 40 páginas, referencias resueltas y sin avisos de desbordes |
+| Revisión visual de todas las slides | 11/10/2026, PDF renderizado | 40 páginas revisadas; proyección en aula pendiente |
 | Acceso a materiales públicos | Pendiente | |
 | Recepción administrativa de archivo docente | 11/10/2026, conector Drive | Subida y ubicación verificadas; cuenta del docente |
 | Entrega desde cuenta institucional distinta | Pendiente | Permisos y subida estudiantil todavía no comprobados |

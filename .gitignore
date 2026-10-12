@@ -1,0 +1,14 @@
+# Archivos de revisión y compilación; conservar fuentes, notebooks y PDF final.
+tmp/
+slides/*.aux
+slides/*.bcf
+slides/*.blg
+slides/*.bbl
+slides/*.log
+slides/*.nav
+slides/*.out
+slides/*.run.xml
+slides/*.snm
+slides/*.toc
+slides/*.vrb
+__pycache__/

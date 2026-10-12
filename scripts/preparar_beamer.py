@@ -22,19 +22,21 @@ COVER = r"""\setbeamertemplate{title page}{
   \node[anchor=east] at ([yshift=-52pt,xshift=-15pt]current page.north east)
     {\includegraphics[width=0.34\paperwidth]{UP_logo.jpg}};
   \node[anchor=north west] at ([yshift=-35pt,xshift=15pt]current page.north west)
-    {\parbox[t]{0.51\paperwidth}{\usebeamercolor[fg]{author}\Large\bfseries\insertauthor}};
+    {\parbox[t]{0.51\paperwidth}{\usebeamercolor[fg]{author}\fontsize{\TamNombrePortada}{17}\selectfont\bfseries\insertauthor\textsuperscript{*}}};
   \node[anchor=north west] at ([yshift=-61pt,xshift=15pt]current page.north west)
     {\parbox[t]{0.51\paperwidth}{\hypersetup{urlcolor=UWWhite}\small\href{mailto:al.venturam@up.edu.pe}{al.venturam@up.edu.pe}}};
   \node[anchor=north west] at ([yshift=-82pt,xshift=15pt]current page.north west)
     {\parbox[t]{0.51\paperwidth}{\usebeamercolor[fg]{institute}\normalsize\insertinstitute}};
   \node[anchor=north] at ([yshift=-1pt]current page.center)
-    {\parbox[t]{\textwidth}{\centering\usebeamercolor[fg]{title}\fontsize{22}{25}\selectfont\bfseries\inserttitle}};
+    {\parbox[t]{\textwidth}{\centering\usebeamercolor[fg]{title}\fontsize{\TamTituloPortada}{\InterlineadoTituloPortada}\selectfont\bfseries\inserttitle}};
   \node[anchor=north] at ([yshift=-60pt]current page.center)
-    {\parbox[t]{\textwidth}{\centering\large Análisis textual con Python}};
-  \node[anchor=north] at ([yshift=-90pt]current page.center)
-    {\parbox[t]{\textwidth}{\centering\insertcourse}};
-  \node[anchor=north] at ([yshift=-111pt]current page.center)
-    {\parbox[t]{\textwidth}{\centering\small\insertclass}};
+    {\parbox[t]{\textwidth}{\centering\fontsize{\TamSubtituloPortada}{15}\selectfont Análisis textual con Python}};
+  \node[anchor=north] at ([yshift=-83pt]current page.center)
+    {\parbox[t]{\textwidth}{\centering\fontsize{\TamCursoPortada}{14}\selectfont\insertcourse}};
+  \node[anchor=north] at ([yshift=-100pt]current page.center)
+    {\parbox[t]{\textwidth}{\centering\fontsize{\TamSemestrePortada}{12}\selectfont\insertclass}};
+  \node[anchor=south] at ([yshift=10pt]current page.south)
+    {\parbox{0.92\paperwidth}{\centering\fontsize{7}{9}\selectfont\textsuperscript{*}\NotaExpositor}};
 \end{tikzpicture}
 }
 """
@@ -51,6 +53,7 @@ def main():
         "\\addbibresource{4_bibliography.bib}\n\\DeclareLanguageMapping{spanish}{spanish-apa}\n\\usepackage{csquotes}\n\\usepackage{pgfplots}\n\\pgfplotsset{compat=1.18}")
     preambulo = preambulo.replace(r"\setbeamercolor{normal text}{fg=UWGrayL3}", r"\setbeamercolor{normal text}{fg=UWGrayL4}")
     preambulo = preambulo.replace(r"\setbeamercolor{frametitle}{fg=UWMathPinkL2, bg=UWGrayL1}", r"\setbeamercolor{frametitle}{fg=UWMathPinkL4, bg=UWGrayL1}")
+    preambulo = preambulo.replace(r"\usefonttheme[onlymath]{serif}", "")
     preambulo = preambulo.replace("{Definition \\thedefcounter", "{Definición \\thedefcounter")
     preambulo = preambulo.replace("{Theorem \\thetheocounter", "{Teorema \\thetheocounter")
     preambulo = preambulo.replace("{Example \\theexcounter", "{Ejemplo \\theexcounter")
@@ -76,6 +79,7 @@ def main():
 \setbeamercolor{description item}{fg=UWMathPinkL4}
 \setbeamercolor{item projected}{fg=UWMathPinkL4}
 \newcommand{\fuente}[1]{\par\vspace{0.15cm}{\scriptsize #1\par}}
+\input{configuracion}
 """
     SLIDES.mkdir(exist_ok=True)
     (SLIDES / "2_preamble.tex").write_text(preambulo, encoding="utf-8", newline="\n")

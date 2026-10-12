@@ -8,6 +8,7 @@ import base64
 import csv
 import io
 import json
+import re
 from pathlib import Path
 import textwrap
 import zipfile
@@ -159,6 +160,15 @@ def crear(docente=False):
         celdas.append(celda)
 
     def md(identificador, texto):
+        texto = re.sub(r"## \d+–\d+ minutos ", "## ", texto)
+        texto = texto.replace("Punto de recuperación al minuto 36.", "Punto de recuperación: datos cargados.")
+        iconos = {"uso":"🧭", "fragmentos-ciegos":"🔎", "historia":"📚", "roles":"📝",
+                  "python-colab":"💻", "transformacion":"🧹", "comparacion":"📊",
+                  "recuperacion":"🛟", "contexto":"📖", "etiquetas-intro":"🤖",
+                  "entrega":"✍️", "autoevaluacion":"✅", "guardar-entrega":"💾",
+                  "recuperacion-guardada":"🛟", "desafio":"⭐"}
+        if identificador in iconos:
+            texto = re.sub(r"^(\s*#{2,3}) ", lambda m:m[1]+" "+iconos[identificador]+" ", texto, count=1)
         agregar("markdown", identificador, texto)
 
     def codigo(identificador, texto, preparado=False):
@@ -178,25 +188,40 @@ def crear(docente=False):
         agregar("code", identificador, texto, preparado)
         if identificador in titulos:
             celdas[-1]["source"].insert(0, "# @title " + titulos[identificador] + "\n")
+        iconos_codigo = {"primera-celda":"💻", "preparacion":"🧰", "tabla-documentos":"📋",
+                         "original-conteo":"🔎", "frecuencias":"📊", "tasas":"📊",
+                         "grafico":"📈", "recuperar":"🛟", "contextos":"📖", "evidencia":"📌",
+                         "etiquetas-preparadas":"🤖", "comprobacion-entrega":"✅",
+                         "usar-guardados":"🛟", "desafio-codigo":"⭐"}
+        celdas[-1]["source"][0] = celdas[-1]["source"][0].replace("# @title ", "# @title " + iconos_codigo[identificador] + " ", 1)
 
     def respuesta(identificador, consigna, resuelta):
         md(identificador, consigna + ("\n\n**Ejemplo docente de respuesta, no respuesta única.**\n\n" + resuelta if docente else "\n\n**Mi respuesta:** completa aquí."))
 
     filas_ejemplos = list(csv.DictReader((DATOS / "ejemplos_manuales.csv").open(encoding="utf-8")))
     a, b = (next(r["texto"] for r in filas_ejemplos if r["ejemplo_id"] == letra) for letra in ["A", "B"])
-    md("portada", f'''# Discursos presidenciales bajo la lupa
+    logo = base64.b64encode((RAIZ / "slides/images/UP_logo.jpg").read_bytes()).decode("ascii")
+    md("portada", f'''<img src="data:image/jpeg;base64,{logo}" width="210" alt="Universidad del Pacífico">
+
+    # 🔎 Discursos presidenciales bajo la lupa
 
     Análisis textual con Python · Historia Económica y Empresarial · 2026 II
 
     {"Versión resuelta para el docente. Sus respuestas son ejemplos para discutir; no constituyen etiquetas humanas validadas." if docente else "Notebook individual para estudiantes. Ejecuta y modifica código en tu propia laptop, aunque discutas con otras personas."}
 
-    Alejandro Ventura · al.venturam@up.edu.pe
+    **Expositor:** Alejandro Ventura · al.venturam@up.edu.pe
+
+    **Tu reto:** comprobar qué cambia al pasar de contar una palabra a leerla en contexto.
+
+    **Al finalizar podrás** comparar menciones por 1.000 palabras, modificar una instrucción, recuperar evidencia y explicar una conclusión con límites.
 
     **Pregunta:** ¿Qué instrumentos de intervención económica aparecen en estos mensajes y qué diferencias podemos sostener al comparar palabras y leer fragmentos?
 
     Los discursos permiten estudiar instrumentos y prioridades declaradas. Para saber qué se ejecutó hacen falta otras fuentes; estos datos no permiten establecer causalidad. La selección de seis mensajes no representa gobiernos completos.
     ''')
     md("uso", '''## Cómo trabajar y qué entregar
+
+    **Ruta del taller:** predice → ejecuta → lee → explica. Los iconos te ayudan a encontrar cada etapa; sigue las indicaciones del docente.
 
     Antes de cada resultado escribe una predicción, ejecuta, interpreta y comprueba con el original. Cambia los valores señalados y vuelve a ejecutar. Las celdas tituladas Preparación ya resuelven las operaciones difíciles; no necesitas copiarlas ni entender toda su implementación.
 

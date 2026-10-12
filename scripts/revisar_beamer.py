@@ -40,7 +40,7 @@ def balance_entornos(texto):
 
 def main():
     textos = {p.name: sin_comentarios(p.read_text(encoding="utf-8")) for p in SLIDES.glob("*.tex")}
-    assert set(textos) == {"1_main.tex", "2_preamble.tex", "3_content.tex"}
+    assert set(textos) == {"1_main.tex", "2_preamble.tex", "3_content.tex", "configuracion.tex", "apertura.tex"}
     for nombre, texto in textos.items():
         balance_llaves(texto)
         balance_entornos(texto)
@@ -50,18 +50,20 @@ def main():
         for bib in re.findall(r"\\addbibresource\{([^}]+)\}", texto):
             assert (SLIDES / bib).is_file(), (nombre, bib)
         for imagen in re.findall(r"\\includegraphics(?:\[[^\]]*\])?\{([^}]+)\}", texto):
+            if imagen == "presidente.png" and r"\IfFileExists{images/presidente.png}" in texto:
+                continue
             assert (SLIDES / "images" / imagen).is_file(), imagen
         assert "pd01/" not in texto
         assert not re.search(r"[A-Za-z]:\\", texto), "Ruta personal en LaTeX"
-    contenido = textos["3_content.tex"]
+    contenido = textos["3_content.tex"].replace(r"\input{apertura}", textos["apertura.tex"])
     for tabla in re.findall(r"\\begin\{tabular\}.*?\\end\{tabular\}", contenido, re.S):
         for linea in tabla.splitlines():
             if "&" in linea:
                 assert linea.rstrip().endswith(r"\\"), "Fila sin terminador: " + linea
     etiquetas = re.findall(r"label=([a-z0-9-]+)", contenido)
-    assert len(etiquetas) == 34 and len(set(etiquetas)) == 34
+    assert len(etiquetas) == 40 and len(set(etiquetas)) == 40
     comun = contenido.split(r"\appendix")[0]
-    assert len(re.findall(r"\\begin\{frame\}", comun)) == 27
+    assert len(re.findall(r"\\begin\{frame\}", comun)) == 33
     bib = (SLIDES / "4_bibliography.bib").read_text(encoding="utf-8")
     balance_llaves(bib)
     claves = set(re.findall(r"@\w+\{([^,]+),", bib))
@@ -98,7 +100,7 @@ def main():
     colores = re.findall(r"\\definecolor\{[^}]+\}\{[^}]+\}\{[^}]+\}", textos["2_preamble.tex"])
     colores_originales = re.findall(r"\\definecolor\{[^}]+\}\{[^}]+\}\{[^}]+\}", (template / "2_preamble_pd01.tex").read_text(encoding="utf-8"))
     assert colores == colores_originales, "La paleta original debe conservarse"
-    informe = {"fecha": "2026-10-11", "frames_comunes": 27, "frames_apendice": 4,
+    informe = {"fecha": "2026-10-11", "frames_comunes": 33, "frames_apendice": 4,
         "frames_referencias": 3, "claves_bibliograficas": sorted(claves),
         "rutas_locales_existentes": True, "llaves_y_entornos_balanceados": True,
         "filas_tablas_cerradas": True, "etiquetas_unicas": True,
@@ -110,16 +112,16 @@ def main():
     (SLIDES / "revision_estatica.json").write_text(json.dumps(informe, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     contenidos = {p.relative_to(SLIDES).as_posix(): p.read_bytes() for p in sorted(SLIDES.rglob("*"))
                   if p.is_file() and (p.suffix in {".tex", ".bib", ".png", ".jpg", ".csv"}
-                    or p.relative_to(SLIDES).as_posix() in {"data/procedencia.json", "revision_estatica.json"})}
+                    or p.relative_to(SLIDES).as_posix() in {"data/procedencia.json", "revision_estatica.json", "GUIA_EDICION.md", "images/LEEME_IMAGENES.md"})}
     leeme = """# Proyecto Beamer para Overleaf
 
 Importa este ZIP como proyecto nuevo. Selecciona 1_main.tex y el compilador XeLaTeX. La bibliografía usa Biber y estilo APA. Overleaf normalmente ejecuta Biber durante la compilación; si faltan referencias, recompila desde cero y revisa el log.
 
 1_main.tex carga 2_preamble.tex y 3_content.tex desde la raíz. La bibliografía está en 4_bibliography.bib, el logo y cuatro facsímiles documentales en images/ y la procedencia y datos en data/. No se requiere una carpeta pd01 ni acceso al repositorio de investigación.
 
-La presentación conserva el formato 4:3 y la identidad del template original. Contiene 27 slides comunes, cuatro de consulta y tres de referencias. Las notas permanecen ocultas. Los resultados aparecen después de las actividades de predicción; el docente controla cuándo avanzar.
+La presentación conserva el formato 4:3 y la identidad del template original. Contiene 33 slides comunes, cuatro de consulta y tres de referencias. Las notas permanecen ocultas. Los resultados aparecen después de las actividades de predicción; el docente controla cuándo avanzar. configuracion.tex centraliza tipografía y tamaños de portada; apertura.tex contiene la nueva problemática, proxy, canales, API y objetivos. Consulta GUIA_EDICION.md para personalizar.
 
-Dependencias de TeX: Beamer, fontspec, babel español, amsmath, amssymb, graphicx, geometry, multicol, TikZ, etoolbox, biblatex-apa con Biber e idioma español, csquotes, pgfplots y appendixnumberbeamer. El gráfico de reserva usa pgfplots con compatibilidad 1.18. No hay fuentes privadas, claves ni descargas durante la compilación.
+Dependencias de TeX: Beamer, fontspec, babel español, amsmath, amssymb, graphicx, geometry, multicol, TikZ, etoolbox, biblatex-apa con Biber e idioma español, csquotes, pgfplots, fontawesome5 y appendixnumberbeamer. El gráfico de reserva usa pgfplots con compatibilidad 1.18. No hay fuentes privadas, claves ni descargas durante la compilación.
 
 Se revisan estáticamente rutas, referencias, estructura y coherencia con los datos. Este registro estático no prueba ausencia de desbordes ni ajuste visual. La revisión de compilación local se documenta por separado en slides/revision_visual.json, cuando existe, dentro del repositorio de clase. Overleaf no se comprueba mediante este script. También puedes compilar localmente con XeLaTeX, Biber y dos pasadas adicionales de XeLaTeX.
 
@@ -127,7 +129,7 @@ SHA256SUMS.txt identifica los archivos incluidos, excepto el propio listado. El 
 """
     contenidos["LEEME_OVERLEAF.md"] = leeme.encode("utf-8")
     contenidos["SHA256SUMS.txt"] = ("\n".join(f"{hashlib.sha256(datos).hexdigest()}  {nombre}" for nombre, datos in sorted(contenidos.items())) + "\n").encode("utf-8")
-    destino = RAIZ / "paquetes/beamer_overleaf.zip"
+    destino = RAIZ / "paquetes/hee_text_analysis_crash_course.zip"
     destino.parent.mkdir(exist_ok=True)
     with zipfile.ZipFile(destino, "w", compression=zipfile.ZIP_DEFLATED) as paquete:
         for nombre, datos in sorted(contenidos.items()):
