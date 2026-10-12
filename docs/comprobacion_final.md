@@ -14,7 +14,7 @@ Los materiales están preparados para revisar el recorrido de principio a fin an
 | Beamer | Revisión estática, compilación local y revisión visual de 34 páginas realizadas; [registro visual](../slides/revision_visual.json) |
 | Overleaf | Alternativa opcional; la presentación ya se compiló localmente |
 | Acceso público | Repositorio local sin remoto configurado; publicación a cargo del autor |
-| Entrega en Drive | Carpeta y enlace por definir y comprobar |
+| Entrega en Drive | Carpeta creada y prueba docente recibida; acceso institucional de estudiantes pendiente |
 
 Las versiones de la prueba local fueron Python 3.13.14, pandas 3.0.2 y matplotlib 3.10.9, sobre Windows. No se presupone que Colab tenga esas versiones ni que su formulario y descarga se comporten exactamente igual.
 
@@ -71,5 +71,8 @@ Realizar una entrega de prueba de un notebook sin datos personales innecesarios,
 | Compilación local y referencias | 11/10/2026, XeLaTeX y Biber | PDF de 34 páginas, referencias resueltas y sin avisos de desbordes |
 | Revisión visual de todas las slides | 11/10/2026, PDF renderizado | 34 páginas revisadas; proyección en aula pendiente |
 | Acceso a materiales públicos | Pendiente | |
-| Recepción de entrega de prueba | Pendiente | |
+| Recepción administrativa de archivo docente | 11/10/2026, conector Drive | Subida y ubicación verificadas; cuenta del docente |
+| Entrega desde cuenta institucional distinta | Pendiente | Permisos y subida estudiantil todavía no comprobados |
 | Proyector y HDMI | Pendiente | |
+
+La carpeta de recepción continúa privada. Su creación y la subida docente no comprueban los permisos de las cuentas institucionales de la UP. El detalle está en [ensayo del cierre](ensayo_cierre.md).

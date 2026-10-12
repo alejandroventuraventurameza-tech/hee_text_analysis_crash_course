@@ -1,0 +1,34 @@
+{
+  "fecha_local": "2026-10-11",
+  "zona_horaria": "America/Lima",
+  "modalidad": "Conector de Google Drive, cuenta conectada del docente",
+  "cuentas_estudiantes": "Institucionales de la UP, confirmado por el usuario",
+  "carpeta_curso": {
+    "id": "188HlTiKzizFi6_wtLyiMbONfMT210Ivp",
+    "url": "https://drive.google.com/drive/folders/188HlTiKzizFi6_wtLyiMbONfMT210Ivp"
+  },
+  "carpeta_entregas": {
+    "id": "1x5w-v2_1Yj5cqmvwdhwFEQ2XDQgAQqRl",
+    "url": "https://drive.google.com/drive/folders/1x5w-v2_1Yj5cqmvwdhwFEQ2XDQgAQqRl",
+    "permisos_observados": "Solo propietario; acceso estudiantil no habilitado"
+  },
+  "archivo_prueba": {
+    "ruta_local": "notebooks/prueba_recepcion_docente.ipynb",
+    "sha256_local": "fb502be8191048d1ae595b6436b37861022bfae665f0ca237df43ea9c4fc01b8",
+    "bytes_local": 25404,
+    "bytes_drive": 25404,
+    "id_drive": "15OGHy-hdQf--dNYLJ0X0xUBqopiELlOq",
+    "url": "https://drive.google.com/file/d/15OGHy-hdQf--dNYLJ0X0xUBqopiELlOq/view?usp=drivesdk",
+    "subida_confirmada": true,
+    "ubicacion_confirmada_por_listado": true,
+    "graficos_png_en_original": 1,
+    "tablas_html_en_original": 1,
+    "conservacion_remota_de_bytes_verificada": false
+  },
+  "alcance": "Recepción administrativa desde la cuenta docente; no comprueba acceso institucional, conservación tras reapertura en Colab ni entrega desde una cuenta de estudiante",
+  "pendientes": [
+    "Habilitar destinatarios institucionales y permisos desde Drive",
+    "Subida y apertura desde una cuenta institucional distinta",
+    "Ensayo cronometrado del cierre"
+  ]
+}

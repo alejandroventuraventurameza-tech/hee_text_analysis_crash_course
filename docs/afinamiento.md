@@ -10,7 +10,7 @@ Revisión del 11 de octubre de 2026, sobre el PDF revisado, las dos versiones de
 | Alta | Elegir otra palabra desde la primera comparación puede producir resultados sin coincidencias, exigir otros índices y dificultar el acompañamiento común | Mantener competencia, Leguía 1921 y Fujimori 1991 hasta reunir tabla y dos fragmentos; explorar otras consultas después. La modificación individual del ranking o contexto se conserva; incorporado |
 | Alta | La apertura pide respuestas antes del bloque de acceso a Colab | Quien todavía no tenga su copia abierta escribe A y B en papel y transfiere las notas cuando abre su notebook; incorporado al guion |
 | Alta | Los diez campos de entrega pueden confundirse con diez respuestas extensas | Indicar una o dos oraciones para las explicaciones previas, tres a cinco para la conclusión y dos o tres para la aplicación; incorporado sin eliminar evidencias |
-| Alta | La carpeta de recepción todavía no tiene una prueba de entrega | Comprobar enlace, permisos y recepción de un archivo antes de la clase; pendiente |
+| Alta | La carpeta de recepción todavía no tiene una prueba de entrega | Carpeta creada y archivo docente recibido; falta habilitar acceso y probar una cuenta institucional distinta |
 | Media | Algunas instrucciones aún decían que guardado y compilación estaban pendientes, aunque ya hay evidencia | Actualizar el estado según prueba guiada, archivo descargado y compilación local, sin atribuir la prueba anterior a los nuevos títulos; incorporado |
 | Media | La pregunta amplia sobre instrumentos económicos puede hacer esperar una conclusión sobre gobiernos completos | Cerrar el caso con lo que sí demuestra: una forma exacta puede tener significados distintos. Las categorías ayudan a interpretar pasajes; las tasas no clasifican un gobierno. Foco incorporado al guion |
 
@@ -35,3 +35,7 @@ Ambas versiones del notebook mantienen 47 celdas y 14 de código. Se ejecutaron 
 Antes de distribuir: revisar los títulos y una respuesta en Colab; comprobar descarga pública de la versión de estudiantes y recepción en Drive; probar legibilidad del PDF desde el aula. La prueba de Colab anterior y el PDF local ya revisado no sustituyen esos pasos.
 
 El siguiente ensayo docente puede centrarse en una duda de acceso, una celda que indique variable ausente y el procedimiento de guardar y entregar. Debe mantenerse la lectura de dos pasajes y el tiempo de cierre.
+
+## Segunda pasada: cierre
+
+Se añadió una guía de conclusión al notebook y tres pasos separados de guardado, descarga y entrega. Ambas versiones se ejecutaron localmente. La recepción administrativa en Drive se verificó desde la cuenta conectada del docente; faltan acceso institucional y ensayo cronometrado. Consultar [ensayo del cierre](ensayo_cierre.md).

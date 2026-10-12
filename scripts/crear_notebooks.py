@@ -405,7 +405,7 @@ def crear(docente=False):
 
     Completa las respuestas siguientes usando tu tabla y fragmentos. Si falta tiempo, la tabla basta; no necesitas personalizar el gráfico. Un resultado que no respalde tu hipótesis también es válido.
     ''')
-    respuesta("conclusion", "**Conclusión en tres a cinco oraciones:** conecta el resultado numérico con tus fragmentos y delimita los documentos a los que se refiere.",
+    respuesta("conclusion", "**Conclusión en tres a cinco oraciones:** conecta el resultado numérico con tus fragmentos y delimita los documentos a los que se refiere.\n\nPuedes ordenar tu explicación así: qué documentos y palabra comparaste; qué muestran los conteos y tasas; qué cambia al leer los dos pasajes; hasta dónde llega tu conclusión. Escribe con tus propias palabras.",
               "En los mensajes de Leguía de 1921 y Alberto Fujimori de 1991, la forma competencia tiene tasas cercanas: 0,442 y 0,471 por 1.000 palabras, respectivamente. Dos fragmentos localizados muestran usos distintos: capacidad profesional en el primero y competencia de mercado en el segundo. El mayor conteo absoluto de Fujimori no equivale a una diferencia relativa de la misma magnitud. La comparación léxica localiza pasajes para interpretar; no permite asignar un rol a cada gobierno ni verificar lo que efectivamente hizo.")
     respuesta("limitacion", "**Limitación y consecuencia:** identifica una limitación concreta y qué afirmación impide sostener.",
               "Solo comparé dos documentos y dos pasajes, con una forma exacta que tiene varios sentidos y puede sustituirse por sinónimos. No puedo afirmar que toda mención sea competencia de mercado ni que estos mensajes representen todo el gobierno. La tasa describe exposición léxica en esta selección, no incidencia de un rol económico.")
@@ -439,7 +439,11 @@ def crear(docente=False):
     print("Origen de la tabla:", comparacion.attrs.get("origen", "no registrado"))''')
     md("guardar-entrega", '''### Guardar y entregar
 
-    Guarda tu copia y descarga el notebook `.ipynb` desde el menú Archivo de Colab, con respuestas y salidas visibles. Entrega `apellido_nombre_analisis_textual.ipynb` en la carpeta de Drive cuyo enlace comunicará el docente. Comprueba que aparece el archivo. No necesitas compartir públicamente tu trabajo personal.
+    1. **Guarda:** confirma que tu copia conserva respuestas, tabla y dos fragmentos. Ejecuta **Comprobación antes de guardar** y revisa su mensaje. El mensaje comprueba la consulta; tú revisas tus explicaciones.
+    2. **Descarga:** desde **Archivo → Descargar → Descargar .ipynb**, guarda `apellido_nombre_analisis_textual.ipynb`. Si se descargó con otro nombre, renómbralo conservando `.ipynb`.
+    3. **Entrega:** entra con tu cuenta institucional de la UP a la carpeta que indique el docente, sube el archivo y comprueba que aparece con tu nombre. Conserva la copia descargada hasta confirmar recepción.
+
+    Si aparece «Solicitar acceso» o no puedes subir el archivo, avisa a la persona de apoyo y conserva tu copia. La carpeta de clase debe tener acceso comprobado antes de utilizarse para la entrega.
 
     `mi_comparacion.csv`, `mi_evidencia.csv` y `mi_comparacion.png` son complementos; no sustituyen el notebook ni las respuestas. Si falla la subida, conserva el archivo descargado y avisa al docente. Los archivos del entorno de ejecución no se guardan automáticamente dentro de tu Drive: la entrega debe descargarse o guardarse expresamente. [Documentación de Colab](https://research.google.com/colaboratory/faq.html).
     ''')

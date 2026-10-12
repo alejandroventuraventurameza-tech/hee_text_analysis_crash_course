@@ -113,7 +113,7 @@ Los resultados guardados son una alternativa indicada por el docente después de
 
 **102–106, S25–S26.** Completar una limitación que restrinja una afirmación y la aplicación a documentos de la carrera. Usar la tabla de aplicaciones como apoyo, sin exigir que todos compartan oralmente. Realizar autoevaluación sin puntos.
 
-**106–109, S27.** Guardar y descargar `.ipynb` con respuestas y salidas; subir a la carpeta de Drive indicada y comprobar que aparece. Los CSV y PNG complementarios no sustituyen la entrega. Si falla la subida, conservar el archivo y registrar la incidencia.
+**106–109, S27.** Separar tres pasos: guardar y comprobar, descargar y renombrar, subir y verificar recepción. La secuencia detallada está en [ensayo del cierre](ensayo_cierre.md). Guardar y descargar `.ipynb` con respuestas y salidas; subir a la carpeta de Drive indicada y comprobar que aparece. Los CSV y PNG complementarios no sustituyen la entrega. Si falla la subida, conservar el archivo y registrar la incidencia.
 
 **109–110.** Pedir una decisión que puedan modificar y una afirmación que todavía no puedan sostener. Confirmar entregas pendientes.
 

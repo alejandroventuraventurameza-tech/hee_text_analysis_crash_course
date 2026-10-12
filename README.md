@@ -28,6 +28,7 @@ Para estudiantes: empezar por la [preparación breve](docs/preparacion_estudiant
 | [Preparación de estudiantes](docs/preparacion_estudiantes.md) | Acceso, primera celda, carga y guardado |
 | [Recursos para continuar](docs/recursos_continuacion.md) | Prácticas y lecturas opcionales verificadas |
 | [Adaptación a documentos nuevos](docs/adaptacion_nuevos_documentos.md) | Pregunta, selección, metadatos, conteos y evidencia |
+| [Ensayo del cierre](docs/ensayo_cierre.md) | Instrucciones finales y alcance de la prueba de recepción en Drive |
 | [Afinamiento](docs/afinamiento.md) | Prioridades, ajustes incorporados y pendientes de aula |
 | [Comprobación final](docs/comprobacion_final.md) | Estado, pruebas reales pendientes y registro de incidencias |
 
@@ -36,7 +37,7 @@ Para estudiantes: empezar por la [preparación breve](docs/preparacion_estudiant
 1. Comprobar en Colab los títulos e instrucciones afinados; el recorrido anterior cuenta con evidencia guiada de carga, resultados, copia y guardado.
 2. Comprobación de legibilidad de las slides con el proyector del aula; compilación y revisión visual local realizadas.
 3. Publicación del repositorio por el autor y comprobación del acceso público.
-4. Carpeta de entrega en Drive y recepción de una entrega de prueba.
+4. Habilitar destinatarios institucionales y probar la entrega desde otra cuenta; carpeta y recepción administrativa docente ya comprobadas.
 
 Los nueve entregables de preparación están disponibles. Los pendientes anteriores deben registrarse antes de considerar verificada la sesión completa. El recorrido guiado previo en Colab y la compilación local se documentan por separado.
 
