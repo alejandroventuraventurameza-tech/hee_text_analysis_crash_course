@@ -1,0 +1,527 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{berelson1952}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9aeee01c32a717499746d1e9dc18e3bf}{%
+           family={Berelson},
+           familyi={B\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Glencoe, Illinois}%
+      }
+      \list{publisher}{1}{%
+        {Free Press}%
+      }
+      \strng{namehash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{fullhash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{bibnamehash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{authorbibnamehash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{authornamehash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{authorfullhash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Content Analysis in Communication Research}
+      \field{year}{1952}
+      \field{dateera}{ce}
+      \keyw{fundamentos}
+    \endentry
+    \entry{inquirer}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=171b8c8c366bbbf8ef5a5664570d77c7}{%
+           family={{General Inquirer}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Harvard University}%
+      }
+      \strng{namehash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{fullhash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{bibnamehash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{authorbibnamehash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{authornamehash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{authorfullhash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inquirer Home Page}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://inquirer.sites.fas.harvard.edu/
+      \endverb
+      \verb{url}
+      \verb https://inquirer.sites.fas.harvard.edu/
+      \endverb
+      \keyw{automatizacion}
+    \endentry
+    \entry{gilardi2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=42a4e15ad87c60bc88a71df1348bd4e2}{%
+           family={Gilardi},
+           familyi={G\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f403b8cd93bdeded53d41eed53ae20bb}{%
+           family={Alizadeh},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Meysam},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e52669eb7da2e5579871c93f8c8129b}{%
+           family={Kubli},
+           familyi={K\bibinitperiod},
+           given={Maël},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca303398eb5efdf788d5bf1f44bee484}
+      \strng{fullhash}{09961777dda51e9cfba1292a1abd2561}
+      \strng{bibnamehash}{09961777dda51e9cfba1292a1abd2561}
+      \strng{authorbibnamehash}{09961777dda51e9cfba1292a1abd2561}
+      \strng{authornamehash}{ca303398eb5efdf788d5bf1f44bee484}
+      \strng{authorfullhash}{09961777dda51e9cfba1292a1abd2561}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{e2305016120}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{30}
+      \field{title}{{ChatGPT} outperforms crowd workers for text-annotation tasks}
+      \field{volume}{120}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1073/pnas.2305016120
+      \endverb
+      \keyw{automatizacion}
+    \endentry
+    \entry{colab}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={{Google}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Colab Frequently Asked Questions}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://research.google.com/colaboratory/faq.html
+      \endverb
+      \verb{url}
+      \verb https://research.google.com/colaboratory/faq.html
+      \endverb
+      \keyw{herramientas}
+    \endentry
+    \entry{grimmer2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=81e3df64dcc8ffabf2106dfc23b934e0}{%
+           family={Grimmer},
+           familyi={G\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1370510cfe223ff4c2c652b160014ba}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Brandon\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{fullhash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{bibnamehash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{authorbibnamehash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{authornamehash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{authorfullhash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Analysis}
+      \field{number}{3}
+      \field{title}{Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{267\bibrangedash 297}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1093/pan/mps028
+      \endverb
+      \keyw{fundamentos}
+    \endentry
+    \entry{matplotlib}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1587383cf8c21507d06fb51ef7ddda0c}{%
+           family={{Matplotlib}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{fullhash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{bibnamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authorbibnamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authornamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authorfullhash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pyplot tutorial}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/stable/tutorials/pyplot.html
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/stable/tutorials/pyplot.html
+      \endverb
+      \keyw{herramientas}
+    \endentry
+    \entry{pandas}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3a43b4f88325d94022c0efa9c2fa2f5a}{%
+           family={{pandas}},
+           familyi={p\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{fullhash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{bibnamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authorbibnamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authornamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authorfullhash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Getting started tutorials}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
+      \endverb
+      \keyw{herramientas}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{berelson1952}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9aeee01c32a717499746d1e9dc18e3bf}{%
+           family={Berelson},
+           familyi={B\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Glencoe, Illinois}%
+      }
+      \list{publisher}{1}{%
+        {Free Press}%
+      }
+      \strng{namehash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{fullhash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{bibnamehash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{authorbibnamehash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{authornamehash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \strng{authorfullhash}{9aeee01c32a717499746d1e9dc18e3bf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Content Analysis in Communication Research}
+      \field{year}{1952}
+      \field{dateera}{ce}
+      \keyw{fundamentos}
+    \endentry
+    \entry{inquirer}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=171b8c8c366bbbf8ef5a5664570d77c7}{%
+           family={{General Inquirer}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Harvard University}%
+      }
+      \strng{namehash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{fullhash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{bibnamehash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{authorbibnamehash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{authornamehash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \strng{authorfullhash}{171b8c8c366bbbf8ef5a5664570d77c7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inquirer Home Page}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://inquirer.sites.fas.harvard.edu/
+      \endverb
+      \verb{url}
+      \verb https://inquirer.sites.fas.harvard.edu/
+      \endverb
+      \keyw{automatizacion}
+    \endentry
+    \entry{gilardi2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=42a4e15ad87c60bc88a71df1348bd4e2}{%
+           family={Gilardi},
+           familyi={G\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f403b8cd93bdeded53d41eed53ae20bb}{%
+           family={Alizadeh},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Meysam},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e52669eb7da2e5579871c93f8c8129b}{%
+           family={Kubli},
+           familyi={K\bibinitperiod},
+           given={Maël},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca303398eb5efdf788d5bf1f44bee484}
+      \strng{fullhash}{09961777dda51e9cfba1292a1abd2561}
+      \strng{bibnamehash}{09961777dda51e9cfba1292a1abd2561}
+      \strng{authorbibnamehash}{09961777dda51e9cfba1292a1abd2561}
+      \strng{authornamehash}{ca303398eb5efdf788d5bf1f44bee484}
+      \strng{authorfullhash}{09961777dda51e9cfba1292a1abd2561}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{e2305016120}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{30}
+      \field{title}{{ChatGPT} outperforms crowd workers for text-annotation tasks}
+      \field{volume}{120}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1073/pnas.2305016120
+      \endverb
+      \keyw{automatizacion}
+    \endentry
+    \entry{colab}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={{Google}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Colab Frequently Asked Questions}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://research.google.com/colaboratory/faq.html
+      \endverb
+      \verb{url}
+      \verb https://research.google.com/colaboratory/faq.html
+      \endverb
+      \keyw{herramientas}
+    \endentry
+    \entry{grimmer2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=81e3df64dcc8ffabf2106dfc23b934e0}{%
+           family={Grimmer},
+           familyi={G\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1370510cfe223ff4c2c652b160014ba}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Brandon\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{fullhash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{bibnamehash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{authorbibnamehash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{authornamehash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \strng{authorfullhash}{895d7d1b8a904299fc84a28a6b5f7c65}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Analysis}
+      \field{number}{3}
+      \field{title}{Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{267\bibrangedash 297}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1093/pan/mps028
+      \endverb
+      \keyw{fundamentos}
+    \endentry
+    \entry{matplotlib}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1587383cf8c21507d06fb51ef7ddda0c}{%
+           family={{Matplotlib}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{fullhash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{bibnamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authorbibnamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authornamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authorfullhash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pyplot tutorial}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/stable/tutorials/pyplot.html
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/stable/tutorials/pyplot.html
+      \endverb
+      \keyw{herramientas}
+    \endentry
+    \entry{pandas}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3a43b4f88325d94022c0efa9c2fa2f5a}{%
+           family={{pandas}},
+           familyi={p\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{fullhash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{bibnamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authorbibnamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authornamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authorfullhash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Getting started tutorials}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
+      \endverb
+      \keyw{herramientas}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

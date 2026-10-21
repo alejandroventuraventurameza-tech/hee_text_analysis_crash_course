@@ -1,0 +1,62 @@
+[
+  {
+    "ruta_en_investigacion": "02_datos/processed/manifest.csv",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "bd532a28a79686d2e89bc36f6eb5baa5e2c8665c2bd3e031ca8439459a3f208c",
+    "bytes": 56606
+  },
+  {
+    "ruta_en_investigacion": "02_datos/processed/unidades.csv",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "0434631fc4c5b9dce24d0872f53470cccc44d63adbb7ae8fff514f4e4cfb0b0d",
+    "bytes": 18117667
+  },
+  {
+    "ruta_en_investigacion": "02_datos/processed/clasificacion_llm.csv",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "e2320ab0362ffe4c6322f53643ae1bcb29403a671cab6c58ac7a13ff958a4041",
+    "bytes": 1706843
+  },
+  {
+    "ruta_en_investigacion": "02_datos/raw/discursos/SHA256SUMS.txt",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "13fc57fa0716075a4d1711d0494f706ffa0be3413163fd8986c3589455d57e14",
+    "bytes": 23039
+  },
+  {
+    "ruta_en_investigacion": "02_datos/raw/discursos/leguia/28_07_1920_leguia.pdf",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "a2700d63632038d77afda8fb4c8e7822770dd72d81d78ccb4b742e90e09d2397",
+    "bytes": 94650
+  },
+  {
+    "ruta_en_investigacion": "02_datos/raw/discursos/leguia/28_07_1921_leguia.pdf",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "e82fcf707ac3af362ffc5767c4d7f22d747b21cbd1b9f9d98f26a000bbef8f0a",
+    "bytes": 113157
+  },
+  {
+    "ruta_en_investigacion": "02_datos/raw/discursos/velasco/28_07_1969_velasco.pdf",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "5785b5bd5884b436d14c9ab0188b10d48dcb9f14964b0930094db372892f9d3e",
+    "bytes": 118681
+  },
+  {
+    "ruta_en_investigacion": "02_datos/raw/discursos/velasco/28_07_1970_velasco.pdf",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "08e7c74fa86663fe901a2c02ed48aa518d4401fe88cae8e2e4335fd4d0fe6667",
+    "bytes": 125737
+  },
+  {
+    "ruta_en_investigacion": "02_datos/raw/discursos/alberto_fujimori/28_07_1991_alberto_fujimori.pdf",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "284e12c95e9daffc8633df0b0fa4a235f3d52e92a7f44ce440a9148c8278e9cc",
+    "bytes": 210478
+  },
+  {
+    "ruta_en_investigacion": "02_datos/raw/discursos/alberto_fujimori/28_07_1992_alberto_fujimori.pdf",
+    "commit": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+    "sha256": "d80e092e670aa741a3001e09d6cfea58166dd1251c4ac479c80ada789283d08e",
+    "bytes": 149916
+  }
+]

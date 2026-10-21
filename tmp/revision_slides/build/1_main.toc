@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Caso}{2}{0}{1}
+\beamer@sectionintoc {2}{Práctica}{9}{0}{2}
+\beamer@sectionintoc {3}{Interpretación}{19}{0}{3}
+\beamer@sectionintoc {4}{Cierre}{25}{0}{4}

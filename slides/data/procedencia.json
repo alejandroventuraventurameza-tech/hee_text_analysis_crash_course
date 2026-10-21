@@ -1,0 +1,102 @@
+{
+  "commit_investigacion": "72fcac7d3ea06b737c3a3f35f37b818411c6dead",
+  "huellas_template_original": [
+    {
+      "archivo_template": "1_main_pd01.tex",
+      "sha256": "11f3d008a9e23324b8e020631953e886e4d3da6059db43f160427396ff94c012"
+    },
+    {
+      "archivo_template": "2_preamble_pd01.tex",
+      "sha256": "41fd4342f1dac8b9706b38fd5ae2054e54081631e5910dfcc03731c1a17c0c1a"
+    },
+    {
+      "archivo_template": "3_content_pd01.tex",
+      "sha256": "fa0d5dbe2e7c58107be794be120fac432dd5e766e9d8a813045e9e8a0fce1eb2"
+    },
+    {
+      "archivo_template": "4_bibliography_pd01.bib",
+      "sha256": "ec71d0ce9819382a09c1bfb93ce08622a1dec7d830cbd7c2e919f1703a0f8857"
+    },
+    {
+      "archivo_template": "images/UP_logo.jpg",
+      "sha256": "545e23d6458455404e682581413d4953391a3d3a3b66ec8713e183e8fdc1cae0"
+    }
+  ],
+  "fuentes_fragmentos": [
+    {
+      "unidad_id": "u00126",
+      "documento_id": "leguia_1921",
+      "pagina_inicio": 11,
+      "texto_unidad": "A ello contribuirá, sin duda, la reorganización que estudia, en la actualidad, el personal de especialistas contratado últimamente, cuya competencia se ha evidenciado en la campaña que, para extirpar la fiebre amarilla, desarrollóse en el norte de la República, con la colaboración espontánea y generosa de la humanitaria institución Rockefeller, existente en los Estados Unidos. Fomento de la agricultura y la ganadería No ha descuidado mi Gobierno el incremento de la agricultura y ganadería. Huellas de su acción encontraréis en la Granja Modelo de Puno, cuya instalación ha sido motivo de general alborozo en el sur de la República; en la importación de sementales de pura sangre; en la reglamentación provisional del registro de marcas y señales, mientras se edita el código respectivo; en la organización de la estadística agrícola; y en otras medidas que la Memoria del ramo os hará conocer pormenorizadamente.",
+      "url_pdf": "https://www3.congreso.gob.pe/Docs/participacion/museo/congreso/files/mensajes/1921-1940/files/mensaje-1921.pdf"
+    },
+    {
+      "unidad_id": "u11860",
+      "documento_id": "velasco_1970",
+      "pagina_inicio": 10,
+      "texto_unidad": "El éxito alcanzado por la Empresa Estatal de Petróleo justifica por eso plenamente la decisión de autorizarle a emprender diversos e importantes programas, entre los que destacan los siguientes: aumento de capacidad de la Refinería de La Pampilla de veinte a treinta mil barriles diarios; instalación de craqueo catalítico en la Refinería de Talara para producir gasolina de alto octanaje; ampliación de la misma Refinería para incrementar su capacidad de destilación de sesenta a ochenta mil barriles diarios. En su conjunto este programa requiere una inversión de mil millones de soles.",
+      "url_pdf": "https://www3.congreso.gob.pe/Docs/participacion/museo/congreso/files/mensajes/1961-1980/files/mensaje-1970.pdf"
+    },
+    {
+      "unidad_id": "u14275",
+      "documento_id": "alberto_fujimori_1991",
+      "pagina_inicio": 10,
+      "texto_unidad": "En general, hemos contemplado simplificar o eliminar la mayor cantidad de procedimientos burocráticos, para devolver de esta manera al Estado su condición de ente promotor de la actividad económica y fiel cumplidor de la atención de necesidades básicas de la población. Esto supone que el Estado concentre su acción en el diseño de políticas generales y en la atención de servicios básicos y traslade al sector privado, con algunas excepciones, la responsabilidad del desarrollo de la producción y la comercialización de bienes y servicios, el que se dará bajo condición de competencia y de mercado.",
+      "url_pdf": "https://www3.congreso.gob.pe/Docs/participacion/museo/congreso/files/mensajes/1981-2000/files/mensaje-1991-af.pdf"
+    }
+  ],
+  "facsimiles": [
+    {
+      "imagen": "images/28_07_1921_leguia_pagina1.png",
+      "original": "data/originales/28_07_1921_leguia.pdf",
+      "pagina_pdf": 1,
+      "recorte_puntos": [
+        75,
+        65,
+        520,
+        770
+      ],
+      "sha256_original": "e82fcf707ac3af362ffc5767c4d7f22d747b21cbd1b9f9d98f26a000bbef8f0a",
+      "sha256_imagen": "9c134164d1243a35bcce1b3d97225e80a3b7ca1f2fbe37f59c001e2e1668c2fb"
+    },
+    {
+      "imagen": "images/28_07_1920_leguia_pagina1.png",
+      "original": "data/originales/28_07_1920_leguia.pdf",
+      "pagina_pdf": 1,
+      "recorte_puntos": [
+        75,
+        65,
+        520,
+        770
+      ],
+      "sha256_original": "a2700d63632038d77afda8fb4c8e7822770dd72d81d78ccb4b742e90e09d2397",
+      "sha256_imagen": "657390aece66e98f8399939b7d32f205394ce62520b923c51d79ca870fd3b5b1"
+    },
+    {
+      "imagen": "images/28_07_1969_velasco_pagina1.png",
+      "original": "data/originales/28_07_1969_velasco.pdf",
+      "pagina_pdf": 1,
+      "recorte_puntos": [
+        75,
+        65,
+        520,
+        770
+      ],
+      "sha256_original": "5785b5bd5884b436d14c9ab0188b10d48dcb9f14964b0930094db372892f9d3e",
+      "sha256_imagen": "c55db939694d73bc9561a9ae3fe011e10089fe1903e49f7982d7f7a01631ba87"
+    },
+    {
+      "imagen": "images/28_07_1991_alberto_fujimori_pagina1.png",
+      "original": "data/originales/28_07_1991_alberto_fujimori.pdf",
+      "pagina_pdf": 1,
+      "recorte_puntos": [
+        75,
+        65,
+        520,
+        770
+      ],
+      "sha256_original": "284e12c95e9daffc8633df0b0fa4a235f3d52e92a7f44ce440a9148c8278e9cc",
+      "sha256_imagen": "a1fb221c24a2a55bc88312f5e7dac439b21f7532b77b73865f86b6de87b89b50"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "fecha": "2026-10-11",
+  "pdf_revisado": "hee_text_analysis_crash_course.pdf",
+  "sha256_pdf": "a95f037f3cc153469f468d64205e34395317a25ede2e25e638f165619572ff44",
+  "paginas": 40,
+  "frames_comunes": 33,
+  "compilacion_local": {
+    "motor": "XeLaTeX (MiKTeX 24.1)",
+    "bibliografia": "Biber 2.19",
+    "resultado": "Referencias resueltas; cero avisos LaTeX en la última pasada"
+  },
+  "revision_visual": {
+    "paginas_inspeccionadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "metodo": "40 páginas renderizadas e inspeccionadas; portada final ampliada tras ajustar la nota. Verificación píxel a píxel de las otras 39 páginas contra las vistas revisadas.",
+    "resultado": "Sin desbordes, recortes ni solapamientos visibles"
+  },
+  "tipografia": {
+    "familia_texto": "Latin Modern Sans",
+    "cuerpo": "11pt; preguntas del cuerpo y citas con tamaño normal; negrita para énfasis",
+    "controles": "configuracion.tex"
+  },
+  "imagen_pendiente": {
+    "archivo": "images/presidente.png",
+    "comportamiento": "Espacio identificado mientras el archivo no existe; inserción automática al añadir PNG"
+  },
+  "zip": "paquetes/hee_text_analysis_crash_course.zip",
+  "fuentes_latex_sha256": {
+    "1_main.tex": "48bd227679117971cbb0022ee7abde95e689515968c94a38927441f6c5535bec",
+    "2_preamble.tex": "587fbfae50427b370bae759b579991f8ba7151d0344dbbdda888384412ff56bf",
+    "3_content.tex": "03c87a7f813187f6fb6660a7b583e752883469cc5d5d4ca8b8a3dea0cec4bee7",
+    "apertura.tex": "0c87ef954f314f12958bb44998b2f140fd5a4d571c4177c554fb7236af509156",
+    "configuracion.tex": "b5acba5ac4ebaf940ee53e6e81ee675bb8100910e3e4834d436f6ad7e71932bf"
+  },
+  "pendientes": [
+    "Insertar ilustración del presidente proporcionada por el docente",
+    "Comprobar logo y emojis del notebook en la interfaz de Colab",
+    "Legibilidad en el proyector del aula",
+    "Ensayar duración de la apertura ampliada"
+  ],
+  "overleaf_verificado": false
+}

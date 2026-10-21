@@ -1,0 +1,620 @@
+unidad_id,documento_id,etiqueta_primaria,etiqueta_secundaria,confianza,justificacion,procedencia_etiqueta,commit_fuente
+u00038,leguia_1920,no_aplica,,alta,"protocolo y relato histórico, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00039,leguia_1920,no_aplica,,alta,protocolo y política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00040,leguia_1920,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00041,leguia_1920,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00042,leguia_1920,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00043,leguia_1920,no_aplica,,alta,"política exterior, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00044,leguia_1920,no_aplica,,alta,"relato histórico, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00045,leguia_1920,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00046,leguia_1920,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00047,leguia_1920,no_aplica,,alta,"relato histórico y exhortación, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00048,leguia_1920,no_aplica,,alta,"relato histórico, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00049,leguia_1920,no_aplica,,media,descripción de trámite legislativo sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00050,leguia_1920,no_aplica,,alta,"proceso electoral, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00051,leguia_1920,no_aplica,,alta,"política electoral y organización institucional, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00052,leguia_1920,no_aplica,,alta,"construcción de edificio administrativo y renovación municipal, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00053,leguia_1920,no_aplica,,alta,"seguridad/orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00054,leguia_1920,empresario,,alta,el Estado opera talleres de costura de ropa militar,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00055,leguia_1920,regulador,,media,"crea sección para arbitraje laboral, regula conflictos",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00056,leguia_1920,regulador,,alta,regula ingreso y naturalización de extranjeros,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00057,leguia_1920,no_aplica,,alta,"seguridad/orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00058,leguia_1920,no_aplica,,alta,"seguridad/orden público, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00059,leguia_1920,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00060,leguia_1920,regulador,,media,regula servicios postales y de telecomunicaciones,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00061,leguia_1920,no_aplica,,alta,"justicia y reforma legal, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00062,leguia_1920,asistencial,,media,provisión directa de educación universitaria,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00063,leguia_1920,asistencial,,media,provisión directa de educación (maestros),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00064,leguia_1920,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00065,leguia_1920,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00066,leguia_1920,no_aplica,,alta,"aviación militar, defensa/seguridad",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00067,leguia_1920,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00068,leguia_1920,facilitador,,alta,construcción de infraestructura (caminos y ferrocarril),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00069,leguia_1920,no_aplica,,media,"defensa/seguridad y finanzas generales, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00070,leguia_1920,no_aplica,,media,"mejora salarial a servidores, no acción económica directa",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00071,leguia_1920,regulador,,media,impuestos como marco regulatorio,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00072,leguia_1920,no_aplica,,alta,diagnóstico estadístico sin acción estatal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00073,leguia_1920,no_aplica,,alta,"diagnóstico y exhortación, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00074,leguia_1920,facilitador,,alta,creación de banco nacional para canalizar recursos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00075,leguia_1920,regulador,facilitador,media,reprime acaparadores (regulación) y estimula producción/importación (facilitador),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00076,leguia_1920,regulador,,media,crea dirección para regular mercados de víveres y precios,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00077,leguia_1920,empresario,,alta,el Estado opera la Compañía Salinera y fija precios,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00078,leguia_1920,no_aplica,,media,"diagnóstico y aspiración, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00079,leguia_1920,no_aplica,,media,censos y gestiones migratorias sin instrumento económico directo,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00080,leguia_1920,no_aplica,,media,"permuta y obra privada, sin acción estatal económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00081,leguia_1920,regulador,,alta,"prohibición de denuncios mineros, regla restrictiva",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00082,leguia_1920,empresario,facilitador,alta,nacionalización de industria y construcción de ferrocarril,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00083,leguia_1920,facilitador,,alta,construcción de ferrocarriles como infraestructura económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00084,leguia_1920,facilitador,,alta,construcción de infraestructura ferroviaria,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00085,leguia_1920,facilitador,,alta,financiamiento y construcción de ferrocarril (infraestructura),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00086,leguia_1920,facilitador,,alta,construcción de canales de irrigación para producción agrícola,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00087,leguia_1920,asistencial,,media,saneamiento de ciudades (provisión directa de servicio social),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00088,leguia_1920,no_aplica,,alta,"defensa/seguridad, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00089,leguia_1920,facilitador,,media,"provee infraestructura naval y capacitación, sin operar negocio",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00090,leguia_1920,no_aplica,,alta,"relato histórico y exhortación, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00091,leguia_1920,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00092,leguia_1920,no_aplica,,alta,exhortación moral sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00093,leguia_1921,no_aplica,,alta,"protocolo y relato histórico, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00094,leguia_1921,no_aplica,,alta,"relato histórico, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00095,leguia_1921,no_aplica,,alta,"política exterior y defensa, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00096,leguia_1921,no_aplica,,alta,"política exterior y protocolo, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00097,leguia_1921,no_aplica,,alta,protocolo y relaciones exteriores no económicas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00098,leguia_1921,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00099,leguia_1921,no_aplica,,alta,"discurso protocolario, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00100,leguia_1921,no_aplica,,alta,"seguridad y relato histórico, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00101,leguia_1921,no_aplica,,alta,"relato histórico/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00102,leguia_1921,no_aplica,,alta,"seguridad y asuntos legislativos, no económicos",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00103,leguia_1921,no_aplica,,alta,"expropiación de diario por orden político, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00104,leguia_1921,no_aplica,,alta,"seguridad/orden público, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00105,leguia_1921,no_aplica,,alta,"defensa/seguridad y asuntos internos, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00106,leguia_1921,asistencial,no_aplica,media,provisión directa de servicio social (hospitalización),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00107,leguia_1921,no_aplica,,alta,censo y cuartel no son económicos ni provisión social,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00108,leguia_1921,facilitador,,alta,provee infraestructura de comunicaciones,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00109,leguia_1921,facilitador,,media,construcción de infraestructura postal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00110,leguia_1921,regulador,,media,"reforma de leyes y registro, marco regulatorio",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00111,leguia_1921,asistencial,,alta,provisión directa de educación primaria y secundaria,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00112,leguia_1921,no_aplica,,alta,"reorganización universitaria, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00113,leguia_1921,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00114,leguia_1921,facilitador,,alta,construcción de ferrocarril para integrar región,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00115,leguia_1921,no_aplica,,alta,diagnóstico de crisis sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00116,leguia_1921,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00117,leguia_1921,regulador,,media,impuesto progresivo como regla fiscal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00118,leguia_1921,regulador,,media,crea organismo financiero y legislación tributaria (marco),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00119,leguia_1921,no_aplica,,alta,relato histórico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00120,leguia_1921,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00121,leguia_1921,empresario,facilitador,media,Compañía Salinera estatal opera producción; ferrocarriles como infraestructura,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00122,leguia_1921,facilitador,,alta,concesión y bonos para infraestructura de transporte,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00123,leguia_1921,facilitador,regulador,media,construcción de ferrocarriles (infraestructura) y organización estadística (regulación),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00124,leguia_1921,facilitador,,alta,provee infraestructura de irrigación y canaliza capital,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00125,leguia_1921,facilitador,regulador,media,represamiento de lagunas (infraestructura) y gravamen a caídas de agua (regulación),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00126,leguia_1921,facilitador,regulador,media,"provee recursos (granja, sementales) y regula marcas",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00127,leguia_1921,no_aplica,,media,"exhortación moral, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00128,leguia_1921,regulador,,alta,"reglamentación, legislación y revisión de código minero",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00129,leguia_1921,facilitador,,media,promueve inmigración y prepara zonas para explotación,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00130,leguia_1921,no_aplica,,media,colonización y exposición sin instrumento económico claro,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00131,leguia_1921,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00132,leguia_1921,facilitador,,alta,provee infraestructura (astillero) para la economía,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00133,leguia_1921,no_aplica,,alta,"relato histórico y exhortación, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u00134,leguia_1921,no_aplica,,alta,exhortación moral sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11734,velasco_1969,no_aplica,,alta,"relato histórico y exhortación, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11735,velasco_1969,no_aplica,,alta,"relato histórico y exhortación, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11736,velasco_1969,no_aplica,,alta,"relato histórico y exhortación, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11737,velasco_1969,no_aplica,,alta,diagnóstico político sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11738,velasco_1969,no_aplica,,alta,"relato histórico y crítica política, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11739,velasco_1969,no_aplica,,alta,"relato histórico/justificación política, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11740,velasco_1969,no_aplica,,alta,crítica política sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11741,velasco_1969,no_aplica,,alta,discurso político sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11742,velasco_1969,no_aplica,,alta,relato histórico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11743,velasco_1969,empresario,,alta,reivindica riqueza nacional explotada por empresa extranjera (nacionalización),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11744,velasco_1969,empresario,,alta,"expropiación de IPC, el Estado asume producción petrolera",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11745,velasco_1969,no_aplica,,media,"política exterior no económica, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11746,velasco_1969,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11747,velasco_1969,no_aplica,,alta,"política exterior no económica, relato histórico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11748,velasco_1969,no_aplica,,alta,"política exterior no económica, soberanía",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11749,velasco_1969,no_aplica,,media,"política exterior económica, no acción interna",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11750,velasco_1969,no_aplica,,alta,diagnóstico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11751,velasco_1969,regulador,,media,normar capitales extranjeros en marco legal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11752,velasco_1969,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11753,velasco_1969,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11754,velasco_1969,facilitador,,media,reestructura banca estatal para canalizar recursos al desarrollo,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11755,velasco_1969,regulador,facilitador,alta,control estatal del banco central y crédito de fomento,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11756,velasco_1969,facilitador,,alta,canaliza recursos financieros a sectores productivos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11757,velasco_1969,empresario,,alta,el Estado comanda la producción agraria mediante reforma,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11758,velasco_1969,no_aplica,,media,"diagnóstico y exhortación, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11759,velasco_1969,no_aplica,,alta,"exhortación política, sin medida económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11760,velasco_1969,regulador,,alta,promulga ley que regula el uso del agua,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11761,velasco_1969,regulador,,alta,"establece propiedad estatal de aguas, regula derechos",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11762,velasco_1969,no_aplica,,alta,"exhortación moral, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11763,velasco_1969,no_aplica,,alta,"exhortación moral, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11764,velasco_1969,no_aplica,,alta,"exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11765,velasco_1969,no_aplica,,alta,discurso general sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11766,velasco_1969,no_aplica,,alta,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11767,velasco_1969,regulador,,media,estabilidad monetaria y fiscal como marco,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11768,velasco_1969,regulador,,media,ordenar sistema económico y promover inversiones,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11769,velasco_1969,empresario,facilitador,alta,nacionalización de telecomunicaciones (empresario) y construcción de vías (facilitador),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11770,velasco_1969,empresario,regulador,alta,Estado opera estación satelital y refina/comercializa petróleo; regula concesiones,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11771,velasco_1969,empresario,,alta,"el Estado opera PETROPERÚ, fija precios y explora",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11772,velasco_1969,facilitador,,alta,canaliza crédito y promoción a la minería,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11773,velasco_1969,no_aplica,,media,negociación sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11774,velasco_1969,no_aplica,,media,aspiración y organización sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11775,velasco_1969,no_aplica,,media,"diagnóstico y negación, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11776,velasco_1969,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11777,velasco_1969,asistencial,,media,provisión de educación básica y alfabetización,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11778,velasco_1969,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11779,velasco_1969,no_aplica,,alta,declaración política sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11780,velasco_1969,no_aplica,,alta,discurso político sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11781,velasco_1969,no_aplica,,alta,discurso político sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11782,velasco_1969,no_aplica,,alta,declaración ideológica sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11783,velasco_1969,no_aplica,,alta,discurso ideológico sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11784,velasco_1969,no_aplica,,alta,exhortación moral sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11785,velasco_1969,no_aplica,,alta,exhortación moral sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11786,velasco_1969,no_aplica,,alta,aspiración política sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11787,velasco_1969,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11788,velasco_1969,no_aplica,,alta,exhortación moral sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11789,velasco_1969,no_aplica,,alta,"exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11790,velasco_1969,no_aplica,,alta,discurso político sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11791,velasco_1969,no_aplica,,media,"relato histórico y exhortación, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11792,velasco_1969,no_aplica,,alta,"política partidaria, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11793,velasco_1969,no_aplica,,alta,exhortación política sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11794,velasco_1969,no_aplica,,alta,exhortación política sin medida económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11795,velasco_1969,no_aplica,,alta,discurso político sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11796,velasco_1969,no_aplica,,alta,discurso sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11797,velasco_1969,no_aplica,,media,aspiración sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11798,velasco_1969,no_aplica,,alta,declaración política sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11799,velasco_1969,no_aplica,,alta,declaración de intención sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11800,velasco_1969,regulador,,media,"leyes que ordenan el sector agropecuario, sin operar producción",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11801,velasco_1969,empresario,regulador,media,mayor participación estatal en beneficios y orientación estatal de la pesquería,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11802,velasco_1969,regulador,facilitador,alta,regula tributos y orienta crédito a inversiones prioritarias,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11803,velasco_1969,no_aplica,,alta,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11804,velasco_1969,no_aplica,,media,declaración de principios sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11805,velasco_1969,regulador,facilitador,media,regula participación en utilidades y capacitación; fomenta cooperativas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11806,velasco_1969,no_aplica,,media,declaración de principios sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11807,velasco_1969,no_aplica,,media,discurso general sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11808,velasco_1969,no_aplica,,media,"reforma administrativa, sin acción económica directa",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11809,velasco_1969,no_aplica,,alta,"política constitucional, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11810,velasco_1969,no_aplica,,alta,"política partidaria, reforma constitucional",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11811,velasco_1969,no_aplica,,alta,"exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11812,velasco_1969,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11813,velasco_1969,no_aplica,,alta,"exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11814,velasco_1969,no_aplica,,alta,exhortación política sin acción económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11815,velasco_1969,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11816,velasco_1970,no_aplica,,alta,discurso político sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11817,velasco_1970,no_aplica,,alta,discurso político sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11818,velasco_1970,no_aplica,,alta,crítica política sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11819,velasco_1970,no_aplica,,alta,"discurso político, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11820,velasco_1970,no_aplica,,alta,discurso ideológico sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11821,velasco_1970,no_aplica,,alta,exhortación moral sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11822,velasco_1970,no_aplica,,alta,aspiración y diagnóstico sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11823,velasco_1970,no_aplica,,alta,discurso ideológico sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11824,velasco_1970,no_aplica,,alta,diagnóstico ideológico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11825,velasco_1970,no_aplica,,alta,declaración ideológica sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11826,velasco_1970,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11827,velasco_1970,no_aplica,,alta,discurso ideológico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11828,velasco_1970,no_aplica,,alta,diagnóstico ideológico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11829,velasco_1970,no_aplica,,alta,exhortación ideológica sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11830,velasco_1970,no_aplica,,alta,exhortación moral sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11831,velasco_1970,no_aplica,,alta,discurso ideológico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11832,velasco_1970,no_aplica,,alta,discurso ideológico sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11833,velasco_1970,no_aplica,,alta,discurso ideológico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11834,velasco_1970,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11835,velasco_1970,no_aplica,,alta,discurso ideológico sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11836,velasco_1970,no_aplica,,alta,"relato histórico y exhortación, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11837,velasco_1970,no_aplica,,alta,"exhortación política, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11838,velasco_1970,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11839,velasco_1970,no_aplica,,alta,"exhortación política, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11840,velasco_1970,no_aplica,,alta,"exhortación política, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11841,velasco_1970,no_aplica,,alta,exhortación política sin acción económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11842,velasco_1970,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11843,velasco_1970,no_aplica,,alta,exhortación moral sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11844,velasco_1970,no_aplica,,alta,"exhortación política, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11845,velasco_1970,no_aplica,,alta,discurso político sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11846,velasco_1970,no_aplica,,alta,"exhortación política, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11847,velasco_1970,no_aplica,,alta,"discurso político, exhortación moral, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11848,velasco_1970,no_aplica,,alta,"diagnóstico y evaluación, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11849,velasco_1970,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11850,velasco_1970,no_aplica,,alta,"agradecimiento, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11851,velasco_1970,no_aplica,,alta,"relato histórico y agradecimiento, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11852,velasco_1970,no_aplica,,alta,"relato histórico y protocolo, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11853,velasco_1970,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11854,velasco_1970,no_aplica,,media,declaración de principios sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11855,velasco_1970,regulador,,media,regula inversión extranjera y mercado regional,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11856,velasco_1970,no_aplica,,alta,"política exterior no económica, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11857,velasco_1970,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11858,velasco_1970,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11859,velasco_1970,empresario,,alta,Petroperú opera la industria petrolera estatal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11860,velasco_1970,empresario,,alta,Estado opera empresa petrolera y amplía producción,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11861,velasco_1970,empresario,,alta,Petroperú opera producción petrolera y planta de fertilizantes,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11862,velasco_1970,facilitador,,alta,canaliza crédito estatal y refinanciación para inversión,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11863,velasco_1970,regulador,,alta,regula banca privada y estabilidad monetaria,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11864,velasco_1970,empresario,,alta,"adjudicación de tierras por el Estado, comanda la producción",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11865,velasco_1970,empresario,,alta,"adjudicación de tierras a cooperativas, comanda producción",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11866,velasco_1970,no_aplica,,alta,"defensa política de la reforma, sin medida económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11867,velasco_1970,empresario,,alta,"adjudicación de complejos agroindustriales a familias, reforma agraria",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11868,velasco_1970,empresario,,alta,"transferencia de haciendas a cooperativas, modalidad de producción estatal",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11869,velasco_1970,no_aplica,,media,"diagnóstico y exhortación, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11870,velasco_1970,empresario,,media,creación de cooperativas de producción agro-industrial,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11871,velasco_1970,no_aplica,,media,"exhortación moral, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11872,velasco_1970,no_aplica,,media,"exhortación moral, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11873,velasco_1970,no_aplica,,alta,"reforma judicial, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11874,velasco_1970,no_aplica,,alta,"reforma judicial, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11875,velasco_1970,no_aplica,,alta,"justicia y prensa, no económico ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11876,velasco_1970,no_aplica,,media,"defensa de libertad de expresión, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11877,velasco_1970,empresario,,alta,Estado controla comercialización y divisas de pesca,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11878,velasco_1970,facilitador,regulador,alta,infraestructura pesquera y fondo minero (facilitador); modifica concesiones (regulador),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11879,velasco_1970,regulador,,alta,regula concesiones mineras con plazos y caducidad,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11880,velasco_1970,regulador,,alta,"establece reglas para la minería, suprime beneficios",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11881,velasco_1970,empresario,,alta,el Estado refina y monopoliza la comercialización de minerales,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11882,velasco_1970,empresario,,alta,"Estado participa en empresas mixtas mineras, comanda producción",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11883,velasco_1970,empresario,facilitador,alta,crea empresa estatal minera y construye infraestructura de transporte,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11884,velasco_1970,empresario,,alta,nacionalización de empresa de telecomunicaciones,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11885,velasco_1970,asistencial,,media,provisión directa de educación básica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11886,velasco_1970,asistencial,,media,provisión directa de educación básica a marginados,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11887,velasco_1970,regulador,,alta,regulación total del mercado de divisas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11888,velasco_1970,regulador,,alta,"control de divisas y capitales, restricción a mercado",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11889,velasco_1970,regulador,facilitador,media,control de divisas y moneda (regulador) y fortalecimiento de banca estatal (facilitador),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11890,velasco_1970,empresario,regulador,alta,adquisición de banco y depósito obligatorio de fondos públicos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11891,velasco_1970,facilitador,,alta,"banca estatal canaliza crédito, no opera producción",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11892,velasco_1970,no_aplica,,media,declaración ideológica sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11893,velasco_1970,no_aplica,,media,declaración de principios sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11894,velasco_1970,empresario,facilitador,alta,control estatal de industria básica y función rectora; incentivos como aporte,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11895,velasco_1970,regulador,,alta,impone reglas de participación accionaria a empresas privadas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11896,velasco_1970,regulador,,alta,regula participación accionaria y utilidades en empresas privadas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11897,velasco_1970,regulador,,alta,impone reglas a empresas privadas extranjeras,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11898,velasco_1970,regulador,,media,regula participación de trabajadores y propiedad en empresas privadas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11899,velasco_1970,no_aplica,,alta,"exhortación moral, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11900,velasco_1970,no_aplica,,alta,discurso político sin acción económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11901,velasco_1970,no_aplica,,alta,"relato histórico y exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11902,velasco_1970,no_aplica,,alta,"exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11903,velasco_1970,no_aplica,,alta,"exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11904,velasco_1970,no_aplica,,alta,"exhortación moral, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11905,velasco_1970,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11906,velasco_1970,no_aplica,,alta,"exhortación moral, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u11907,velasco_1970,no_aplica,,alta,"exhortación moral y política, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14235,alberto_fujimori_1991,no_aplica,,alta,"protocolo y saludo, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14236,alberto_fujimori_1991,no_aplica,,alta,discurso protocolario sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14237,alberto_fujimori_1991,no_aplica,,alta,"relato histórico y aspiracional, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14238,alberto_fujimori_1991,no_aplica,,alta,"relato histórico y diagnóstico, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14239,alberto_fujimori_1991,no_aplica,,alta,"relato histórico, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14240,alberto_fujimori_1991,no_aplica,,alta,discurso político sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14241,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14242,alberto_fujimori_1991,no_aplica,,media,defensa de política sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14243,alberto_fujimori_1991,no_aplica,,alta,"relato político, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14244,alberto_fujimori_1991,no_aplica,,alta,"discurso sobre justicia y privilegios, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14245,alberto_fujimori_1991,no_aplica,,alta,"orden y autoridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14246,alberto_fujimori_1991,no_aplica,,alta,"discurso político sobre autonomía universitaria, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14247,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral y seguridad, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14248,alberto_fujimori_1991,regulador,,alta,"elimina monopolio y reserva de carga, regula mercado portuario",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14249,alberto_fujimori_1991,no_aplica,,alta,exhortación política sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14250,alberto_fujimori_1991,no_aplica,,alta,discurso político sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14251,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico político, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14252,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14253,alberto_fujimori_1991,no_aplica,,alta,"relato anecdótico, exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14254,alberto_fujimori_1991,no_aplica,,alta,relato anecdótico sin acción económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14255,alberto_fujimori_1991,no_aplica,,alta,diagnóstico crítico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14256,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14257,alberto_fujimori_1991,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14258,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico de crisis, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14259,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico financiero, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14260,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14261,alberto_fujimori_1991,no_aplica,,alta,relato anecdótico sin acción estatal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14262,alberto_fujimori_1991,no_aplica,,media,relato histórico y diagnóstico sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14263,alberto_fujimori_1991,no_aplica,,alta,diagnóstico de inflación sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14264,alberto_fujimori_1991,regulador,,alta,estabilidad fiscal como marco regulatorio,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14265,alberto_fujimori_1991,regulador,,alta,política fiscal y estabilización monetaria como marco,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14266,alberto_fujimori_1991,regulador,,alta,estabilidad monetaria como marco,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14267,alberto_fujimori_1991,regulador,,media,propone impuesto como regla fiscal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14268,alberto_fujimori_1991,no_aplica,,media,"política exterior económica, no acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14269,alberto_fujimori_1991,regulador,,alta,reducción de aranceles como regla de comercio exterior,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14270,alberto_fujimori_1991,no_aplica,,media,discurso general sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14271,alberto_fujimori_1991,no_aplica,,media,"diagnóstico histórico y solicitud de facultades, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14272,alberto_fujimori_1991,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14273,alberto_fujimori_1991,no_aplica,,alta,"reforma administrativa, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14274,alberto_fujimori_1991,no_aplica,,media,"reforma administrativa, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14275,alberto_fujimori_1991,regulador,asistencial,media,diseño de políticas generales y atención de servicios básicos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14276,alberto_fujimori_1991,empresario,,alta,transferencia de empresas estatales al sector privado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14277,alberto_fujimori_1991,empresario,,alta,el Estado opera empresas y decide su venta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14278,alberto_fujimori_1991,empresario,,alta,"venta de empresas públicas, desprendimiento del rol empresarial",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14279,alberto_fujimori_1991,empresario,,alta,"privatización de empresas estatales, el Estado actúa como vendedor",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14280,alberto_fujimori_1991,empresario,,alta,"venta de empresas estatales, el Estado opera como vendedor",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14281,alberto_fujimori_1991,regulador,,media,"regula la venta de empresas públicas, fija condiciones de valor",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14282,alberto_fujimori_1991,regulador,,alta,reforma del comercio exterior y política arancelaria como reglas de mercado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14283,alberto_fujimori_1991,regulador,,alta,análisis de aranceles y protección comercial,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14284,alberto_fujimori_1991,regulador,,alta,propone simplificar aranceles y trabas administrativas al comercio exterior,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14285,alberto_fujimori_1991,regulador,,alta,"elimina barreras paraarancelarias, regula comercio exterior",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14286,alberto_fujimori_1991,regulador,,alta,"eliminar controles y monopolios, reglas de mercado",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14287,alberto_fujimori_1991,no_aplica,,media,discurso político sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14288,alberto_fujimori_1991,regulador,,media,corregir tipo de cambio y reformar sector financiero son reglas de mercado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14289,alberto_fujimori_1991,regulador,,alta,"liberaliza mercados y elimina monopolios, reglas de mercado",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14290,alberto_fujimori_1991,regulador,,alta,marco legal que delega al mercado la asignación de recursos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14291,alberto_fujimori_1991,regulador,,alta,establece reglas de competencia bancaria y elimina privilegios,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14292,alberto_fujimori_1991,facilitador,,media,consolidar banca de fomento canaliza recursos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14293,alberto_fujimori_1991,empresario,,media,el Estado opera bancos estatales (fortalecimiento y liquidación),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14294,alberto_fujimori_1991,regulador,,alta,reforma tributaria y fiscalización como marco regulatorio,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14295,alberto_fujimori_1991,regulador,,alta,establece reglas tributarias como marco,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14296,alberto_fujimori_1991,regulador,,media,reforma tributaria y aduanera como marco regulatorio,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14297,alberto_fujimori_1991,regulador,,media,recaudación fiscal como marco regulatorio,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14298,alberto_fujimori_1991,regulador,,alta,regula procedimientos aduaneros y comercio exterior,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14299,alberto_fujimori_1991,regulador,,media,control aduanero y supervisión de importaciones,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14300,alberto_fujimori_1991,regulador,,alta,reglas para evitar evasión y mejorar recaudación,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14301,alberto_fujimori_1991,regulador,,media,norma contratación de supervisores; resto es diagnóstico,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14302,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico de deuda, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14303,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico de deuda, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14304,alberto_fujimori_1991,facilitador,,media,busca créditos para obras de desarrollo,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14305,alberto_fujimori_1991,facilitador,,alta,canaliza recursos financieros externos para el desarrollo,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14306,alberto_fujimori_1991,facilitador,,media,crédito externo para apoyo a balanza de pagos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14307,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14308,alberto_fujimori_1991,regulador,,alta,"reglas para inversión extranjera (MIGA, convenios)",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14309,alberto_fujimori_1991,regulador,,alta,reglas para inversión extranjera y tributación,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14310,alberto_fujimori_1991,no_aplica,,alta,relato de política exterior sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14311,alberto_fujimori_1991,no_aplica,,alta,"relato de participación en foro, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14312,alberto_fujimori_1991,no_aplica,,media,"política exterior no económica, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14313,alberto_fujimori_1991,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14314,alberto_fujimori_1991,regulador,,alta,regula inversión extranjera con garantías,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14315,alberto_fujimori_1991,no_aplica,,alta,"relato histórico y diagnóstico, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14316,alberto_fujimori_1991,no_aplica,,alta,aspiración general sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14317,alberto_fujimori_1991,regulador,facilitador,media,protección de precios con sobretasas (regulador) y financiamiento de camiones/carreteras (facilitador),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14318,alberto_fujimori_1991,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14319,alberto_fujimori_1991,no_aplica,,alta,"seguridad y exhortación, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14320,alberto_fujimori_1991,no_aplica,,alta,"seguridad/defensa, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14321,alberto_fujimori_1991,no_aplica,,alta,"seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14322,alberto_fujimori_1991,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14323,alberto_fujimori_1991,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14324,alberto_fujimori_1991,no_aplica,,alta,"orden y seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14325,alberto_fujimori_1991,no_aplica,,alta,"seguridad/defensa, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14326,alberto_fujimori_1991,facilitador,asistencial,alta,construcción de carreteras (infraestructura) y reservorios de agua para población,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14327,alberto_fujimori_1991,no_aplica,,media,"diálogo político, no acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14328,alberto_fujimori_1991,facilitador,,alta,"financia infraestructura económica (carreteras, hidroeléctricas, aeropuertos)",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14329,alberto_fujimori_1991,no_aplica,,alta,"seguridad y narcotráfico, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14330,alberto_fujimori_1991,no_aplica,,media,"diagnóstico y exhortación, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14331,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14332,alberto_fujimori_1991,no_aplica,,alta,"seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14333,alberto_fujimori_1991,no_aplica,,alta,"derechos humanos, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14334,alberto_fujimori_1991,no_aplica,,alta,"condena a subversión, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14335,alberto_fujimori_1991,no_aplica,,alta,"seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14336,alberto_fujimori_1991,no_aplica,,alta,"política exterior y seguridad, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14337,alberto_fujimori_1991,no_aplica,,alta,"política exterior y defensa, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14338,alberto_fujimori_1991,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14339,alberto_fujimori_1991,no_aplica,,alta,"reforma policial, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14340,alberto_fujimori_1991,no_aplica,,alta,"seguridad interna, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14341,alberto_fujimori_1991,no_aplica,,alta,"seguridad/defensa, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14342,alberto_fujimori_1991,no_aplica,,alta,"seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14343,alberto_fujimori_1991,no_aplica,,alta,"seguridad/orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14344,alberto_fujimori_1991,no_aplica,,alta,"seguridad/orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14345,alberto_fujimori_1991,no_aplica,,alta,"seguridad ciudadana y policía, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14346,alberto_fujimori_1991,no_aplica,,alta,"política exterior y compromiso jurídico, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14347,alberto_fujimori_1991,no_aplica,,alta,"exhortación y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14348,alberto_fujimori_1991,asistencial,,alta,"provisión directa de alimentación, salud y educación a niños abandonados",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14349,alberto_fujimori_1991,no_aplica,,alta,"crítica al sistema judicial, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14350,alberto_fujimori_1991,no_aplica,,alta,"justicia penal, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14351,alberto_fujimori_1991,no_aplica,,alta,"justicia y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14352,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico y aspiración, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14353,alberto_fujimori_1991,no_aplica,,alta,diagnóstico histórico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14354,alberto_fujimori_1991,regulador,,media,códigos penales regulan conductas económicas y ambientales,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14355,alberto_fujimori_1991,no_aplica,,alta,"justicia penal y diagnóstico, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14356,alberto_fujimori_1991,no_aplica,,alta,diagnóstico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14357,alberto_fujimori_1991,facilitador,,alta,provee infraestructura vial y canaliza recursos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14358,alberto_fujimori_1991,no_aplica,,media,"relato de lucha contra corrupción, sin medida económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14359,alberto_fujimori_1991,regulador,,alta,"libertad de rutas, tarifas y cielos: desregulación de mercados",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14360,alberto_fujimori_1991,regulador,,alta,autoriza operación de vuelos y promueve competencia,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14361,alberto_fujimori_1991,regulador,,alta,autoriza formación de cooperativas y empresas privadas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14362,alberto_fujimori_1991,regulador,,alta,regula tarifas portuarias y libertad de trabajo marítimo,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14363,alberto_fujimori_1991,regulador,,media,concesión de permisos de operación a empresas navieras,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14364,alberto_fujimori_1991,regulador,,media,menciona libre competencia en telecomunicaciones,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14365,alberto_fujimori_1991,facilitador,,media,provisión de infraestructura de comunicaciones para el mercado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14366,alberto_fujimori_1991,regulador,,alta,elimina exclusividad estatal y abre mercado a inversión privada,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14367,alberto_fujimori_1991,regulador,,alta,licitaciones y reglas de juego para mercado privado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14368,alberto_fujimori_1991,no_aplica,,media,"diagnóstico y crítica, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14369,alberto_fujimori_1991,empresario,facilitador,alta,Estado opera empresa telefónica y genera inversión en infraestructura,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14370,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico de una empresa estatal, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14371,alberto_fujimori_1991,empresario,,alta,"el Estado opera y decide reestructurar la empresa, reduciendo su participación",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14372,alberto_fujimori_1991,empresario,,media,se refiere a empresas estatales y su gestión,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14373,alberto_fujimori_1991,no_aplica,,media,"relato histórico y exhortación, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14374,alberto_fujimori_1991,no_aplica,,media,"diagnóstico y defensa de intereses, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14375,alberto_fujimori_1991,empresario,,alta,reorganiza y mejora eficiencia de empresas estatales de electricidad,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14376,alberto_fujimori_1991,empresario,facilitador,alta,empresas estatales operan servicios y construyen infraestructura,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14377,alberto_fujimori_1991,facilitador,regulador,alta,provee infraestructura eléctrica y abre inversión privada,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14378,alberto_fujimori_1991,empresario,regulador,media,"venta de participación estatal y potenciamiento de PETROPERÚ, con inversión extranjera",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14379,alberto_fujimori_1991,empresario,,alta,"Estado opera PETROPERÚ, racionaliza y vende activos",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14380,alberto_fujimori_1991,regulador,,media,el Estado negocia contratos y regula la inversión privada en hidrocarburos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14381,alberto_fujimori_1991,regulador,,media,negocia contratos de concesión para explotación privada,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14382,alberto_fujimori_1991,regulador,,media,modificación de contratos y tarifas en sector privado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14383,alberto_fujimori_1991,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14384,alberto_fujimori_1991,no_aplica,,alta,diagnóstico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14385,alberto_fujimori_1991,regulador,,alta,privatización: el Estado cede la producción al sector privado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14386,alberto_fujimori_1991,regulador,,media,"aprueba estudios y recomendaciones para resolver contaminación, cumpliendo decreto",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14387,alberto_fujimori_1991,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14388,alberto_fujimori_1991,regulador,empresario,alta,unifica tipo de cambio y reduce aranceles; además racionaliza empresas estatales,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14389,alberto_fujimori_1991,no_aplica,,alta,diagnóstico de empresas estatales sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14390,alberto_fujimori_1991,empresario,,alta,Estado opera empresa naviera estatal (Petrolera Transoceánica),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14391,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico histórico, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14392,alberto_fujimori_1991,regulador,,alta,"reordenar normas, aranceles, eliminar subsidios",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14393,alberto_fujimori_1991,regulador,,alta,eliminación de regulaciones y controles de precios,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14394,alberto_fujimori_1991,regulador,,alta,zonas francas como reglas de comercio para inversión privada,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14395,alberto_fujimori_1991,no_aplica,,media,"diagnóstico de trámites, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14396,alberto_fujimori_1991,no_aplica,,alta,"relato histórico, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14397,alberto_fujimori_1991,facilitador,,alta,provee crédito y fondos de garantía a la pequeña empresa,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14398,alberto_fujimori_1991,regulador,,alta,crea registro y trámite único para empresas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14399,alberto_fujimori_1991,regulador,,media,política de cielos abiertos como regla de mercado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14400,alberto_fujimori_1991,facilitador,,alta,provee infraestructura turística y promueve sector,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14401,alberto_fujimori_1991,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14402,alberto_fujimori_1991,regulador,facilitador,alta,reglas de comercio y capital extranjero; crédito de fomento,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14403,alberto_fujimori_1991,regulador,,media,promoción de comercio exterior como función estatal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14404,alberto_fujimori_1991,regulador,,alta,reforma arancelaria y eliminación de requisitos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14405,alberto_fujimori_1991,regulador,facilitador,alta,sobretasas a importaciones (regulación) y fondo para agro (facilitador),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14406,alberto_fujimori_1991,regulador,,media,desregular el ciclo de comercialización agrícola,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14407,alberto_fujimori_1991,regulador,,alta,"elimina tarifas y requisitos, regula el mercado",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14408,alberto_fujimori_1991,regulador,empresario,media,elimina regulaciones y prohíbe leche en polvo; ECASA/ENCI operan,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14409,alberto_fujimori_1991,regulador,facilitador,media,obliga compra de leche nacional y convoca plan agroexportador,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14410,alberto_fujimori_1991,facilitador,,alta,banco de fomento agrario canaliza recursos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14411,alberto_fujimori_1991,asistencial,,alta,distribución directa de pescado a población vulnerable,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14412,alberto_fujimori_1991,regulador,,alta,"el Estado cancela concesiones y denuncia convenio, regulando la actividad pesquera",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14413,alberto_fujimori_1991,regulador,,media,protocolo sanitario regula comercio pesquero,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14414,alberto_fujimori_1991,facilitador,regulador,alta,crédito para renovación tecnológica y cuotas de captura,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14415,alberto_fujimori_1991,no_aplica,,alta,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14416,alberto_fujimori_1991,no_aplica,,alta,diagnóstico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14417,alberto_fujimori_1991,asistencial,,alta,provisión directa de infraestructura educativa y saneamiento,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14418,alberto_fujimori_1991,asistencial,,alta,provisión directa de educación y alimentación escolar,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14419,alberto_fujimori_1991,asistencial,,alta,provisión directa de raciones alimentarias a niños,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14420,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14421,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral y crítica sindical, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14422,alberto_fujimori_1991,regulador,,media,"reforma de normas laborales, reglas de mercado",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14423,alberto_fujimori_1991,regulador,,alta,simplifica reglas laborales y regula huelgas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14424,alberto_fujimori_1991,regulador,,alta,normas laborales y obligaciones a empresas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14425,alberto_fujimori_1991,regulador,,media,"nueva ley de fomento del empleo, marco regulatorio",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14426,alberto_fujimori_1991,regulador,,alta,regula salario mínimo y normas laborales,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14427,alberto_fujimori_1991,regulador,facilitador,alta,normas de simplificación administrativa y fondos de garantía,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14428,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14429,alberto_fujimori_1991,regulador,,media,"crítica a precios de medicamentos, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14430,alberto_fujimori_1991,regulador,,alta,"dispone receta de genéricos, regula mercado farmacéutico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14431,alberto_fujimori_1991,regulador,asistencial,media,reglas de libre competencia para medicinas y plan de salud,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14432,alberto_fujimori_1991,asistencial,,media,provisión directa de salud y planificación familiar,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14433,alberto_fujimori_1991,asistencial,,alta,provisión directa de servicios de salud,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14434,alberto_fujimori_1991,asistencial,,alta,provisión directa de salud: inmunización y transplantes,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14435,alberto_fujimori_1991,no_aplica,,alta,"solo estudio/diagnóstico, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14436,alberto_fujimori_1991,no_aplica,,media,diagnóstico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14437,alberto_fujimori_1991,asistencial,,media,provisión de pensiones y servicios sociales,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14438,alberto_fujimori_1991,asistencial,,alta,provisión directa de ayuda social a vulnerables,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14439,alberto_fujimori_1991,asistencial,,alta,provisión directa de servicios sociales a grupos vulnerables,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14440,alberto_fujimori_1991,facilitador,,alta,proyectos de conservación de suelos y reforestación canalizan recursos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14441,alberto_fujimori_1991,asistencial,facilitador,media,"provisión directa de agua, educación y salud; además traslado de maquinaria",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14442,alberto_fujimori_1991,no_aplica,,alta,relato político sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14443,alberto_fujimori_1991,no_aplica,,alta,"exhortación moral, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14444,alberto_fujimori_1991,no_aplica,,alta,"relato de denuncias, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14445,alberto_fujimori_1991,empresario,,alta,"PETROPERÚ opera como empresa estatal, gestiona contratos",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14446,alberto_fujimori_1991,no_aplica,,alta,"investigación y simplificación de trámites, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14447,alberto_fujimori_1991,no_aplica,,alta,"moralización y agradecimiento, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14448,alberto_fujimori_1991,no_aplica,,alta,"agradecimientos y protocolo, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14449,alberto_fujimori_1991,no_aplica,,alta,"discurso político, exhortación moral",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14450,alberto_fujimori_1991,no_aplica,,alta,"discurso político, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14473,alberto_fujimori_1992,no_aplica,,alta,"discurso protocolario, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14474,alberto_fujimori_1992,no_aplica,,alta,diagnóstico histórico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14475,alberto_fujimori_1992,no_aplica,,alta,diagnóstico histórico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14476,alberto_fujimori_1992,no_aplica,,alta,"relato histórico y exhortación, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14477,alberto_fujimori_1992,no_aplica,,alta,"relato histórico y exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14478,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14479,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico y crítica, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14480,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico y justificación, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14481,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14482,alberto_fujimori_1992,no_aplica,,alta,"exhortación moral y defensa política, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14483,alberto_fujimori_1992,no_aplica,,alta,"defensa de gestión, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14484,alberto_fujimori_1992,no_aplica,,media,"diagnóstico y logros, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14485,alberto_fujimori_1992,regulador,,alta,política monetaria y fiscal como marco de estabilidad,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14486,alberto_fujimori_1992,facilitador,,alta,reconstrucción de carreteras como infraestructura económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14487,alberto_fujimori_1992,no_aplica,,media,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14488,alberto_fujimori_1992,no_aplica,,alta,relato político sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14489,alberto_fujimori_1992,no_aplica,,alta,crítica política sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14490,alberto_fujimori_1992,no_aplica,,media,"diagnóstico de corrupción, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14491,alberto_fujimori_1992,no_aplica,,media,"crítica política y relato, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14492,alberto_fujimori_1992,no_aplica,,media,"crítica a empresas estatales, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14493,alberto_fujimori_1992,no_aplica,,media,"denuncia de gestión, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14494,alberto_fujimori_1992,empresario,,media,"privatización implica transferir empresas estatales, rol empresario",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14495,alberto_fujimori_1992,empresario,,alta,privatizar empresas estatales implica comandar la producción,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14496,alberto_fujimori_1992,facilitador,asistencial,media,venta de empresas para financiar apoyo social e infraestructura,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14497,alberto_fujimori_1992,no_aplica,,media,discurso general sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14498,alberto_fujimori_1992,regulador,asistencial,media,elimina regulaciones y otorga beneficios sociales,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14499,alberto_fujimori_1992,regulador,,alta,"elimina restricciones y reserva de carga, desregula el mercado",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14500,alberto_fujimori_1992,regulador,,alta,reserva de carga a naves peruanas restringe el mercado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14501,alberto_fujimori_1992,regulador,,alta,libera comercio y supervisa para evitar fraudes,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14502,alberto_fujimori_1992,regulador,,alta,describe marco de competencia y liberalización,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14503,alberto_fujimori_1992,facilitador,,media,menciona banca de fomento y fondos de inversión social,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14504,alberto_fujimori_1992,no_aplica,,alta,reflexión política sin acción económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14505,alberto_fujimori_1992,no_aplica,,alta,relato político sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14506,alberto_fujimori_1992,no_aplica,,alta,crítica política sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14507,alberto_fujimori_1992,no_aplica,,alta,diagnóstico crítico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14508,alberto_fujimori_1992,regulador,,alta,"estabilidad fiscal como marco, control del gasto",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14509,alberto_fujimori_1992,no_aplica,,alta,crítica política sin acción económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14510,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico político, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14511,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico de problemas de justicia y seguridad, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14512,alberto_fujimori_1992,no_aplica,,alta,discurso político sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14513,alberto_fujimori_1992,no_aplica,,alta,"acción política, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14514,alberto_fujimori_1992,regulador,,media,busca libre competencia y desterrar monopolios,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14515,alberto_fujimori_1992,no_aplica,,alta,"discurso político, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14516,alberto_fujimori_1992,no_aplica,,alta,"política partidaria, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14517,alberto_fujimori_1992,no_aplica,,alta,"política exterior y discurso político, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14518,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico de corrupción judicial, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14519,alberto_fujimori_1992,no_aplica,,alta,"relato de corrupción judicial, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14520,alberto_fujimori_1992,no_aplica,,alta,"reforma judicial, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14521,alberto_fujimori_1992,no_aplica,,alta,"reforma judicial, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14522,alberto_fujimori_1992,no_aplica,,alta,"reforma judicial, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14523,alberto_fujimori_1992,no_aplica,,alta,"reforma judicial, no económica ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14524,alberto_fujimori_1992,no_aplica,,alta,"reforma judicial y administrativa, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14525,alberto_fujimori_1992,no_aplica,,alta,"infraestructura judicial y represión de delitos, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14526,alberto_fujimori_1992,no_aplica,,alta,"relato histórico/legal, no acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14527,alberto_fujimori_1992,no_aplica,,alta,"seguridad/orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14528,alberto_fujimori_1992,no_aplica,,alta,"seguridad/defensa, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14529,alberto_fujimori_1992,no_aplica,,alta,"seguridad/defensa, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14530,alberto_fujimori_1992,no_aplica,,alta,"seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14531,alberto_fujimori_1992,no_aplica,,alta,"seguridad/orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14532,alberto_fujimori_1992,no_aplica,,alta,"seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14533,alberto_fujimori_1992,no_aplica,,alta,"seguridad/defensa, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14534,alberto_fujimori_1992,no_aplica,,alta,"seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14535,alberto_fujimori_1992,no_aplica,,alta,"relato sobre seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14536,alberto_fujimori_1992,no_aplica,,alta,"exhortación moral, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14537,alberto_fujimori_1992,no_aplica,,alta,"seguridad y orden, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14538,alberto_fujimori_1992,regulador,,alta,prohibición de comercialización de nitrato de amonio,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14539,alberto_fujimori_1992,no_aplica,,alta,"defensa/seguridad, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14540,alberto_fujimori_1992,no_aplica,,alta,diagnóstico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14541,alberto_fujimori_1992,asistencial,,media,provisión de educación con participación ciudadana,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14542,alberto_fujimori_1992,regulador,,media,Estado cede uso y mantiene normatividad educativa,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14543,alberto_fujimori_1992,no_aplica,,media,"describe transferencia de gestión educativa, no acción económica estatal",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14544,alberto_fujimori_1992,no_aplica,,media,diagnóstico sin acción concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14545,alberto_fujimori_1992,facilitador,,alta,subsidio por estudiante canaliza recursos a la educación,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14546,alberto_fujimori_1992,regulador,,alta,el Estado supervisa y controla la calidad educativa,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14547,alberto_fujimori_1992,facilitador,,alta,provee infraestructura vial mediante préstamo,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14548,alberto_fujimori_1992,facilitador,,alta,construcción de carreteras como infraestructura económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14549,alberto_fujimori_1992,facilitador,,alta,provee infraestructura vial (carreteras),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14550,alberto_fujimori_1992,facilitador,,alta,construcción de infraestructura vial y puentes,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14551,alberto_fujimori_1992,facilitador,,alta,provee recursos e infraestructura para carreteras,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14552,alberto_fujimori_1992,facilitador,,alta,provee infraestructura vial,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14553,alberto_fujimori_1992,no_aplica,,alta,diagnóstico de crisis sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14554,alberto_fujimori_1992,regulador,facilitador,alta,elimina monopolio y promueve inversión privada; además otorga fondos para generación,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14555,alberto_fujimori_1992,facilitador,,alta,construcción y rehabilitación de infraestructura energética,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14556,alberto_fujimori_1992,facilitador,regulador,alta,construcción de líneas eléctricas (infraestructura) y resolución de conflicto tarifario,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14557,alberto_fujimori_1992,regulador,,media,obliga al contratista a perforar pozos (regulación de contrato),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14558,alberto_fujimori_1992,regulador,,alta,regula inversión petrolera y privatización,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14559,alberto_fujimori_1992,regulador,,alta,regula mercado de combustibles eliminando restricciones,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14560,alberto_fujimori_1992,no_aplica,,media,diagnóstico y acuerdo sin instrumento económico concreto,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14561,alberto_fujimori_1992,regulador,,alta,"promulga ley de promoción de inversión privada, regula el sector",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14562,alberto_fujimori_1992,regulador,,alta,reestructura concesiones mineras y fija penalidad,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14563,alberto_fujimori_1992,regulador,,alta,regula concesiones mineras y penaliza denuncios no explotados,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14564,alberto_fujimori_1992,regulador,,alta,revisión de concesiones y libre denunciabilidad,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14565,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico de irregularidades, sin acción económica concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14566,alberto_fujimori_1992,regulador,,alta,expide decreto con reglas para estimular inversión privada,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14567,alberto_fujimori_1992,facilitador,regulador,alta,concesiones pesqueras (regulación) y apoyo con infraestructura/equipos (facilitador),modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14568,alberto_fujimori_1992,regulador,,alta,"establece marco de mercado, elimina controles y monopolios",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14569,alberto_fujimori_1992,regulador,,alta,restituye derechos de propiedad y marco legal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14570,alberto_fujimori_1992,no_aplica,,media,"diagnóstico y crítica, sin acción estatal concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14571,alberto_fujimori_1992,regulador,facilitador,alta,"titulación/registro (regla) y aranceles (regulación), con crédito facilitador",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14572,alberto_fujimori_1992,facilitador,,alta,avales y fianzas del Banco de la Nación canalizan recursos,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14573,alberto_fujimori_1992,facilitador,regulador,media,surgimiento de empresas y reestructuración financiera,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14574,alberto_fujimori_1992,facilitador,,alta,reestructura banca de fomento para canalizar crédito,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14575,alberto_fujimori_1992,facilitador,,alta,préstamos en especie canalizan recursos a agricultura,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14576,alberto_fujimori_1992,facilitador,,alta,canaliza asistencia técnica y financiera a pequeña empresa,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14577,alberto_fujimori_1992,facilitador,regulador,media,canaliza recursos a universidades para investigación y menciona defensa del consumidor,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14578,alberto_fujimori_1992,regulador,,alta,regula competencia y posición dominante,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14579,alberto_fujimori_1992,regulador,,alta,control de insumos químicos como restricción a mercado,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14580,alberto_fujimori_1992,regulador,,alta,reforma tributaria como marco fiscal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14581,alberto_fujimori_1992,regulador,,alta,reforma tributaria y supervisión fiscal,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14582,alberto_fujimori_1992,asistencial,,alta,provisión directa de vacunación a la población,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14583,alberto_fujimori_1992,regulador,,alta,expide normas que regulan derechos laborales,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14584,alberto_fujimori_1992,regulador,,alta,regula mercado laboral y relaciones colectivas,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14585,alberto_fujimori_1992,regulador,,alta,regula mercado laboral y derecho de huelga,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14586,alberto_fujimori_1992,no_aplica,,alta,discurso político sin medida económica concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14587,alberto_fujimori_1992,no_aplica,,alta,"política institucional, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14588,alberto_fujimori_1992,no_aplica,,alta,"política institucional, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14589,alberto_fujimori_1992,no_aplica,,alta,"proceso político-electoral, no económico ni social",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14590,alberto_fujimori_1992,no_aplica,,alta,"política electoral, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14591,alberto_fujimori_1992,no_aplica,,alta,"proceso electoral, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14592,alberto_fujimori_1992,no_aplica,,alta,"política electoral, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14593,alberto_fujimori_1992,facilitador,,alta,transferencia de recursos a municipalidades,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14594,alberto_fujimori_1992,no_aplica,,alta,"diagnóstico y aspiración, sin medida concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14595,alberto_fujimori_1992,no_aplica,,alta,"política partidaria, no económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14596,alberto_fujimori_1992,no_aplica,,alta,diagnóstico geopolítico sin acción económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14597,alberto_fujimori_1992,no_aplica,,alta,"política exterior no económica, aspiración",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14598,alberto_fujimori_1992,no_aplica,,media,aspiración general sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14599,alberto_fujimori_1992,no_aplica,,alta,política exterior no económica y lucha antiterrorista,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14600,alberto_fujimori_1992,no_aplica,,alta,"política exterior y derechos humanos, no económico",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14601,alberto_fujimori_1992,no_aplica,,alta,política exterior no económica,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14602,alberto_fujimori_1992,no_aplica,,alta,"agradecimiento y exhortación política, sin acción económica",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14603,alberto_fujimori_1992,no_aplica,,alta,discurso político sin medida concreta,modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead
+u14604,alberto_fujimori_1992,no_aplica,,alta,"exhortación moral, sin acción concreta",modelo_de_lenguaje,72fcac7d3ea06b737c3a3f35f37b818411c6dead

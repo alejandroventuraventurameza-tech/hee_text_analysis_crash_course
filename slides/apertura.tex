@@ -1,0 +1,105 @@
+% Nueva apertura. Los tiempos se administran en el guion docente.
+\section{Motivación}
+
+\begin{frame}[label=problematica]{El rol económico del Estado peruano}
+  \textbf{¿Cómo estudiar el rol del Estado peruano en el desarrollo económico, reduciendo la influencia de nuestras afinidades políticas?}\par
+  \vspace{0.5cm}
+  Necesitamos criterios explícitos y evidencia que otras personas puedan revisar.\par
+  \vspace{0.4cm}
+  ¿Qué observarías para distinguir un Estado empresario, regulador o facilitador?
+  \note{Recoger propuestas sin clasificar presidentes por reputación. Los procedimientos transparentes permiten discutir sesgos; no prometen eliminarlos. Esta pregunta amplia motiva un ejercicio acotado sobre declaraciones.}
+\end{frame}
+
+\begin{frame}[label=proxy-presidente]{Busquemos un indicador observable}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.55\textwidth}
+      Una \textbf{variable proxy} aproxima algo que no podemos observar directamente.\par
+      \vspace{0.35cm}
+      ¿Quién personifica a la nación?\par
+      \vspace{0.25cm}
+      El presidente de la República, según el artículo 110 de la Constitución vigente.
+    \end{column}
+    \begin{column}{0.40\textwidth}
+      \centering
+      \IfFileExists{images/presidente.png}{%
+        \includegraphics[width=\linewidth,height=4.2cm,keepaspectratio]{presidente.png}%
+      }{%
+        \vspace{0.7cm}\textbf{Presidente de la República}\par
+        \vspace{0.4cm}\textit{Espacio para tu ilustración}\par
+        \vspace{0.3cm}{\small\texttt{images/presidente.png}}%
+      }
+    \end{column}
+  \end{columns}
+  \fuente{Constitución vigente, art. 110: \href{https://www3.congreso.gob.pe/Docs/files/constitucion/constitucion2019/files/basic-html/page67.html}{archivo del Congreso}.}
+  \note{La norma vigente sirve para motivar la figura presidencial; no se aplica retroactivamente al marco constitucional de todos los mensajes históricos. La proxy que analizaremos es el contenido de sus declaraciones, no la persona del presidente ni su popularidad. Una imagen animada en GIF se exporta a PNG para el PDF.}
+\end{frame}
+
+\begin{frame}[label=orientacion-declarada]{Lo que un presidente declara en economía}
+  Sus mensajes ofrecen indicios de la orientación económica que presenta y de las prioridades que anuncia.\par
+  \vspace{0.45cm}
+  \textbf{Esa orientación puede ayudar a formular hipótesis sobre la actuación del Estado.}\par
+  \vspace{0.4cm}
+  Para comprobarlas necesitamos contrastar el discurso con decisiones, normas, presupuestos y resultados.\par
+  \vspace{0.25cm}
+  ¿Qué podría impedir que lo anunciado se convierta en una política efectiva?
+  \note{El mensaje es una comunicación pública situada, no acceso directo a pensamientos privados. Intervienen otras instituciones, restricciones y decisiones. Los discursos se usarán como proxy de orientación declarada, no como prueba de comportamiento estatal o efectos causales.}
+\end{frame}
+
+\begin{frame}[label=canales-presidente]{¿Dónde habla un presidente?}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.23\textwidth}\centering
+      {\color{peacockblue}\fontsize{34}{40}\selectfont\faMicrophone}\par
+      \vspace{0.25cm}Conferencias de prensa
+    \end{column}
+    \begin{column}{0.23\textwidth}\centering
+      {\fontsize{34}{40}\selectfont\bfseries X}\par
+      \vspace{0.25cm}Publicaciones en X
+    \end{column}
+    \begin{column}{0.23\textwidth}\centering
+      {\color{peacockblue}\fontsize{34}{40}\selectfont\faFacebookF}\par
+      \vspace{0.25cm}Facebook
+    \end{column}
+    \begin{column}{0.23\textwidth}\centering
+      {\color{UWMathPinkL4}\fontsize{34}{40}\selectfont\faFile}\par
+      \vspace{0.25cm}Discursos presidenciales
+    \end{column}
+  \end{columns}
+  \vspace{0.7cm}
+  \textbf{Hoy trabajaremos con discursos presidenciales.}\par
+  \vspace{0.25cm}
+  Al terminar: ¿cómo adaptarías el ejercicio a publicaciones en X?
+  \note{Iconos esquemáticos de Font Awesome y rótulo X, no fotografías de acontecimientos ni reproducciones de publicaciones reales. Cada canal tiene público, formato y contexto propios; no combinar sin definir una selección comparable.}
+\end{frame}
+
+\begin{frame}[label=api-concepto]{¿Cómo pediríamos datos a una plataforma?}
+  Una \textbf{API} es una interfaz con reglas para que un programa solicite datos a un servicio y reciba una respuesta.\par
+  \vspace{0.3cm}
+  \centering
+  \begin{tikzpicture}[font=\sffamily\small,>=stealth]
+    \node[draw=UWBlack,minimum width=2.2cm,minimum height=1.1cm,align=center] (programa) at (0,0) {Tu programa\\Python};
+    \node[draw=UWBlack,minimum width=1.7cm,minimum height=1.1cm,align=center] (api) at (4,0) {API};
+    \node[draw=UWBlack,minimum width=2.2cm,minimum height=1.1cm,align=center] (servicio) at (8,0) {Servicio\\de la plataforma};
+    \draw[->] ([yshift=0.25cm]programa.east) -- node[above]{Solicitud} ([yshift=0.25cm]api.west);
+    \draw[->] ([yshift=0.25cm]api.east) -- node[above]{Consulta} ([yshift=0.25cm]servicio.west);
+    \draw[<-] ([yshift=-0.25cm]programa.east) -- node[below]{Respuesta} ([yshift=-0.25cm]api.west);
+    \draw[<-] ([yshift=-0.25cm]api.east) -- node[below]{Datos} ([yshift=-0.25cm]servicio.west);
+  \end{tikzpicture}\par
+  \raggedright\vspace{0.4cm}
+  Ejemplo conceptual: solicitar publicaciones autorizadas con texto, fecha e identificador.\par
+  \vspace{0.2cm}
+  ¿Qué necesitarías definir antes de contarlas?
+  \fuente{Extensión posterior: \href{https://docs.x.com/x-api/posts/lookup/quickstart}{documentación oficial de X}. Acceso sujeto a autenticación y condiciones del servicio.}
+  \note{Diagrama conceptual editable. No es un endpoint real ni una llamada en vivo. La disponibilidad depende de permisos y condiciones de la plataforma; no se solicitan claves ni se instala software en esta sesión. API no equivale a descargar todo lo visible en una web.}
+\end{frame}
+
+\begin{frame}[label=objetivos]{Objetivos de aprendizaje}
+  \textbf{Al finalizar esta clase deberías poder:}
+  \begin{itemize}
+    \item Cargar textos y reconocer qué documento representa cada fila.
+    \item Modificar una instrucción y explicar su efecto sobre el resultado.
+    \item Comparar menciones considerando la extensión de los documentos.
+    \item Interpretar palabras en contexto y contrastar una etiqueta automática.
+    \item Formular una conclusión con evidencia, límites y una aplicación a tu carrera.
+  \end{itemize}
+  \note{Presentar el producto común: tabla, dos fragmentos y una conclusión individual. API es motivación para una extensión posterior, no un objetivo de ejecución obligatorio.}
+\end{frame}

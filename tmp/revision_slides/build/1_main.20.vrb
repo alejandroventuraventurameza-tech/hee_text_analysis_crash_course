@@ -1,0 +1,10 @@
+\frametitle{Amplitud del contexto}
+\begin{verbatim}
+amplitud_contexto = 100
+  \end{verbatim}\par
+  Cambia 100 a 180. El número indica caracteres a cada lado.
+  \par\vspace{0.3cm}
+  Selecciona dos filas de documentos distintos y recupera sus unidades completas.
+  \par\vspace{0.3cm}
+  Guarda el identificador, la página y el fragmento. El visor del PDF permite comprobar el original.
+  \note{Para la consulta inicial, filas 0 y 3. Si cambió la palabra o selección, los índices deben revisarse. El código deja vacía la evidencia cuando la selección es inválida para evitar conservar fragmentos antiguos.}

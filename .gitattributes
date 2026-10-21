@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve the bytes used by the data integrity checks across platforms.
+data/** text eol=lf
+data/originales/*.pdf binary
+paquetes/*.zip binary
+notebooks/*.ipynb text eol=lf
+notebooks/*.json text eol=lf
+slides/** text eol=lf
+slides/images/*.jpg binary
+slides/images/*.png binary
+slides/*.pdf binary

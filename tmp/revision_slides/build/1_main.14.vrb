@@ -1,0 +1,12 @@
+\frametitle{Tabla de frecuencias}
+Antes de ejecutar, predice qué palabras aparecerán primero.
+  \begin{verbatim}
+numero_palabras = 10
+  \end{verbatim}\par
+  Cambia 10 a 8 y vuelve a ejecutar.
+  \begin{itemize}
+    \item \texttt{Counter} cuenta cada forma exacta.
+    \item El ranking puede ocultar palabras frecuentes.
+    \item El denominador conserva todas las palabras procesadas.
+  \end{itemize}
+  ¿Qué cambió en la tabla y qué permaneció igual?

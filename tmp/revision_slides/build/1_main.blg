@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '..\tmp\revision_slides\build\1_main.blg'
+[285] biber-MSWIN64:340> INFO - === 
+[337] Biber.pm:419> INFO - Reading '..\tmp\revision_slides\build\1_main.bcf'
+[561] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
+[626] Biber.pm:4419> INFO - Processing section 0
+[655] Biber.pm:4610> INFO - Looking for bibtex file '4_bibliography.bib' for section 0
+[737] bibtex.pm:1713> INFO - LaTeX decoding ...
+[768] bibtex.pm:1519> INFO - Found BibTeX data source '4_bibliography.bib'
+[892] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[892] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[894] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[930] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[930] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[930] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[949] bbl.pm:660> INFO - Writing '..\tmp\revision_slides\build\1_main.bbl' with encoding 'UTF-8'
+[961] bbl.pm:763> INFO - Output to ..\tmp\revision_slides\build\1_main.bbl
